@@ -1,0 +1,204 @@
+<DATA>
+    <ROW>
+        <Team_Name>Man Utd</Team_Name>
+        <Points>85</Points>
+        <Goal_Difference>43</Goal_Difference>
+        <Games_Played>35</Games_Played>
+        <Wins>27</Wins>
+        <Loses>4</Loses>
+        <Draws>4</Draws>
+    </ROW>
+
+    <ROW>
+        <Team_Name>Man City</Team_Name>
+        <Points>71</Points>
+        <Goal_Difference>30</Goal_Difference>
+        <Games_Played>34</Games_Played>
+        <Wins>21</Wins>
+        <Loses>5</Loses>
+        <Draws>8</Draws>
+    </ROW>
+
+    <ROW>
+        <Team_Name>Chelsea</Team_Name>
+        <Points>65</Points>
+        <Goal_Difference>33</Goal_Difference>
+        <Games_Played>34</Games_Played>
+        <Wins>19</Wins>
+        <Loses>7</Loses>
+        <Draws>8</Draws>
+    </ROW>
+
+    <ROW>
+        <Team_Name>Arsenal</Team_Name>
+        <Points>64</Points>
+        <Goal_Difference>30</Goal_Difference>
+        <Games_Played>35</Games_Played>
+        <Wins>18</Wins>
+        <Loses>7</Loses>
+        <Draws>10</Draws>
+    </ROW>
+
+    <ROW>
+        <Team_Name>Tottenham</Team_Name>
+        <Points>62</Points>
+        <Goal_Difference>17</Goal_Difference>
+        <Games_Played>34</Games_Played>
+        <Wins>18</Wins>
+        <Loses>8</Loses>
+        <Draws>8</Draws>
+    </ROW>
+
+    <ROW>
+        <Team_Name>Everton</Team_Name>
+        <Points>59</Points>
+        <Goal_Difference>14</Goal_Difference>
+        <Games_Played>35</Games_Played>
+        <Wins>15</Wins>
+        <Loses>6</Loses>
+        <Draws>14</Draws>
+    </ROW>
+
+    <ROW>
+        <Team_Name>Liverpool</Team_Name>
+        <Points>54</Points>
+        <Goal_Difference>25</Goal_Difference>
+        <Games_Played>35</Games_Played>
+        <Wins>14</Wins>
+        <Loses>9</Loses>
+        <Draws>12</Draws>
+    </ROW>
+
+    <ROW>
+        <Team_Name>West Brom</Team_Name>
+        <Points>48</Points>
+        <Goal_Difference>2</Goal_Difference>
+        <Games_Played>34</Games_Played>
+        <Wins>14</Wins>
+        <Loses>14</Loses>
+        <Draws>6</Draws>
+    </ROW>
+
+    <ROW>
+        <Team_Name>Swansea</Team_Name>
+        <Points>42</Points>
+        <Goal_Difference>-1</Goal_Difference>
+        <Games_Played>34</Games_Played>
+        <Wins>10</Wins>
+        <Loses>12</Loses>
+        <Draws>12</Draws>
+    </ROW>
+
+    <ROW>
+        <Team_Name>West Ham</Team_Name>
+        <Points>42</Points>
+        <Goal_Difference>-8</Goal_Difference>
+        <Games_Played>35</Games_Played>
+        <Wins>11</Wins>
+        <Loses>15</Loses>
+        <Draws>9</Draws>
+    </ROW>
+
+    <ROW>
+        <Team_Name>Fulham</Team_Name>
+        <Points>40</Points>
+        <Goal_Difference>-9</Goal_Difference>
+        <Games_Played>35</Games_Played>
+        <Wins>10</Wins>
+        <Loses>15</Loses>
+        <Draws>10</Draws>
+    </ROW>
+
+    <ROW>
+        <Team_Name>Stoke</Team_Name>
+        <Points>40</Points>
+        <Goal_Difference>-10</Goal_Difference>
+        <Games_Played>35</Games_Played>
+        <Wins>9</Wins>
+        <Loses>13</Loses>
+        <Draws>13</Draws>
+    </ROW>
+
+    <ROW>
+        <Team_Name>Southampton</Team_Name>
+        <Points>39</Points>
+        <Goal_Difference>-10</Goal_Difference>
+        <Games_Played>35</Games_Played>
+        <Wins>9</Wins>
+        <Loses>14</Loses>
+        <Draws>12</Draws>
+    </ROW>
+
+    <ROW>
+        <Team_Name>Norwich</Team_Name>
+        <Points>38</Points>
+        <Goal_Difference>-21</Goal_Difference>
+        <Games_Played>35</Games_Played>
+        <Wins>8</Wins>
+        <Loses>13</Loses>
+        <Draws>14</Draws>
+    </ROW>
+
+    <ROW>
+        <Team_Name>Sunderland</Team_Name>
+        <Points>37</Points>
+        <Goal_Difference>-7</Goal_Difference>
+        <Games_Played>34</Games_Played>
+        <Wins>9</Wins>
+        <Loses>15</Loses>
+        <Draws>10</Draws>
+    </ROW>
+
+
+    <ROW>
+        <Team_Name>Newcastle</Team_Name>
+        <Points>37</Points>
+        <Goal_Difference>-23</Goal_Difference>
+        <Games_Played>35</Games_Played>
+        <Wins>10</Wins>
+        <Loses>18</Loses>
+        <Draws>7</Draws>
+    </ROW>
+
+    <ROW>
+        <Team_Name>Aston Villa</Team_Name>
+        <Points>34</Points>
+        <Goal_Difference>-27</Goal_Difference>
+        <Games_Played>34</Games_Played>
+        <Wins>8</Wins>
+        <Loses>16</Loses>
+        <Draws>10</Draws>
+    </ROW>
+
+    <ROW>
+        <Team_Name>Wigan</Team_Name>
+        <Points>32</Points>
+        <Goal_Difference>-23</Goal_Difference>
+        <Games_Played>34</Games_Played>
+        <Wins>8</Wins>
+        <Loses>18</Loses>
+        <Draws>8</Draws>
+    </ROW>
+
+    <ROW>
+        <Team_Name>QPR</Team_Name>
+        <Points>25</Points>
+        <Goal_Difference>-27</Goal_Difference>
+        <Games_Played>35</Games_Played>
+        <Wins>4</Wins>
+        <Loses>18</Loses>
+        <Draws>13</Draws>
+    </ROW>
+
+    <ROW>
+        <Team_Name>Reading</Team_Name>
+        <Points>35</Points>
+        <Goal_Difference>-28</Goal_Difference>
+        <Games_Played>35</Games_Played>
+        <Wins>5</Wins>
+        <Loses>20</Loses>
+        <Draws>10</Draws>
+    </ROW>
+
+
+</DATA>

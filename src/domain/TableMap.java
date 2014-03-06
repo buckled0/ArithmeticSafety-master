@@ -15,7 +15,7 @@ public class TableMap {
         tableMap.put("Premier League, 09/02/2014", "Premier League Feb 9 2014");
         tableMap.put("Premier League, 12/02/2014", "Premier League Feb 12 2014");
         tableMap.put("Premier League, 23/02/2014", "Premier League Feb 23 2014");
-        tableMap.put("Premier League, 02/03/2014", "Premier League March 02 2013");
+        tableMap.put("Premier League, 02/03/2014", "Premier League March 2 2014");
         tableMap.put("Premier League Half Way Point", "Premier League Half Way");
         tableMap.put("Premier League, 21/04/2013", "Premier League April 21 2013");
         tableMap.put("Premier League, 28/04/2013", "Premier League April 28 2013");

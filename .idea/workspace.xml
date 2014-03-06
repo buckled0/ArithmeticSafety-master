@@ -69,12 +69,20 @@
       <file leaf-file-name="LeagueWindow.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ui/main_ui/LeagueWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="77" selection-start="1925" selection-end="1925" vertical-scroll-proportion="0.44407895" vertical-offset="396" max-vertical-offset="1800">
+            <state line="48" column="28" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.46217105" vertical-offset="403" max-vertical-offset="2052">
               <folding>
-                <element signature="e#1302#2484#0" expanded="true" />
-                <element signature="e#2473#2474#0" expanded="true" />
-                <element signature="e#2521#3260#0" expanded="true" />
-                <element signature="e#3249#3250#0" expanded="true" />
+                <element signature="e#1302#2735#0" expanded="true" />
+                <element signature="e#2724#2725#0" expanded="true" />
+                <element signature="e#2772#3511#0" expanded="true" />
+                <element signature="e#2939#3485#0" expanded="true" />
+                <element signature="e#3466#3467#0" expanded="true" />
+                <element signature="e#3500#3501#0" expanded="true" />
+                <element signature="e#3673#4500#0" expanded="true" />
+                <element signature="e#4007#4181#0" expanded="true" />
+                <element signature="e#4158#4159#0" expanded="true" />
+                <element signature="e#4284#4456#0" expanded="true" />
+                <element signature="e#4433#4434#0" expanded="true" />
+                <element signature="e#4489#4490#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -814,7 +822,15 @@
       <created>1394116239773</created>
       <updated>1394116239773</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit&#10;Changed the initial location so more central for the user&#10;More changes to the UI prior to the Demo&#10;">
+      <created>1394116247052</created>
+      <updated>1394116247052</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial commit&#10;Changed the initial location so more central for the user&#10;More changes to the UI prior to the Demo&#10;">
+      <created>1394117400135</created>
+      <updated>1394117400135</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -876,10 +892,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="52" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.0" vertical-offset="1062" max-vertical-offset="2016">
           <folding>
-            <element signature="e#1302#2484#0" expanded="true" />
-            <element signature="e#2473#2474#0" expanded="true" />
-            <element signature="e#2521#3260#0" expanded="true" />
-            <element signature="e#3249#3250#0" expanded="true" />
+            <element signature="e#1302#2735#0" expanded="true" />
+            <element signature="e#2724#2725#0" expanded="true" />
+            <element signature="e#2772#3511#0" expanded="true" />
+            <element signature="e#2939#3485#0" expanded="true" />
+            <element signature="e#3466#3467#0" expanded="true" />
+            <element signature="e#3500#3501#0" expanded="true" />
+            <element signature="e#3673#4500#0" expanded="true" />
+            <element signature="e#4007#4181#0" expanded="true" />
+            <element signature="e#4158#4159#0" expanded="true" />
+            <element signature="e#4284#4456#0" expanded="true" />
+            <element signature="e#4433#4434#0" expanded="true" />
+            <element signature="e#4489#4490#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1151,12 +1175,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/main_ui/LeagueWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="77" selection-start="1925" selection-end="1925" vertical-scroll-proportion="0.44407895" vertical-offset="396" max-vertical-offset="1800">
+        <state line="48" column="28" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.46217105" vertical-offset="403" max-vertical-offset="2052">
           <folding>
-            <element signature="e#1302#2484#0" expanded="true" />
-            <element signature="e#2473#2474#0" expanded="true" />
-            <element signature="e#2521#3260#0" expanded="true" />
-            <element signature="e#3249#3250#0" expanded="true" />
+            <element signature="e#1302#2735#0" expanded="true" />
+            <element signature="e#2724#2725#0" expanded="true" />
+            <element signature="e#2772#3511#0" expanded="true" />
+            <element signature="e#2939#3485#0" expanded="true" />
+            <element signature="e#3466#3467#0" expanded="true" />
+            <element signature="e#3500#3501#0" expanded="true" />
+            <element signature="e#3673#4500#0" expanded="true" />
+            <element signature="e#4007#4181#0" expanded="true" />
+            <element signature="e#4158#4159#0" expanded="true" />
+            <element signature="e#4284#4456#0" expanded="true" />
+            <element signature="e#4433#4434#0" expanded="true" />
+            <element signature="e#4489#4490#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -11,7 +11,7 @@ import java.awt.event.ActionListener;
 import java.io.IOException;
 
 public class BettingWindow extends JFrame {
-    public static final String TITLE = "Odds On Betting";
+    public static final String TITLE = "Arithmetic Safety Betting";
     public static final Dimension INITIAL_SIZE = new Dimension(700, 200);
     public static final Point INITIAL_LOCATION = new Point(500, 322);
     private BettingVerdict bettingVerdict;

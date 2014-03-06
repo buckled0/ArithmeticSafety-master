@@ -2,7 +2,7 @@ package ui.test;
 
 import org.junit.Before;
 import org.junit.Test;
-import ui.main_ui.TopPanel;
+import ui.main_ui.NorthPanel;
 
 import javax.swing.*;
 
@@ -11,16 +11,16 @@ import static ui.test.TestHelpers.assertInstanceOf;
 
 public class TopPanelTest {
 
-    private TopPanel topPanel;
+    private NorthPanel topPanel;
 
     @Before
     public void setUp() throws Exception {
-        topPanel = new TopPanel();
+        topPanel = new NorthPanel();
     }
 
     @Test
     public void beAJPanel(){
-        assertInstanceOf(new TopPanel(), JPanel.class);
+        assertInstanceOf(new NorthPanel(), JPanel.class);
     }
 
     @Test
@@ -34,13 +34,6 @@ public class TopPanelTest {
     public void shouldHaveARoundsComboBox(){
         int index = 1;
         assertEquals("Should have a combo box", topPanel.getComponents()[index].getClass(), JComboBox.class);
-    }
-
-    @Test
-    public void shouldHaveAJButton(){
-        String name = "Go";
-        int index = 2;
-        assertEquals("Should have a JButton", topPanel.getComponents()[index].getClass(), JButton.class);
     }
 
 }

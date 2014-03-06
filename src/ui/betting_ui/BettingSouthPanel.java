@@ -1,6 +1,7 @@
 package ui.betting_ui;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionListener;
 
 public class BettingSouthPanel extends JPanel {
@@ -15,8 +16,12 @@ public class BettingSouthPanel extends JPanel {
         closeButton = new JButton();
         closeButton.setText("Close");
 
-        add(disclaimer);
-        add(closeButton);
+        Box southBettingBox = Box.createVerticalBox();
+        closeButton.setAlignmentX(Component.CENTER_ALIGNMENT);
+        southBettingBox.add(disclaimer);
+        southBettingBox.add(closeButton);
+
+        add(southBettingBox);
     }
 
     public void onCloseButton(ActionListener listener){

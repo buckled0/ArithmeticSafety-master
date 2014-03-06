@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 
-public class TopPanel extends JPanel{
+public class NorthPanel extends JPanel{
 
     public String[] leagues;
     public JComboBox leagueMenu;
@@ -13,7 +13,7 @@ public class TopPanel extends JPanel{
     public JButton bettingButton;
     public String newValue;
 
-    public TopPanel() {
+    public NorthPanel() {
         leagues = new String[] {"Please Select a League", "Premier League Current", "Premier League, 09/02/2014",
                 "Premier League, 12/02/2014", "Premier League, 23/02/2014", "Premier League, 02/03/2014",
                 "Premier League Half Way Point", "Premier League, 21/04/2013", "Premier League, 28/04/2013", "Premier League, 05/05/2013",
@@ -30,7 +30,7 @@ public class TopPanel extends JPanel{
         });
 
         calculate = new JButton("Calculate Safety");
-        bettingButton = new JButton("Odds On Betting");
+        bettingButton = new JButton("Arithmetic Safety Betting");
 
         add(leagueMenu);
         add(calculate);

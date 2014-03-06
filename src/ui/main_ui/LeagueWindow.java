@@ -26,15 +26,15 @@ public class LeagueWindow extends JFrame {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         getContentPane().add(BorderLayout.NORTH, setupTopPanel());
-        getContentPane().add(BorderLayout.SOUTH, new BottomPanel());
+        getContentPane().add(BorderLayout.SOUTH, new SouthPanel());
         getContentPane().add(BorderLayout.CENTER, leagueTable = new LeagueTable());
         getContentPane().add(BorderLayout.EAST, setupEastPanel());
 
         setVisible(true);
     }
 
-    private TopPanel setupTopPanel(){
-        final TopPanel topPanel = new TopPanel();
+    private NorthPanel setupTopPanel(){
+        final NorthPanel topPanel = new NorthPanel();
 
         topPanel.onCalculate(new ActionListener() {
             @Override

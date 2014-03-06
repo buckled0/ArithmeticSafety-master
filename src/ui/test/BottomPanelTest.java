@@ -2,7 +2,7 @@ package ui.test;
 
 import org.junit.Before;
 import org.junit.Test;
-import ui.main_ui.BottomPanel;
+import ui.main_ui.SouthPanel;
 
 import javax.swing.*;
 
@@ -11,16 +11,16 @@ import static ui.test.TestHelpers.assertInstanceOf;
 
 public class BottomPanelTest {
 
-    private BottomPanel bottomPanel;
+    private SouthPanel bottomPanel;
 
     @Before
     public void setUp() throws Exception {
-        bottomPanel = new BottomPanel();
+        bottomPanel = new SouthPanel();
     }
 
     @Test
     public void beAPanel(){
-        assertInstanceOf(new BottomPanel(), JPanel.class);
+        assertInstanceOf(new SouthPanel(), JPanel.class);
     }
 
     @Test

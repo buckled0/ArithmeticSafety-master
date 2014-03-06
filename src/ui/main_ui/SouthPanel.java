@@ -4,11 +4,11 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class BottomPanel extends JPanel {
+public class SouthPanel extends JPanel {
 
     public final JButton quitButton;
 
-    public BottomPanel() {
+    public SouthPanel() {
 
         quitButton = new JButton();
         quitButton.setText("Quit");

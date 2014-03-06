@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class CustomLeagueTable extends JTable {
 
-    public static final Dimension INITIAL_SIZE = new Dimension(800, 450);
+    public static final Dimension INITIAL_SIZE = new Dimension(1000, 450);
     DefaultTableModel model;
     JTable table;
     ArrayList<Team> teamList = new ArrayList<Team>();
@@ -40,7 +40,7 @@ public class CustomLeagueTable extends JTable {
         TableColumn colTeamName = table.getColumnModel().getColumn(0);
         colTeamName.setPreferredWidth(150);
 
-        TableColumn colVerdict = table.getColumnModel().getColumn(4);
+        TableColumn colVerdict = table.getColumnModel().getColumn(7);
         colVerdict.setPreferredWidth(290);
 
         add(pane);
@@ -77,11 +77,11 @@ public class CustomLeagueTable extends JTable {
         }
     }
     public void populateOnlyTeamInLeagueVerdict(int teamAmount){
-        model.setValueAt("Only Team in league, pretty sure they're safe", teamAmount - 1, 4);
+        model.setValueAt("Only Team in league, pretty sure they're safe", teamAmount - 1, 7);
     }
 
     public void populateRelegationCell(int bottomDifference, int teamAmount){
-        model.setValueAt("Team needs " + bottomDifference + " to overtake the team above", teamAmount - 1, 4);
+        model.setValueAt("Team needs " + bottomDifference + " to overtake the team above", teamAmount - 1, 7);
     }
 
 }

@@ -12,7 +12,9 @@ import java.io.IOException;
 import java.util.Arrays;
 
 public class BettingTeamSelection extends JPanel {
+    public final JTextField homeTeamText;
     public final JComboBox homeTeam;
+    public final JTextField awayTeamText;
     public final JComboBox awayTeam;
     public final JButton calculateOddsButton;
     public final JTextField homeTeamOdds;
@@ -44,6 +46,7 @@ public class BettingTeamSelection extends JPanel {
         setHomeTeamValue("Arsenal");
         setAwayTeamValue("Arsenal");
 
+        homeTeamText = new JTextField("Home Team: ");
         homeTeam = new JComboBox(team1List);
 
         homeTeam.addItemListener(new ItemListener() {
@@ -55,6 +58,7 @@ public class BettingTeamSelection extends JPanel {
             }
         });
 
+        awayTeamText = new JTextField("Away Team: ");
         awayTeam = new JComboBox(team2List);
 
         awayTeam.addItemListener(new ItemListener() {
@@ -69,15 +73,23 @@ public class BettingTeamSelection extends JPanel {
         calculateOddsButton = new JButton("Calculate Odds");
 
         Box teamSelectionBox = Box.createVerticalBox();
+        Box homeTeamSelectionBox = Box.createHorizontalBox();
+        Box awayTeamSelectionBox = Box.createHorizontalBox();
 
-        teamSelectionBox.add(homeTeam);
-        teamSelectionBox.add(awayTeam);
+        homeTeamSelectionBox.add(homeTeamText);
+        homeTeamSelectionBox.add(homeTeam);
+        awayTeamSelectionBox.add(awayTeamText);
+        awayTeamSelectionBox.add(awayTeam);
+        teamSelectionBox.add(homeTeamSelectionBox);
+        teamSelectionBox.add(awayTeamSelectionBox);
         teamSelectionBox.add(calculateOddsButton);
 
         homeTeamOdds = new JTextField("Home Team Odds: ");
         drawingOdds = new JTextField("Drawing Odds: ");
         awayTeamOdds = new JTextField("Away Team Odds: ");
 
+        homeTeamText.setEditable(false);
+        awayTeamText.setEditable(false);
         homeTeamOdds.setEditable(false);
         drawingOdds.setEditable(false);
         awayTeamOdds.setEditable(false);

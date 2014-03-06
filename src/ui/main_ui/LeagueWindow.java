@@ -39,12 +39,12 @@ public class LeagueWindow extends JFrame {
         topPanel.onCalculate(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                TeamVerdict leagueVerdict = null;
+
                 try {
-                    leagueVerdict = new TeamVerdict(topPanel.getSelectedValue());
-                    if(topPanel.getSelectedValue().isEmpty())
+                    if(topPanel.getSelectedValue() == null)
                         JOptionPane.showMessageDialog(null, "Please Select a League");
                     else {
+                        TeamVerdict leagueVerdict = new TeamVerdict(topPanel.getSelectedValue());
                         leagueTable.populateTable(leagueVerdict.getTeamList(), leagueVerdict.getVerdictArray(), leagueVerdict.getGamesRemaining());
                         if(leagueVerdict.getTeamList().get(1).getGamesPlayed() < 30){
                             int bottomDifference = leagueVerdict.getBottomDifference();

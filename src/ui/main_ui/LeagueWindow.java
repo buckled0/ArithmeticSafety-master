@@ -43,7 +43,7 @@ public class LeagueWindow extends JFrame {
                     if(topPanel.getSelectedValue() == null)
                         JOptionPane.showMessageDialog(null, "Please Select a League");
                     else {
-                        if(topPanel.getSelectedValue() == "Please Select a League")
+                        if(topPanel.getSelectedValue().equals( "Please Select a League"))
                             JOptionPane.showMessageDialog(null, "Please Select a League");
                         else{
                             TeamVerdict leagueVerdict = new TeamVerdict(topPanel.getSelectedValue());

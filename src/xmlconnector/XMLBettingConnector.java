@@ -16,7 +16,6 @@ import java.util.ArrayList;
 
 public class XMLBettingConnector {
 
-    String tableName;
     public ArrayList<Betting> bettingList = new ArrayList<Betting>();
 
     public XMLBettingConnector() throws ParserConfigurationException, IOException, SAXException {

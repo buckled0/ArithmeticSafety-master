@@ -13,7 +13,7 @@ import java.awt.event.ActionListener;
 import java.io.IOException;
 
 public class LeagueWindow extends JFrame {
-    public static final String TITLE = "Arithmetic Football";
+    public static final String TITLE = "Arithmetic Safety";
     public static final Dimension INITIAL_SIZE = new Dimension(1350, 450);
     public static final Point INITIAL_LOCATION = new Point(300, 262);
     public LeagueTable leagueTable;
@@ -39,26 +39,24 @@ public class LeagueWindow extends JFrame {
         topPanel.onCalculate(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-
-                try {
-                    if(topPanel.getSelectedValue() == null)
-                        JOptionPane.showMessageDialog(null, "Please Select a League");
-                    else {
+                if(topPanel.getSelectedValue() == null)
+                    JOptionPane.showMessageDialog(null, "Please Select a League");
+                else {
+                    try {
                         TeamVerdict leagueVerdict = new TeamVerdict(topPanel.getSelectedValue());
                         leagueTable.populateTable(leagueVerdict.getTeamList(), leagueVerdict.getVerdictArray(), leagueVerdict.getGamesRemaining());
                         if(leagueVerdict.getTeamList().get(1).getGamesPlayed() < 30){
                             int bottomDifference = leagueVerdict.getBottomDifference();
                             leagueTable.populateRelegationCell(bottomDifference);
                         }
+                    } catch (ParserConfigurationException e) {
+                        e.printStackTrace();
+                    } catch (SAXException e) {
+                        e.printStackTrace();
+                    } catch (IOException e) {
+                        e.printStackTrace();
                     }
-                } catch (ParserConfigurationException e) {
-                    e.printStackTrace();
-                } catch (SAXException e) {
-                    e.printStackTrace();
-                } catch (IOException e) {
-                    e.printStackTrace();
                 }
-
             }
         });
 

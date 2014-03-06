@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 public class CustomLeagueWindow extends JFrame {
     public static final String TITLE = "Arithmetic Football";
-    public static final Dimension INITIAL_SIZE = new Dimension(800, 550);
+    public static final Dimension INITIAL_SIZE = new Dimension(1005, 550);
     public static final Point INITIAL_LOCATION = new Point(500, 322);
     public CustomLeagueTable customLeagueTable;
     public String teamAmount;

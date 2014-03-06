@@ -13,7 +13,7 @@ import java.io.IOException;
 public class BettingWindow extends JFrame {
     public static final String TITLE = "Odds On Betting";
     public static final Dimension INITIAL_SIZE = new Dimension(700, 200);
-    public static final Point INITIAL_LOCATION = new Point(260, 132);
+    public static final Point INITIAL_LOCATION = new Point(500, 322);
     private BettingVerdict bettingVerdict;
 
     public BettingWindow() throws IOException, SAXException, ParserConfigurationException {

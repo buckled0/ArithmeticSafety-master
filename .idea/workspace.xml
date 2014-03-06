@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ab8f434-be48-415a-a650-30d6942658db" name="Default" comment="Initial commit&#10;Changed the initial location so more central for the user&#10;More changes to the UI prior to the Demo">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ui/main_ui/BottomPanel.java" afterPath="$PROJECT_DIR$/src/ui/main_ui/SouthPanel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ui/main_ui/TopPanel.java" afterPath="$PROJECT_DIR$/src/ui/main_ui/NorthPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ui/betting_ui/BettingNorthPanel.java" afterPath="$PROJECT_DIR$/src/ui/betting_ui/BettingNorthPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ui/betting_ui/BettingSouthPanel.java" afterPath="$PROJECT_DIR$/src/ui/betting_ui/BettingSouthPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ui/betting_ui/BettingWindow.java" afterPath="$PROJECT_DIR$/src/ui/betting_ui/BettingWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ui/test/BottomPanelTest.java" afterPath="$PROJECT_DIR$/src/ui/test/BottomPanelTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ui/main_ui/LeagueWindow.java" afterPath="$PROJECT_DIR$/src/ui/main_ui/LeagueWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ui/test/TopPanelTest.java" afterPath="$PROJECT_DIR$/src/ui/test/TopPanelTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="2ab8f434-be48-415a-a650-30d6942658db" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ArithmeticSafety.iws" />
@@ -76,64 +66,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LeagueWindow.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LeagueWindow.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ui/main_ui/LeagueWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="17" selection-start="2447" selection-end="2447" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="2016">
+            <state line="47" column="77" selection-start="1925" selection-end="1925" vertical-scroll-proportion="0.44407895" vertical-offset="396" max-vertical-offset="1800">
+              <folding>
+                <element signature="e#1302#2484#0" expanded="true" />
+                <element signature="e#2473#2474#0" expanded="true" />
+                <element signature="e#2521#3260#0" expanded="true" />
+                <element signature="e#3249#3250#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Team.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/domain/Team.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="41" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2466">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BettingSouthPanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ui/betting_ui/BettingSouthPanel.java">
+      <file leaf-file-name="TeamStatusMap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/domain/TeamStatusMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="19" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+            <state line="36" column="27" selection-start="2273" selection-end="2273" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BettingTeamSelection.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ui/betting_ui/BettingTeamSelection.java">
+      <file leaf-file-name="TableMap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/domain/TableMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0" vertical-offset="1026" max-vertical-offset="2430">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BettingNorthPanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ui/betting_ui/BettingNorthPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="72" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BettingWindow.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ui/betting_ui/BettingWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="57" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NorthPanel.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ui/main_ui/NorthPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="49" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.33227345" vertical-offset="169" max-vertical-offset="972">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TopPanelTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ui/test/TopPanelTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="5" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="684">
+            <state line="17" column="73" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="864">
               <folding />
             </state>
           </provider>
@@ -190,19 +158,19 @@
         <option value="$PROJECT_DIR$/src/xmlfiles/Premier League May 19 2013.xsl" />
         <option value="$PROJECT_DIR$/src/xmlconnector/XMLMap.java" />
         <option value="$PROJECT_DIR$/src/domain/XMLMap.java" />
-        <option value="$PROJECT_DIR$/src/domain/TableMap.java" />
         <option value="$PROJECT_DIR$/src/domain/TeamVerdict.java" />
         <option value="$PROJECT_DIR$/src/ui/main_ui/TopPanel.java" />
         <option value="$PROJECT_DIR$/src/ui/betting_ui/BettingTeamSelection.java" />
         <option value="$PROJECT_DIR$/src/xmlfiles/Premier League March 2 2014.xsl" />
         <option value="$PROJECT_DIR$/src/xmlfiles/Premier League.xml" />
         <option value="$PROJECT_DIR$/src/xmlconnector/XMLBettingConnector.java" />
-        <option value="$PROJECT_DIR$/src/ui/main_ui/LeagueWindow.java" />
         <option value="$PROJECT_DIR$/src/ui/betting_ui/BettingSouthPanel.java" />
         <option value="$PROJECT_DIR$/src/ui/betting_ui/BettingNorthPanel.java" />
         <option value="$PROJECT_DIR$/src/ui/betting_ui/BettingWindow.java" />
         <option value="$PROJECT_DIR$/src/ui/main_ui/NorthPanel.java" />
         <option value="$PROJECT_DIR$/src/ui/test/TopPanelTest.java" />
+        <option value="$PROJECT_DIR$/src/domain/TableMap.java" />
+        <option value="$PROJECT_DIR$/src/ui/main_ui/LeagueWindow.java" />
       </list>
     </option>
   </component>
@@ -237,6 +205,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -283,6 +261,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="xmlfiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArithmeticSafety-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArithmeticSafety-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -309,19 +305,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArithmeticSafety-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArithmeticSafety-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArithmeticSafety-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArithmeticSafety-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,6 +379,118 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/XMLFiles" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlfiles/Premier League March 2 2014.xml</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
   </component>
   <component name="RunManager" selected="Application.app">
     <configuration default="false" name="app" type="Application" factoryName="Application" temporary="true">
@@ -509,35 +643,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="XSLT" factoryName="XSLT">
-      <option name="myOutputFile" />
-      <option name="myOpenOutputFile" value="false" />
-      <option name="myOpenInBrowser" value="false" />
-      <option name="mySmartErrorHandling" value="true" />
-      <option name="myRunnerPort" value="34873" />
-      <option name="myVmArguments" />
-      <option name="myWorkingDirectory" />
-      <option name="myModule" />
-      <option name="myJdk" />
-      <parameters />
-      <OutputType value="CONSOLE" save-to-file="false" />
-      <FileType name="XML" />
-      <JdkChoice value="FROM_MODULE" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -563,6 +668,35 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -668,6 +802,19 @@
       <created>1371303213243</created>
       <updated>1371303213243</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit&#10;Changed the initial location so more central for the user&#10;More changes to the UI prior to the Demo">
+      <created>1394106060362</created>
+      <updated>1394106060362</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit&#10;Changed the initial location so more central for the user&#10;More changes to the UI prior to the Demo&#10;">
+      <created>1394115646782</created>
+      <updated>1394115646782</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit&#10;Changed the initial location so more central for the user&#10;More changes to the UI prior to the Demo&#10;">
+      <created>1394116239773</created>
+      <updated>1394116239773</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -683,15 +830,15 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39488637" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24798061" sideWeight="0.45273632" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37642586" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298479" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37642586" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24791232" sideWeight="0.54477614" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39638785" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39638785" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -714,7 +861,8 @@
     </option>
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <MESSAGE value="Initial commit&#10;Changed the initial location so more central for the user&#10;More changes to the UI prior to the Demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;Changed the initial location so more central for the user&#10;More changes to the UI prior to the Demo" />
+    <MESSAGE value="Initial commit&#10;Changed the initial location so more central for the user&#10;More changes to the UI prior to the Demo&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;Changed the initial location so more central for the user&#10;More changes to the UI prior to the Demo&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -727,7 +875,12 @@
     <entry file="file://$PROJECT_DIR$/src/ui/main_ui/LeagueWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="52" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.0" vertical-offset="1062" max-vertical-offset="2016">
-          <folding />
+          <folding>
+            <element signature="e#1302#2484#0" expanded="true" />
+            <element signature="e#2473#2474#0" expanded="true" />
+            <element signature="e#2521#3260#0" expanded="true" />
+            <element signature="e#3249#3250#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -861,11 +1014,6 @@
         <state line="66" column="53" selection-start="2470" selection-end="2470" vertical-scroll-proportion="0.36636245" vertical-offset="763" max-vertical-offset="1530" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/Team.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="46" selection-start="4551" selection-end="4551" vertical-scroll-proportion="0.0" vertical-offset="889" max-vertical-offset="2466" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/xmlfiles/Premier League April 11 2012.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="178" column="24" selection-start="0" selection-end="5024" vertical-scroll-proportion="0.0" vertical-offset="2985" max-vertical-offset="3726" />
@@ -901,11 +1049,6 @@
         <state line="198" column="17" selection-start="4983" selection-end="4983" vertical-scroll-proportion="0.0" vertical-offset="2769" max-vertical-offset="3798" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/TeamStatusMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="27" selection-start="2273" selection-end="2273" vertical-scroll-proportion="0.84485006" vertical-offset="0" max-vertical-offset="936" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/main_ui/LeagueTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="84" selection-start="2386" selection-end="2386" vertical-scroll-proportion="1.0130378" vertical-offset="303" max-vertical-offset="1332">
@@ -916,11 +1059,6 @@
     <entry file="file://$PROJECT_DIR$/src/domain/TeamVerdict.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="54" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1800" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/TableMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="49" selection-start="946" selection-end="946" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="972" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/xmlfiles/Premier League Feb 23 2014.xml">
@@ -948,13 +1086,6 @@
         <state line="222" column="0" selection-start="5814" selection-end="5814" vertical-scroll-proportion="6.55082" vertical-offset="0" max-vertical-offset="4104" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/main_ui/LeagueWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="17" selection-start="2447" selection-end="2447" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="2016">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/betting_ui/BettingSouthPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="19" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
@@ -976,13 +1107,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/betting_ui/BettingWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="57" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/test/TopPanelTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="5" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="684">
@@ -992,8 +1116,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/main_ui/NorthPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="49" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.33227345" vertical-offset="169" max-vertical-offset="972">
+        <state line="29" column="105" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="972">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/betting_ui/BettingWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="57" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="41" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2466">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/TeamStatusMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="27" selection-start="2273" selection-end="2273" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/TableMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="73" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="864">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/main_ui/LeagueWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="77" selection-start="1925" selection-end="1925" vertical-scroll-proportion="0.44407895" vertical-offset="396" max-vertical-offset="1800">
+          <folding>
+            <element signature="e#1302#2484#0" expanded="true" />
+            <element signature="e#2473#2474#0" expanded="true" />
+            <element signature="e#2521#3260#0" expanded="true" />
+            <element signature="e#3249#3250#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

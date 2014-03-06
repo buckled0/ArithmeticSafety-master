@@ -39,23 +39,27 @@ public class LeagueWindow extends JFrame {
         topPanel.onCalculate(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                if(topPanel.getSelectedValue() == null)
-                    JOptionPane.showMessageDialog(null, "Please Select a League");
-                else {
-                    try {
-                        TeamVerdict leagueVerdict = new TeamVerdict(topPanel.getSelectedValue());
-                        leagueTable.populateTable(leagueVerdict.getTeamList(), leagueVerdict.getVerdictArray(), leagueVerdict.getGamesRemaining());
-                        if(leagueVerdict.getTeamList().get(1).getGamesPlayed() < 30){
-                            int bottomDifference = leagueVerdict.getBottomDifference();
-                            leagueTable.populateRelegationCell(bottomDifference);
+                try {
+                    if(topPanel.getSelectedValue() == null)
+                        JOptionPane.showMessageDialog(null, "Please Select a League");
+                    else {
+                        if(topPanel.getSelectedValue() == "Please Select a League")
+                            JOptionPane.showMessageDialog(null, "Please Select a League");
+                        else{
+                            TeamVerdict leagueVerdict = new TeamVerdict(topPanel.getSelectedValue());
+                            leagueTable.populateTable(leagueVerdict.getTeamList(), leagueVerdict.getVerdictArray(), leagueVerdict.getGamesRemaining());
+                            if(leagueVerdict.getTeamList().get(1).getGamesPlayed() < 30){
+                                int bottomDifference = leagueVerdict.getBottomDifference();
+                                leagueTable.populateRelegationCell(bottomDifference);
+                            }
                         }
-                    } catch (ParserConfigurationException e) {
-                        e.printStackTrace();
-                    } catch (SAXException e) {
-                        e.printStackTrace();
-                    } catch (IOException e) {
-                        e.printStackTrace();
                     }
+                } catch (ParserConfigurationException e) {
+                        e.printStackTrace();
+                } catch (SAXException e) {
+                        e.printStackTrace();
+                } catch (IOException e) {
+                        e.printStackTrace();
                 }
             }
         });

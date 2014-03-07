@@ -22,7 +22,7 @@ public class XMLLeagueConnector {
     public XMLLeagueConnector(String tableName) throws ParserConfigurationException, IOException, SAXException {
         this.tableName = tableName;
         try {
-            File file = new File("/home/mbax9db8/ArithmeticSafety-master/src/xmlfiles/" + tableName + ".xml");
+            File file = new File("./src/xmlfiles/" + tableName + ".xml");
 
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();

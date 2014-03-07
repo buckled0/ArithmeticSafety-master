@@ -12,7 +12,7 @@ public class BettingTest {
         Betting home = createTeam("Sunderland", 6);
         Betting away = createTeam("Hull", 1);
 
-        double expected = 1.83;
+        double expected = 1.85;
 
         assertEquals("Should give the home odds", expected, home.homeOdds(home, away));
 
@@ -23,7 +23,7 @@ public class BettingTest {
         Betting home = createTeam("Chelsea", 9);
         Betting away = createTeam("Newcastle", -5);
 
-        double expected = 0.41;
+        double expected = 1.47;
 
         assertEquals("Should give the home odds", expected, home.homeOdds(home, away));
 
@@ -34,7 +34,7 @@ public class BettingTest {
         Betting away = createTeam("Hull", 1);
         Betting home = createTeam("Sunderland", 6);
 
-        double expected = 3.30;
+        double expected = 4.69;
 
         assertEquals("Should give away odds", expected, away.awayOdds(home, away));
     }
@@ -44,7 +44,7 @@ public class BettingTest {
         Betting away = createTeam("Chelsea", 9);
         Betting home = createTeam("Newcastle", -5);
 
-        double expected = 0.55;
+        double expected = 1.98;
 
         assertEquals("Should give the home odds", expected, away.awayOdds(home, away));
 
@@ -55,7 +55,7 @@ public class BettingTest {
         Betting home = createTeam("Chelsea", 9);
         Betting away = createTeam("Newcastle", -5);
 
-        double expected = 0.48;
+        double expected = 6.65;
 
         assertEquals("Should give the home odds", expected, away.awayOdds(home, away));
 

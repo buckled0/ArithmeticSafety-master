@@ -76,7 +76,6 @@ public class Team {
             return new DefinitelySafeForNowTeam().getTeamStatus();
 
         return new DefinitelySafeForNowTeam().getTeamStatus();
-
     }
 
 

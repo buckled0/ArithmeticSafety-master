@@ -20,5 +20,5 @@ public enum TeamStatus {
     startOfSeason,
     definitelySafeOfRelegation,
     definitelySafe,
-    canGetOutOfRelegation;
+    canGetOutOfRelegation, safe;
 }

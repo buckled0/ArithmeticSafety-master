@@ -1,5 +1,7 @@
 package domain;
 
+import domain.teamtypes.*;
+
 import java.util.ArrayList;
 
 public class Team {
@@ -56,21 +58,21 @@ public class Team {
     public TeamStatus leagueStatus(Team team1, Team team2){
 
         if ((team1.getPoints() == team2.getPoints()) && (team1.getGoalDifference() == team2.getGoalDifference()))
-            return TeamStatus.equalOnEverything;
+            return new EqualOnEverythingTeam().getTeamStatus();
 
         if ((team1.getPoints() == team2.getPoints()) && (team1.getGoalDifference() > team2.getGoalDifference()))
-            return TeamStatus.equalButTop;
+            return new EqualButTopTeam().getTeamStatus();
 
-        if (team1.getPoints() - team2.points <= 2)
-            return TeamStatus.atRisk;
+        if (team1.getPoints() - team2.getPoints() <= 2)
+            return new AtRiskTeam().getTeamStatus();
 
         if (team1.getPoints() - team2.getPoints() == 3)
-            return TeamStatus.fairlySafeForNow;
+            return new FairlySafeForNowTeam().getTeamStatus();
 
         if (team1.getPoints() - team2.getPoints() >= 4)
-            return TeamStatus.definitelySafeForNow;
+            return new DefinitelySafeForNowTeam().getTeamStatus();
 
-        return TeamStatus.couldBeRelegated;
+        return TeamStatus.startOfSeason;
     }
 
     public TeamStatus definitiveSafetyVerdictCheck(Team team1, ArrayList<Team> teamList, int i) {
@@ -132,7 +134,7 @@ public class Team {
                     return TeamStatus.definitelySafe;
             }
         }
-        return TeamStatus.definitelySafeForNow;
+        return TeamStatus.safe;
     }
 
     private int getValueToOvertake(Team team1, ArrayList<Team> teamList, int totalGamesInSeason, int j) {

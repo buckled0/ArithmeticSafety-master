@@ -1,6 +1,4 @@
-package domain.teamtypes;
-
-import domain.TeamStatus;
+package domain;
 
 public class EqualOnEverythingTeam extends TeamType {
 

@@ -1,7 +1,5 @@
 package domain;
 
-import domain.teamtypes.*;
-
 import java.util.ArrayList;
 
 public class Team {
@@ -13,9 +11,10 @@ public class Team {
     public int loses;
     public int draws;
     public int gamesPlayed;
-    int gamesInSeasonDifference;
-    int possibleAmountOfPoints;
-    int valueToOvertake;
+    private int gamesInSeasonDifference;
+    private int possibleAmountOfPoints;
+    private int valueToOvertake;
+    private TeamType teamType;
 
     public Team(String name,int points, int goalDifference, int wins, int loses, int draws, int gamesPlayed) {
         this.name = name;

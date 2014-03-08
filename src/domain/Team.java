@@ -54,17 +54,18 @@ public class Team {
         return gamesPlayed;
     }
 
-    public void setTeamType(Team team1, Team team2){
-        teamType = TeamType.newTeamType(team1, team2);
-    }
-
     public TeamStatus getTeamType(){
         return teamType.getTeamStatus();
+    }
+
+    public void setTeamType(Team team1, Team team2){
+        teamType = TeamType.newTeamType(team1, team2);
     }
 
 
     public TeamStatus definitiveSafetyVerdictCheck(Team team1, ArrayList<Team> teamList, int i) {
         int totalGamesInSeason = 38;
+
 
         if(i == 0){
             for(int j = i + 1; j < teamList.size(); j++){

@@ -49,7 +49,7 @@ public class CustomLeagueWindow extends JFrame {
                     for(int i = 0; i < teamList.size() - 1; i++){
                         Team team1 = teamList.get(i);
                         Team team2 = teamList.get(i + 1);
-                        team1.setTeamType(team1, team2);
+                        team1.setTeamType(team2);
                         TeamStatus teamStatus = team1.getTeamType();
                         verdictList.add(i, teamStatus);
                     }

@@ -54,12 +54,12 @@ public class Team {
         return gamesPlayed;
     }
 
-    public TeamStatus getTeamType(){
-        return teamType.getTeamStatus();
+    public void setTeamType(Team team2){
+        teamType = TeamType.newTeamType(this, team2);
     }
 
-    public void setTeamType(Team team1, Team team2){
-        teamType = TeamType.newTeamType(team1, team2);
+    public TeamStatus getTeamType(){
+        return teamType.getTeamStatus();
     }
 
 

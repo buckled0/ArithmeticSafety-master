@@ -1,6 +1,6 @@
 package domain;
 
-public class AtRiskTeam extends TeamType {
+public class AtRiskTeam {
 
     public TeamStatus getTeamStatus(){
         return TeamStatus.atRisk;

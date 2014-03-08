@@ -14,7 +14,6 @@ public class Team {
     private int gamesInSeasonDifference;
     private int possibleAmountOfPoints;
     private int valueToOvertake;
-    private TeamType teamType;
 
     public Team(String name,int points, int goalDifference, int wins, int loses, int draws, int gamesPlayed) {
         this.name = name;
@@ -54,12 +53,30 @@ public class Team {
         return gamesPlayed;
     }
 
-    public void setTeamType(Team team2){
-        teamType = TeamType.newTeamType(this, team2);
-    }
+    public TeamStatus getTeamStatus(Team team2){
+        boolean equalOnEverything = (this.getPoints() == team2.getPoints()) && (this.getGoalDifference() == team2.getGoalDifference());
+        boolean equalButTopTeam = (this.getPoints() == team2.getPoints()) && (this.getGoalDifference() > team2.getGoalDifference());
+        boolean atRiskTeam = this.getPoints() - team2.getPoints() <= 2;
+        boolean fairlySafeForNowTeam = this.getPoints() - team2.getPoints() == 3;
+        boolean definitelySafeForNowTeam = this.getPoints() - team2.getPoints() >= 4;
 
-    public TeamStatus getTeamType(){
-        return teamType.getTeamStatus();
+        if (equalOnEverything)
+            return new EqualOnEverythingTeam().getTeamStatus();
+
+        if (equalButTopTeam)
+            return new EqualButTopTeam().getTeamStatus();
+
+        if (atRiskTeam)
+            return new AtRiskTeam().getTeamStatus();
+
+        if (fairlySafeForNowTeam)
+            return new FairlySafeForNowTeam().getTeamStatus();
+
+        if (definitelySafeForNowTeam)
+            return new DefinitelySafeForNowTeam().getTeamStatus();
+
+        return new DefinitelySafeForNowTeam().getTeamStatus();
+
     }
 
 

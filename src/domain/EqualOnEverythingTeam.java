@@ -1,6 +1,6 @@
 package domain;
 
-public class EqualOnEverythingTeam extends TeamType {
+public class EqualOnEverythingTeam {
 
     public TeamStatus getTeamStatus(){
         return TeamStatus.equalOnEverything;

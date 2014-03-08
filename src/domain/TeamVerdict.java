@@ -56,8 +56,7 @@ public class TeamVerdict {
             for(int i = 0; i < teamList.size() - 1; i++){
                 Team team1 = teamList.get(i);
                 Team team2 = teamList.get(i + 1);
-                team1.setTeamType(team2);
-                TeamStatus teamStatus = team1.getTeamType();
+                TeamStatus teamStatus = team1.getTeamStatus(team2);
                 verdictArray.add(i, teamStatus);
             }
             verdictArray.add(19, TeamStatus.couldBeRelegated);

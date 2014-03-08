@@ -1,6 +1,6 @@
 package domain;
 
-public class EqualButTopTeam extends TeamType {
+public class EqualButTopTeam {
 
     public TeamStatus getTeamStatus(){
         return TeamStatus.equalButTop;

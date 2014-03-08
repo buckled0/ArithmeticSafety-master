@@ -1,6 +1,6 @@
 package domain;
 
-public class DefinitelySafeForNowTeam extends TeamType {
+public class DefinitelySafeForNowTeam {
 
     public TeamStatus getTeamStatus(){
         return TeamStatus.definitelySafeForNow;

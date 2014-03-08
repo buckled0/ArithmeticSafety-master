@@ -54,13 +54,13 @@ public class Team {
     }
 
     public TeamStatus getTeamStatus(Team team2){
-        boolean equalOnEverything = (this.getPoints() == team2.getPoints()) && (this.getGoalDifference() == team2.getGoalDifference());
-        boolean equalButTopTeam = (this.getPoints() == team2.getPoints()) && (this.getGoalDifference() > team2.getGoalDifference());
-        boolean atRiskTeam = this.getPoints() - team2.getPoints() <= 2;
-        boolean fairlySafeForNowTeam = this.getPoints() - team2.getPoints() == 3;
-        boolean definitelySafeForNowTeam = this.getPoints() - team2.getPoints() >= 4;
+        boolean equalOnEverythingTeam = isEqualOnPointsAndGoalDifference(team2);
+        boolean equalButTopTeam = equalButTop(team2);
+        boolean atRiskTeam = atRisk(team2);
+        boolean fairlySafeForNowTeam = fairlySafeForNow(team2);
+        boolean definitelySafeForNowTeam = definitelySafeForNow(team2);
 
-        if (equalOnEverything)
+        if (equalOnEverythingTeam)
             return new EqualOnEverythingTeam().getTeamStatus();
 
         if (equalButTopTeam)
@@ -77,7 +77,6 @@ public class Team {
 
         return new DefinitelySafeForNowTeam().getTeamStatus();
     }
-
 
     public TeamStatus definitiveSafetyVerdictCheck(Team team1, ArrayList<Team> teamList, int i) {
         int totalGamesInSeason = 38;
@@ -138,6 +137,27 @@ public class Team {
             }
         }
         return TeamStatus.safe;
+    }
+
+
+    private boolean definitelySafeForNow(Team team2) {
+        return this.getPoints() - team2.getPoints() >= 4;
+    }
+
+    private boolean fairlySafeForNow(Team team2) {
+        return this.getPoints() - team2.getPoints() == 3;
+    }
+
+    private boolean atRisk(Team team2) {
+        return this.getPoints() - team2.getPoints() <= 2;
+    }
+
+    private boolean equalButTop(Team team2) {
+        return (this.getPoints() == team2.getPoints()) && (this.getGoalDifference() > team2.getGoalDifference());
+    }
+
+    private boolean isEqualOnPointsAndGoalDifference(Team team2) {
+        return (this.getPoints() == team2.getPoints()) && (this.getGoalDifference() == team2.getGoalDifference());
     }
 
     private int getValueToOvertake(Team team1, ArrayList<Team> teamList, int totalGamesInSeason, int j) {

@@ -83,7 +83,6 @@ public class Team {
     public TeamStatus definitiveSafetyVerdictCheck(Team team1, ArrayList<Team> teamList, int i) {
         int totalGamesInSeason = 38;
 
-
         if(i == 0){
             for(int j = i + 1; j < teamList.size(); j++){
                 valueToOvertake = getValueToOvertake(team1, teamList, totalGamesInSeason, j);

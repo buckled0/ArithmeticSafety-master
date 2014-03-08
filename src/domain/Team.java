@@ -54,29 +54,17 @@ public class Team {
         return gamesPlayed;
     }
 
-    public TeamStatus leagueStatus(Team team1, Team team2){
-
-        if ((team1.getPoints() == team2.getPoints()) && (team1.getGoalDifference() == team2.getGoalDifference()))
-            return new EqualOnEverythingTeam().getTeamStatus();
-
-        if ((team1.getPoints() == team2.getPoints()) && (team1.getGoalDifference() > team2.getGoalDifference()))
-            return new EqualButTopTeam().getTeamStatus();
-
-        if (team1.getPoints() - team2.getPoints() <= 2)
-            return new AtRiskTeam().getTeamStatus();
-
-        if (team1.getPoints() - team2.getPoints() == 3)
-            return new FairlySafeForNowTeam().getTeamStatus();
-
-        if (team1.getPoints() - team2.getPoints() >= 4)
-            return new DefinitelySafeForNowTeam().getTeamStatus();
-
-        return TeamStatus.startOfSeason;
+    public void setTeamType(Team team1, Team team2){
+        teamType = TeamType.newTeamType(team1, team2);
     }
+
+    public TeamStatus getTeamType(){
+        return teamType.getTeamStatus();
+    }
+
 
     public TeamStatus definitiveSafetyVerdictCheck(Team team1, ArrayList<Team> teamList, int i) {
         int totalGamesInSeason = 38;
-
 
         if(i == 0){
             for(int j = i + 1; j < teamList.size(); j++){

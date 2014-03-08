@@ -29,35 +29,43 @@ public class TeamTest {
     public void shouldHaveBothTeamsEqual(){
         Team sunderland = createTeam("Sunderland", 10, 32, 0, 0, 0, 0);
         Team manCity = createTeam("Man City", 10, 32, 0, 0, 0, 0);
+        sunderland.setTeamType(sunderland, manCity);
+        TeamStatus teamStatus = sunderland.getTeamType();
 
-        assertEquals("Team Equal Determination", TeamStatus.equalOnEverything, sunderland.leagueStatus(sunderland, manCity));
+        assertEquals("Team Equal Determination", TeamStatus.equalOnEverything, teamStatus);
     }
 
     @Test
     public void shouldBeEqualOnPointsButHigherGoalDifference(){
         Team sunderland = createTeam("Sunderland", 32, 15, 0, 0, 0, 0);
         Team manCity = createTeam("Man City", 32, 10, 0, 0, 0, 0);
+        sunderland.setTeamType(sunderland, manCity);
+        TeamStatus teamStatus = sunderland.getTeamType();
 
         assertEquals("Team equal but higher Goal Difference", TeamStatus.equalButTop,
-                sunderland.leagueStatus(sunderland, manCity));
+                teamStatus);
     }
 
     @Test
     public void shouldBeAtRiskIfPointsDifferenceIsTwoOrLess(){
         Team sunderland = createTeam("Sunderland", 32, 15, 0, 0, 0, 0);
         Team manCity = createTeam("Man City", 30, 15, 0, 0, 0, 0);
+        sunderland.setTeamType(sunderland, manCity);
+        TeamStatus teamStatus = sunderland.getTeamType();
 
         assertEquals("Team is at risk as points difference is less than 2", TeamStatus.atRisk,
-                sunderland.leagueStatus(sunderland, manCity));
+                teamStatus);
     }
 
     @Test
     public void shouldBeFairlySafeIfPointsDifferenceIsThree(){
         Team sunderland = createTeam("Sunderland", 33, 15, 0, 0, 0, 0);
         Team manCity = createTeam("Man City", 30, 15, 0, 0, 0, 0);
+        sunderland.setTeamType(sunderland, manCity);
+        TeamStatus teamStatus = sunderland.getTeamType();
 
         assertEquals("Team is farely safe if points difference is three", TeamStatus.fairlySafeForNow,
-                sunderland.leagueStatus(sunderland, manCity));
+                teamStatus);
     }
 
 
@@ -65,9 +73,11 @@ public class TeamTest {
     public void shouldBeDefinitelySafeForNowIfPointsDifferenceIsGreaterThanFour(){
         Team sunderland = createTeam("Sunderland", 34, 15, 0, 0, 0, 0);
         Team manCity = createTeam("Man City", 30, 15, 0, 0, 0, 0);
+        sunderland.setTeamType(sunderland, manCity);
+        TeamStatus teamStatus = sunderland.getTeamType();
 
         assertEquals("Team is definitely safe that week if points difference is greater than four",
-                TeamStatus.definitelySafeForNow, sunderland.leagueStatus(sunderland, manCity));
+                TeamStatus.definitelySafeForNow, teamStatus);
     }
 
 

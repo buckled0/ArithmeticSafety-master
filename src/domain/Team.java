@@ -25,34 +25,6 @@ public class Team {
         this.gamesPlayed = gamesPlayed;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public int getPoints() {
-        return points;
-    }
-
-    public int getGoalDifference() {
-        return goalDifference;
-    }
-
-    public int getWins(){
-        return wins;
-    }
-
-    public int getLoses(){
-        return loses;
-    }
-
-    public int getDraws(){
-        return draws;
-    }
-
-    public int getGamesPlayed(){
-        return gamesPlayed;
-    }
-
     public TeamStatus getTeamStatus(Team team2){
         boolean equalOnEverythingTeam = isEqualOnPointsAndGoalDifference(team2);
         boolean equalButTopTeam = equalButTop(team2);
@@ -78,13 +50,42 @@ public class Team {
         return new DefinitelySafeForNowTeam().getTeamStatus();
     }
 
-    public TeamStatus definitiveSafetyVerdictCheck(Team team1, ArrayList<Team> teamList, int i) {
-        int totalGamesInSeason = 38;
+    private boolean definitelySafeForNow(Team team2) {
+        return teamsPointDifference(team2) >= 4;
+    }
+
+    private boolean fairlySafeForNow(Team team2) {
+        return teamsPointDifference(team2) == 3;
+    }
+
+    private boolean atRisk(Team team2) {
+        return teamsPointDifference(team2) <= 2;
+    }
+
+    private boolean equalButTop(Team team2) {
+        return equalTeams(team2) && (this.goalDifference > team2.goalDifference);
+    }
+
+    private boolean isEqualOnPointsAndGoalDifference(Team team2) {
+        return equalTeams(team2) && (this.goalDifference == team2.goalDifference);
+    }
+
+    private int teamsPointDifference(Team team2) {
+        return this.points - team2.points;
+    }
+
+    private boolean equalTeams(Team team2) {
+        return this.points == team2.points;
+    }
+
+
+    public TeamStatus definitiveSafetyVerdictCheck(Team team1, ArrayList<Team> teamList, int i, int numberOfGames) {
+        int totalGamesInSeason = numberOfGames;
 
         if(i == 0){
             for(int j = i + 1; j < teamList.size(); j++){
                 valueToOvertake = getValueToOvertake(team1, teamList, totalGamesInSeason, j);
-                if(teamList.get(j).getPoints() > valueToOvertake)
+                if(teamList.get(j).points > valueToOvertake)
                     return TeamStatus.chanceOfChampion;
                 else
                     return TeamStatus.champions;
@@ -94,7 +95,7 @@ public class Team {
         if(i > 0 && i < 4){
             for(int j = i + 1; j < teamList.size(); j++){
                 valueToOvertake = getValueToOvertake(team1, teamList, totalGamesInSeason, j);
-                if(teamList.get(j).getPoints() > valueToOvertake)
+                if(teamList.get(j).points > valueToOvertake)
                     return TeamStatus.chanceOfChampionsLeague;
                 else
                     return TeamStatus.championsLeague;
@@ -103,17 +104,17 @@ public class Team {
         if(i == 4){
             for(int j = i + 1; j < teamList.size(); j ++){
                 valueToOvertake = getValueToOvertake(team1, teamList, totalGamesInSeason, j);
-                if(teamList.get(j).getPoints() > valueToOvertake)
+                if(teamList.get(j).points > valueToOvertake)
                     return TeamStatus.chanceOfEuropaLeague;
                 else
                     return TeamStatus.europaLeague;
             }
         }
         if(i > 16){
-            gamesInSeasonDifference = totalGamesInSeason - teamList.get(i).getGamesPlayed();
+            gamesInSeasonDifference = totalGamesInSeason - teamList.get(i).gamesPlayed;
             possibleAmountOfPoints = gamesInSeasonDifference * 3;
-            int teamAtRelegationPossibleEndOfSeason = teamList.get(16).getPoints();
-            if(teamList.get(i).getPoints() + possibleAmountOfPoints > teamAtRelegationPossibleEndOfSeason)
+            int teamAtRelegationPossibleEndOfSeason = teamList.get(16).points;
+            if(teamList.get(i).points + possibleAmountOfPoints > teamAtRelegationPossibleEndOfSeason)
                 return TeamStatus.canGetOutOfRelegation;
             else
                 return TeamStatus.definitelyRelegated;
@@ -121,7 +122,7 @@ public class Team {
         if(i > 13){
             for(int j = i + 1; j < teamList.size(); j++){
                 valueToOvertake = getValueToOvertake(team1, teamList, totalGamesInSeason, j);
-                if(teamList.get(j).getPoints() + possibleAmountOfPoints > valueToOvertake)
+                if(teamList.get(j).points + possibleAmountOfPoints > valueToOvertake)
                     return TeamStatus.highChanceOfRelegation;
                 else
                     return TeamStatus.canGetOutOfRelegation;
@@ -130,7 +131,7 @@ public class Team {
         if(i > 4 && i <= 13){
             for(int j = 17; j < teamList.size(); j++){
                 valueToOvertake = getValueToOvertake(team1, teamList, totalGamesInSeason, j);
-                if(teamList.get(j).getPoints() > valueToOvertake)
+                if(teamList.get(j).points > valueToOvertake)
                     return TeamStatus.couldBeRelegated;
                 else
                     return TeamStatus.definitelySafe;
@@ -139,31 +140,10 @@ public class Team {
         return TeamStatus.safe;
     }
 
-
-    private boolean definitelySafeForNow(Team team2) {
-        return this.getPoints() - team2.getPoints() >= 4;
-    }
-
-    private boolean fairlySafeForNow(Team team2) {
-        return this.getPoints() - team2.getPoints() == 3;
-    }
-
-    private boolean atRisk(Team team2) {
-        return this.getPoints() - team2.getPoints() <= 2;
-    }
-
-    private boolean equalButTop(Team team2) {
-        return (this.getPoints() == team2.getPoints()) && (this.getGoalDifference() > team2.getGoalDifference());
-    }
-
-    private boolean isEqualOnPointsAndGoalDifference(Team team2) {
-        return (this.getPoints() == team2.getPoints()) && (this.getGoalDifference() == team2.getGoalDifference());
-    }
-
     private int getValueToOvertake(Team team1, ArrayList<Team> teamList, int totalGamesInSeason, int j) {
-        gamesInSeasonDifference = totalGamesInSeason - teamList.get(j).getGamesPlayed();
+        gamesInSeasonDifference = totalGamesInSeason - teamList.get(j).gamesPlayed;
         possibleAmountOfPoints = gamesInSeasonDifference * 3;
-        valueToOvertake = team1.getPoints() - possibleAmountOfPoints;
+        valueToOvertake = team1.points - possibleAmountOfPoints;
         return valueToOvertake;
     }
 

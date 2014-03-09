@@ -25,7 +25,7 @@ public class definitiveSafetyVerdictCheckTest {
 
 
         assertEquals("Will return definitely safe as there is no way City can overtake", TeamStatus.champions,
-                sunderland.definitiveSafetyVerdictCheck(sunderland, teamList, i));
+                sunderland.definitiveSafetyVerdictCheck(sunderland, teamList, i, 38));
     }
 
     @Test
@@ -36,7 +36,7 @@ public class definitiveSafetyVerdictCheckTest {
         teamList = getTeamListFromVerdict("Premier League, 08/05/2012");
 
         assertEquals("Points difference so great city can't overtake Sunderland, so definitely in champions league",
-                TeamStatus.championsLeague, sunderland.definitiveSafetyVerdictCheck(sunderland, teamList, i));
+                TeamStatus.championsLeague, sunderland.definitiveSafetyVerdictCheck(sunderland, teamList, i, 38));
     }
 
     @Test
@@ -47,7 +47,7 @@ public class definitiveSafetyVerdictCheckTest {
         teamList = getTeamListFromVerdict("Premier League, 08/05/2012");
 
         assertEquals("Points difference between two teams is so great, Sunderland defintiely in Europa",
-                TeamStatus.europaLeague, sunderland.definitiveSafetyVerdictCheck(sunderland, teamList, i));
+                TeamStatus.europaLeague, sunderland.definitiveSafetyVerdictCheck(sunderland, teamList, i, 38));
     }
 
     @Test
@@ -57,8 +57,9 @@ public class definitiveSafetyVerdictCheckTest {
 
         teamList = getTeamListFromVerdict("Premier League, 08/05/2012");
 
-        assertEquals("If Sunderland are anywhere in the league and City can't overtake, then Sunderland are definitely safe of relegation",
-                TeamStatus.definitelySafe, sunderland.definitiveSafetyVerdictCheck(sunderland, teamList, i));
+        assertEquals("If Sunderland are anywhere in the league and City can't overtake," +
+                " then Sunderland are definitely safe of relegation",
+                TeamStatus.definitelySafe, sunderland.definitiveSafetyVerdictCheck(sunderland, teamList, i, 38));
     }
 
     @Test
@@ -68,7 +69,8 @@ public class definitiveSafetyVerdictCheckTest {
 
         teamList = getTeamListFromVerdict("Premier League, 08/05/2012");
 
-        assertEquals("Should return chance of champions", TeamStatus.chanceOfChampion, manCity.definitiveSafetyVerdictCheck(manCity, teamList, i));
+        assertEquals("Should return chance of champions",
+                TeamStatus.chanceOfChampion, manCity.definitiveSafetyVerdictCheck(manCity, teamList, i, 38));
     }
 
     @Test
@@ -78,7 +80,8 @@ public class definitiveSafetyVerdictCheckTest {
 
         teamList = getTeamListFromVerdict("Premier League, 08/05/2012");
 
-        assertEquals("Should return unsafe as Bolton can overtake", TeamStatus.highChanceOfRelegation, qpr.definitiveSafetyVerdictCheck(qpr, teamList, i));
+        assertEquals("Should return unsafe as Bolton can overtake",
+                TeamStatus.highChanceOfRelegation, qpr.definitiveSafetyVerdictCheck(qpr, teamList, i, 38));
     }
 
     @Test
@@ -88,7 +91,8 @@ public class definitiveSafetyVerdictCheckTest {
 
         teamList = getTeamListFromVerdict("Premier League, 08/05/2012");
 
-        assertEquals("Should return can get out of relegation if Bolton can win next game", TeamStatus.canGetOutOfRelegation, bolton.definitiveSafetyVerdictCheck(bolton, teamList, i));
+        assertEquals("Should return can get out of relegation if Bolton can win next game",
+                TeamStatus.canGetOutOfRelegation, bolton.definitiveSafetyVerdictCheck(bolton, teamList, i, 38));
     }
     
     @Test
@@ -99,7 +103,7 @@ public class definitiveSafetyVerdictCheckTest {
         teamList = getTeamListFromVerdict("Premier League, 08/05/2012");
 
         assertEquals("Team should definitely be relegated if they can't get past team at top of relegation",
-                TeamStatus.definitelyRelegated, blackburn.definitiveSafetyVerdictCheck(blackburn, teamList, i));
+                TeamStatus.definitelyRelegated, blackburn.definitiveSafetyVerdictCheck(blackburn, teamList, i, 38));
     }
     
     @Test
@@ -110,7 +114,7 @@ public class definitiveSafetyVerdictCheckTest {
         teamList = getTeamListFromVerdict("Premier League, 07/04/2012");
 
         assertEquals("Aston Villa should be unsafe as Blackburn can overtake", TeamStatus.highChanceOfRelegation,
-                astonVilla.definitiveSafetyVerdictCheck(astonVilla, teamList, i));
+                astonVilla.definitiveSafetyVerdictCheck(astonVilla, teamList, i, 38));
     }
 
     @Test
@@ -121,7 +125,7 @@ public class definitiveSafetyVerdictCheckTest {
         teamList = getTeamListFromVerdict("Premier League, 07/04/2012");
 
         assertEquals("Bolton should be unsafe as Blackburn can overtake", TeamStatus.highChanceOfRelegation,
-                bolton.definitiveSafetyVerdictCheck(bolton, teamList, i));
+                bolton.definitiveSafetyVerdictCheck(bolton, teamList, i, 38));
     }
 
     public ArrayList<Team> getTeamListFromVerdict(String tableName) {

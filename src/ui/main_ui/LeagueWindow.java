@@ -48,7 +48,7 @@ public class LeagueWindow extends JFrame {
                         else{
                             TeamVerdict leagueVerdict = new TeamVerdict(topPanel.getSelectedValue());
                             leagueTable.populateTable(leagueVerdict.getTeamList(), leagueVerdict.getVerdictArray(), leagueVerdict.getGamesRemaining());
-                            if(leagueVerdict.getTeamList().get(1).getGamesPlayed() < 30){
+                            if(leagueVerdict.getTeamList().get(1).gamesPlayed < 30){
                                 int bottomDifference = leagueVerdict.getBottomDifference();
                                 leagueTable.populateRelegationCell(bottomDifference);
                             }

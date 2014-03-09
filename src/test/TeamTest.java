@@ -15,14 +15,14 @@ public class TeamTest {
 
     @Test
     public void giveTeamPoints() {
-        assertEquals("Team Points", 32, createTeam("Sunderland", 32, 0, 0, 0, 0, 0).getPoints());
-        assertEquals("Team Points", 31, createTeam("QPR", 31, 0, 0, 0, 0, 0).getPoints());
+        assertEquals("Team Points", 32, createTeam("Sunderland", 32, 0, 0, 0, 0, 0).points);
+        assertEquals("Team Points", 31, createTeam("QPR", 31, 0, 0, 0, 0, 0).points);
     }
 
     @Test
     public void giveTeamGoalDifference() {
-        assertEquals("Team Goal Difference", -13, createTeam("Sunderland", 32,-13, 0, 0, 0, 0).getGoalDifference());
-        assertEquals("Team Goal Difference", 10, createTeam("Sunderland", 10, 10, 0, 0, 0, 0).getGoalDifference());
+        assertEquals("Team Goal Difference", -13, createTeam("Sunderland", 32,-13, 0, 0, 0, 0).goalDifference);
+        assertEquals("Team Goal Difference", 10, createTeam("Sunderland", 10, 10, 0, 0, 0, 0).goalDifference);
     }
 
     @Test
@@ -83,7 +83,7 @@ public class TeamTest {
 
 
     private void assertTeamName(String teamName, Team team) {
-        assertEquals("Team Name", teamName, team.getName());
+        assertEquals("Team Name", teamName, team.name);
     }
 
 }

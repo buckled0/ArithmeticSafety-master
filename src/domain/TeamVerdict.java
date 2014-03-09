@@ -26,26 +26,27 @@ public class TeamVerdict {
         xmlConnector = new XMLLeagueConnector(tableName);
         teamList = xmlConnector.getListOfTeams();
         verdictArray.clear();
-        int checkGamesPlayed = teamList.get(0).getGamesPlayed();
+        int checkGamesPlayed = teamList.get(0).gamesPlayed;
 
-        if(checkGamesPlayed == 38)
+        int numberOfGames = xmlConnector.getNumberOfGames();
+        if(checkGamesPlayed == numberOfGames)
             endOfSeasonPlacement();
-        else if(checkGamesPlayed >= 30){
+        else if(checkGamesPlayed >= numberOfGames - 8){
             for(int i = 0; i < teamList.size() - 1; i++){
                 Team team1 = teamList.get(i);
-                TeamStatus teamStatus = team1.definitiveSafetyVerdictCheck(team1, teamList, i);
+                TeamStatus teamStatus = team1.definitiveSafetyVerdictCheck(team1, teamList, i, numberOfGames);
                 verdictArray.add(i, teamStatus);
             }
             Team outOfRelegation = teamList.get(16);
             Team bottomTeam = teamList.get(19);
 
-            int totalGamesInSeason = 38;
-            int gamesInSeasonDifference = totalGamesInSeason - outOfRelegation.getGamesPlayed();
+            int totalGamesInSeason = numberOfGames;
+            int gamesInSeasonDifference = totalGamesInSeason - outOfRelegation.gamesPlayed;
             int possibleAmountOfPoints = gamesInSeasonDifference * 3;
-            int possibleEndOfSeason = bottomTeam.getPoints() + possibleAmountOfPoints;
-            setGamesRemaining(totalGamesInSeason - bottomTeam.getGamesPlayed());
+            int possibleEndOfSeason = bottomTeam.points + possibleAmountOfPoints;
+            setGamesRemaining(totalGamesInSeason - bottomTeam.gamesPlayed);
 
-            if(possibleEndOfSeason > outOfRelegation.getPoints())
+            if(possibleEndOfSeason > outOfRelegation.points)
                 verdictArray.add(19, TeamStatus.highChanceOfRelegation);
             else
                 verdictArray.add(19, TeamStatus.definitelyRelegated);
@@ -85,7 +86,7 @@ public class TeamVerdict {
     }
 
     public int getBottomDifference(){
-        int bottomDifference = teamList.get(18).getPoints() - teamList.get(19).getPoints() + 1;
+        int bottomDifference = teamList.get(18).points - teamList.get(19).points + 1;
         return bottomDifference;
     }
 

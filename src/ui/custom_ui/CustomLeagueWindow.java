@@ -55,8 +55,8 @@ public class CustomLeagueWindow extends JFrame {
                     customLeagueTable.populateTable(teamList, verdictList);
                     int bottom = teamList.size()-1;
                     int secondOffBottom = teamList.size()-2;
-                    int bottomGoalDifference = teamList.get(secondOffBottom).getPoints() -
-                            teamList.get(bottom).getPoints() + 1;
+                    int bottomGoalDifference = teamList.get(secondOffBottom).points -
+                            teamList.get(bottom).points + 1;
                     customLeagueTable.populateRelegationCell(bottomGoalDifference, teamAmount);
                 }
             }

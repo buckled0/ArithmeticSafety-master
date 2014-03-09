@@ -51,8 +51,8 @@ public class LeagueTable extends JTable {
         else {
 
             for(Team team: teamList){
-                model.addRow(new Object[]{team.getName(), team.getPoints(), team.getGoalDifference(),
-                        team.getWins(), team.getDraws(), team.getLoses(), team.getGamesPlayed()});
+                model.addRow(new Object[]{team.name, team.points, team.goalDifference,
+                        team.wins, team.draws, team.draws, team.gamesPlayed});
             }
 
             for(int i = 0; i < 20; i++){

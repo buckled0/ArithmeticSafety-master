@@ -36,8 +36,8 @@ public class BettingTeamSelection extends JPanel {
         String[] team2List = new String[20];
 
         for(int i = 0; i < 20; i++){
-            team1List[i] = leagueVerdict.getTeamList().get(i).getName();
-            team2List[i] = leagueVerdict.getTeamList().get(i).getName();
+            team1List[i] = leagueVerdict.getTeamList().get(i).name;
+            team2List[i] = leagueVerdict.getTeamList().get(i).name;
         }
 
         Arrays.sort(team1List);

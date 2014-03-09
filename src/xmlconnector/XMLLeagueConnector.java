@@ -18,7 +18,9 @@ public class XMLLeagueConnector {
 
     String tableName;
     public ArrayList<Team> listOfTeams = new ArrayList<Team>();
+    String leagueName;
     int numberOfGames;
+    int relegationZoneAmount;
 
     public XMLLeagueConnector(String tableName) throws ParserConfigurationException, IOException, SAXException {
         this.tableName = tableName;
@@ -39,7 +41,9 @@ public class XMLLeagueConnector {
 
                 if(leagueNode.getNodeType() == Node.ELEMENT_NODE){
                     Element element = (Element) leagueNode;
+                    leagueName = element.getElementsByTagName("League_Name").item(0).getTextContent();
                     numberOfGames = Integer.parseInt(element.getElementsByTagName("TotalGamesPlayed").item(0).getTextContent());
+                    relegationZoneAmount = Integer.parseInt(element.getElementsByTagName("RelegationZoneAmount").item(0).getTextContent());
                 }
 
             }
@@ -62,6 +66,14 @@ public class XMLLeagueConnector {
         } catch (Exception e){
             e.printStackTrace();
         }
+    }
+
+    public String getLeagueName(){
+        return leagueName;
+    }
+
+    public int getRelegationZoneAmount(){
+        return relegationZoneAmount;
     }
 
     public int getNumberOfGames(){

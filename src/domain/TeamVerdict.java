@@ -28,13 +28,16 @@ public class TeamVerdict {
         verdictArray.clear();
         int checkGamesPlayed = teamList.get(0).gamesPlayed;
 
+        String leagueName = xmlConnector.getLeagueName();
         int numberOfGames = xmlConnector.getNumberOfGames();
+        int relegationZoneAmount = xmlConnector.getRelegationZoneAmount();
         if(checkGamesPlayed == numberOfGames)
             endOfSeasonPlacement();
         else if(checkGamesPlayed >= numberOfGames - 8){
             for(int i = 0; i < teamList.size() - 1; i++){
                 Team team1 = teamList.get(i);
-                TeamStatus teamStatus = team1.definitiveSafetyVerdictCheck(team1, teamList, i, numberOfGames);
+                TeamStatus teamStatus = team1.definitiveSafetyVerdictCheck(teamList, i, leagueName, numberOfGames,
+                        relegationZoneAmount);
                 verdictArray.add(i, teamStatus);
             }
             Team outOfRelegation = teamList.get(16);

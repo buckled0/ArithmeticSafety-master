@@ -21,8 +21,14 @@ public class ResultsWindow extends JFrame{
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         getContentPane().add(BorderLayout.CENTER, new ResultsTable());
+        getContentPane().add(BorderLayout.NORTH, setUpNorthPanel());
 
         setVisible(true);
+    }
+
+    private ResultsNorth setUpNorthPanel(){
+        ResultsNorth resultsNorth = new ResultsNorth();
+        return resultsNorth;
     }
 
 }

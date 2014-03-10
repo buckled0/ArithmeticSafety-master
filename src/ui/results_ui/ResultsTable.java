@@ -25,6 +25,10 @@ public class ResultsTable extends JTable{
                 smallName = "Man U";
             else if (teamName.equals("Man City"))
                 smallName = "Man C";
+            else if(teamName.equals("West Ham"))
+                smallName = "WHam";
+            else if(teamName.equals("West Brom"))
+                smallName = "WBrom";
             else
                 smallName = teamName.substring(0, 3);
             columnHeaders[i] = smallName;
@@ -34,7 +38,7 @@ public class ResultsTable extends JTable{
         model = new DefaultTableModel(numRows, columnHeaders.length);
 
         model.setColumnIdentifiers(columnHeaders);
-
+        int numColumn = model.getColumnCount();
         table = new JTable(model){
             @Override
             public boolean isCellEditable(int row, int column) {
@@ -45,13 +49,10 @@ public class ResultsTable extends JTable{
             }};
 
         for(int i = 0; i < columnHeaders.length - 1; i++){
-            for(int j = 0; j < numRows; j++){
-                if(table.getColumnName(i + 1).equals(table.getValueAt(j, 0)))
-                    model.setValueAt("#######", i - 1, j);
-                else
-                    model.setValueAt(columnHeaders[i + 1], i, 0);
-            }
+            model.setValueAt(columnHeaders[i + 1], i, 0);
         }
+
+        findTheIntersections(numRows, numColumn);
 
         JScrollPane pane = new JScrollPane(table, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,
                 JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
@@ -59,8 +60,15 @@ public class ResultsTable extends JTable{
         setVisible(true);
         setLayout(new FlowLayout());
 
-
-
         add(pane);
+    }
+
+    private void findTheIntersections(int numRows, int numColumn) {
+        for(int i = 0; i < numRows; i++){
+            for(int j = 1; j < numColumn; j++){
+                if(table.getColumnModel().getColumn(j).getHeaderValue().equals(model.getValueAt(i, 0)))
+                    model.setValueAt("######", i, j);
+            }
+        }
     }
 }

@@ -11,6 +11,7 @@ public class NorthPanel extends JPanel{
     public JComboBox leagueMenu;
     public JButton calculate;
     public JButton bettingButton;
+    public JButton resultsButton;
     public String newValue;
 
     public NorthPanel() {
@@ -31,10 +32,12 @@ public class NorthPanel extends JPanel{
 
         calculate = new JButton("Calculate Safety");
         bettingButton = new JButton("Arithmetic Safety Betting");
+        resultsButton = new JButton("Premier League Results");
 
         add(leagueMenu);
         add(calculate);
         add(bettingButton);
+        add(resultsButton);
 
     }
 
@@ -44,6 +47,10 @@ public class NorthPanel extends JPanel{
 
     public void onBettingButton(ActionListener listener){
         bettingButton.addActionListener(listener);
+    }
+
+    public void onResultsButton(ActionListener listener){
+        resultsButton.addActionListener(listener);
     }
 
     private void setNewValue(String selectedValue){

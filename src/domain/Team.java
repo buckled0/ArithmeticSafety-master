@@ -12,7 +12,6 @@ public class Team {
     public int draws;
     public int gamesPlayed;
 
-
     public Team(String name,int points, int goalDifference, int wins, int loses, int draws, int gamesPlayed) {
         this.name = name;
         this.points = points;

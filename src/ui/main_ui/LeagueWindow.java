@@ -3,7 +3,7 @@ package ui.main_ui;
 import domain.TeamVerdict;
 import org.xml.sax.SAXException;
 import ui.betting_ui.BettingWindow;
-import ui.custom_ui.CustomLeagueWindow;
+import ui.results_ui.ResultsWindow;
 
 import javax.swing.*;
 import javax.xml.parsers.ParserConfigurationException;
@@ -28,7 +28,6 @@ public class LeagueWindow extends JFrame {
         getContentPane().add(BorderLayout.NORTH, setupTopPanel());
         getContentPane().add(BorderLayout.SOUTH, new SouthPanel());
         getContentPane().add(BorderLayout.CENTER, leagueTable = new LeagueTable());
-        getContentPane().add(BorderLayout.EAST, setupEastPanel());
 
         setVisible(true);
     }
@@ -84,36 +83,27 @@ public class LeagueWindow extends JFrame {
             }
         });
 
-        return topPanel;
-    }
-
-    private EastPanel setupEastPanel(){
-        final EastPanel eastPanel = new EastPanel();
-
-        eastPanel.onCreateTable(new ActionListener() {
+        topPanel.onResultsButton(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                final String defaultValue = "1";
-                final String teamAmount = eastPanel.getNewAmountValue();
-
-                if(teamAmount == null){
-                    javax.swing.SwingUtilities.invokeLater(new Runnable() {
-                        public void run() {
-                            new CustomLeagueWindow(defaultValue);
+                javax.swing.SwingUtilities.invokeLater(new Runnable() {
+                    @Override
+                    public void run() {
+                        try {
+                            new ResultsWindow();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        } catch (SAXException e) {
+                            e.printStackTrace();
+                        } catch (ParserConfigurationException e) {
+                            e.printStackTrace();
                         }
-                    });
-                }
-                else {
-                    javax.swing.SwingUtilities.invokeLater(new Runnable() {
-                        public void run() {
-                            new CustomLeagueWindow(teamAmount);
-                        }
-                    });
-                }
+                    }
+                });
             }
         });
 
-        return eastPanel;
+        return topPanel;
     }
 
 }

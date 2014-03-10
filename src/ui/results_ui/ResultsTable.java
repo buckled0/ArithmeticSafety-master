@@ -18,9 +18,13 @@ public class ResultsTable extends JTable{
         model = new DefaultTableModel();
         XMLLeagueConnector xmlLeagueConnector = new XMLLeagueConnector("Premier League");
         String[] columnHeaders = new String[21];
-        for(int i = 1; i < xmlLeagueConnector.getCurrentPremLeagueList().size(); i++){
-            columnHeaders[i] = xmlLeagueConnector.getCurrentPremLeagueList().get(i).teamName;
+        columnHeaders[0] = "";
+        for(int i = 1; i < xmlLeagueConnector.getListOfTeams().size(); i++){
+            String teamName = xmlLeagueConnector.getListOfTeams().get(i).name;
+            columnHeaders[i] = teamName.substring(0, 3);
+            System.out.println(teamName);
         }
+
         model.setColumnIdentifiers(columnHeaders);
         table = new JTable(model){
             @Override

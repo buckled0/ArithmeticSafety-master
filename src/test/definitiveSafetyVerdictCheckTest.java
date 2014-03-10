@@ -18,7 +18,7 @@ public class definitiveSafetyVerdictCheckTest {
 
     @Test
     public void shouldCheckForDefiniteChampionsFrom8GamesLeft() {
-        Team sunderland = createTeam("Sunderland", 111, 43, 0, 0, 0, 30);
+        Team sunderland = createTeam("Sunderland", 111, 43, 0, 0, 0, 30, 0);
         int i = 0;
 
         teamList = getTeamListFromVerdict("Premier League, 08/05/2012");
@@ -30,7 +30,7 @@ public class definitiveSafetyVerdictCheckTest {
 
     @Test
     public void shouldDefinitelyReturnDefinitelyReturnInChampionsLeagueFrom8GamesLeft() {
-        Team sunderland = createTeam("Sunderland", 92, 43, 30, 0, 0, 30);
+        Team sunderland = createTeam("Sunderland", 92, 43, 30, 0, 0, 30, 0);
         int i = 1;
 
         teamList = getTeamListFromVerdict("Premier League, 08/05/2012");
@@ -41,7 +41,7 @@ public class definitiveSafetyVerdictCheckTest {
 
     @Test
     public void shouldDefinitelyReturnInEuropaLeague(){
-        Team sunderland = createTeam("Sunderland", 89, 43, 30, 0, 0, 30);
+        Team sunderland = createTeam("Sunderland", 89, 43, 30, 0, 0, 30, 0);
         int i = 4;
 
         teamList = getTeamListFromVerdict("Premier League, 08/05/2012");
@@ -52,7 +52,7 @@ public class definitiveSafetyVerdictCheckTest {
 
     @Test
     public void shouldBeDefinitelySafeIfTopOfRelegationIsAmountOfViablePointsAwayFromCurrentTeam(){
-        Team sunderland = createTeam("Sunderland", 59, 43, 30, 0, 0, 30);
+        Team sunderland = createTeam("Sunderland", 59, 43, 30, 0, 0, 30, 0);
         int i = 5;
 
         teamList = getTeamListFromVerdict("Premier League, 08/05/2012");
@@ -64,7 +64,7 @@ public class definitiveSafetyVerdictCheckTest {
 
     @Test
     public void shouldReturnChanceOfChampionsIfTwoTeamsAreLockedForTitle(){
-        Team manCity = createTeam("Man Utd", 86, 55, 27, 5, 5, 37);
+        Team manCity = createTeam("Man Utd", 86, 55, 27, 5, 5, 37, 0);
         int i = 0;
 
         teamList = getTeamListFromVerdict("Premier League, 08/05/2012");
@@ -75,7 +75,7 @@ public class definitiveSafetyVerdictCheckTest {
 
     @Test
     public void shouldBeUnsafeSinceBoltonCanOvertakeQPRSinceOneGameRemaining(){
-        Team qpr = createTeam("QPR", 37, -22, 10, 20, 7, 37);
+        Team qpr = createTeam("QPR", 37, -22, 10, 20, 7, 37, 0);
         int i = 16;
 
         teamList = getTeamListFromVerdict("Premier League, 08/05/2012");
@@ -86,7 +86,7 @@ public class definitiveSafetyVerdictCheckTest {
 
     @Test
     public void shouldBeAbleToGetOutOfRelegationIfBoltonCanOvertakeQPR(){
-        Team bolton = createTeam("Bolton", 35, -31, 10, 22, 5, 37);
+        Team bolton = createTeam("Bolton", 35, -31, 10, 22, 5, 37, 0);
         int i = 17;
 
         teamList = getTeamListFromVerdict("Premier League, 08/05/2012");
@@ -97,7 +97,7 @@ public class definitiveSafetyVerdictCheckTest {
     
     @Test
     public void shouldDefinitelyBeRelegatedSinceBlackburnCantOvertakeQPR(){
-        Team blackburn = createTeam("Blackburn", 31, -41, 8, 22, 7, 37);
+        Team blackburn = createTeam("Blackburn", 31, -41, 8, 22, 7, 37, 0);
         int i = 18;
 
         teamList = getTeamListFromVerdict("Premier League, 08/05/2012");
@@ -108,7 +108,7 @@ public class definitiveSafetyVerdictCheckTest {
     
     @Test
     public void shouldBeUnsafeSinceBlackburnCouldPotentiallyGet12PointsAndOvertakeVilla(){
-        Team astonVilla = createTeam("Aston Villa", 34, -9, 7, 13, 11, 31);
+        Team astonVilla = createTeam("Aston Villa", 34, -9, 7, 13, 11, 31, 0);
         int i = 14;
 
         teamList = getTeamListFromVerdict("Premier League, 07/04/2012");
@@ -119,7 +119,7 @@ public class definitiveSafetyVerdictCheckTest {
 
     @Test
     public void shouldBeUnsafeSinceBlackburnCouldPotentiallyGet12PointsAndOvertakeBolton(){
-        Team bolton = createTeam("Aston Villa", 29, -9, 7, 13, 11, 31);
+        Team bolton = createTeam("Aston Villa", 29, -9, 7, 13, 11, 31, 0);
         int i = 15;
 
         teamList = getTeamListFromVerdict("Premier League, 07/04/2012");
@@ -145,7 +145,7 @@ public class definitiveSafetyVerdictCheckTest {
     }
 
     private Team createTeam(String name, int points, int goalDifference, int wins,
-                            int loses, int draws, int gamesPlayed) {
-        return new Team(name, points, goalDifference, wins, loses, draws, gamesPlayed);
+                            int loses, int draws, int gamesPlayed, int form) {
+        return new Team(name, points, goalDifference, wins, loses, draws, gamesPlayed, form);
     }
 }

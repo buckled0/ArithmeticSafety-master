@@ -14,6 +14,7 @@
         <Wins>28</Wins>
         <Loses>5</Loses>
         <Draws>5</Draws>
+        <Form>0</Form>
     </ROW>
 
     <ROW>
@@ -24,6 +25,7 @@
         <Wins>23</Wins>
         <Loses>6</Loses>
         <Draws>9</Draws>
+        <Form>0</Form>
     </ROW>
 
     <ROW>
@@ -34,6 +36,7 @@
         <Wins>22</Wins>
         <Loses>7</Loses>
         <Draws>9</Draws>
+        <Form>0</Form>
     </ROW>
 
     <ROW>
@@ -44,6 +47,7 @@
         <Wins>21</Wins>
         <Loses>7</Loses>
         <Draws>10</Draws>
+        <Form>0</Form>
     </ROW>
 
     <ROW>
@@ -54,6 +58,7 @@
         <Wins>21</Wins>
         <Loses>8</Loses>
         <Draws>9</Draws>
+        <Form>0</Form>
     </ROW>
 
     <ROW>
@@ -64,6 +69,7 @@
         <Wins>16</Wins>
         <Loses>7</Loses>
         <Draws>15</Draws>
+        <Form>0</Form>
     </ROW>
 
     <ROW>
@@ -74,6 +80,7 @@
         <Wins>16</Wins>
         <Loses>9</Loses>
         <Draws>13</Draws>
+        <Form>0</Form>
     </ROW>
 
     <ROW>
@@ -84,6 +91,7 @@
         <Wins>14</Wins>
         <Loses>17</Loses>
         <Draws>7</Draws>
+        <Form>0</Form>
     </ROW>
 
     <ROW>
@@ -94,6 +102,7 @@
         <Wins>11</Wins>
         <Loses>14</Loses>
         <Draws>13</Draws>
+        <Form>0</Form>
     </ROW>
 
     <ROW>
@@ -104,6 +113,7 @@
         <Wins>12</Wins>
         <Loses>16</Loses>
         <Draws>10</Draws>
+        <Form>0</Form>
     </ROW>
 
     <ROW>
@@ -114,6 +124,7 @@
         <Wins>10</Wins>
         <Loses>14</Loses>
         <Draws>14</Draws>
+        <Form>0</Form>
     </ROW>
 
     <ROW>
@@ -124,6 +135,7 @@
         <Wins>11</Wins>
         <Loses>17</Loses>
         <Draws>10</Draws>
+        <Form>0</Form>
     </ROW>
 
     <ROW>
@@ -134,6 +146,7 @@
         <Wins>9</Wins>
         <Loses>14</Loses>
         <Draws>15</Draws>
+        <Form>0</Form>
     </ROW>
 
     <ROW>
@@ -144,6 +157,7 @@
         <Wins>9</Wins>
         <Loses>15</Loses>
         <Draws>14</Draws>
+        <Form>0</Form>
     </ROW>
 
 
@@ -155,6 +169,7 @@
         <Wins>10</Wins>
         <Loses>17</Loses>
         <Draws>11</Draws>
+        <Form>0</Form>
     </ROW>
 
     <ROW>
@@ -165,6 +180,7 @@
         <Wins>11</Wins>
         <Loses>19</Loses>
         <Draws>8</Draws>
+        <Form>0</Form>
     </ROW>
 
     <ROW>
@@ -175,6 +191,7 @@
         <Wins>9</Wins>
         <Loses>17</Loses>
         <Draws>12</Draws>
+        <Form>0</Form>
     </ROW>
 
     <ROW>
@@ -185,6 +202,7 @@
         <Wins>9</Wins>
         <Loses>20</Loses>
         <Draws>9</Draws>
+        <Form>0</Form>
     </ROW>
 
     <ROW>
@@ -195,6 +213,7 @@
         <Wins>6</Wins>
         <Loses>22</Loses>
         <Draws>10</Draws>
+        <Form>0</Form>
     </ROW>
 
     <ROW>
@@ -205,6 +224,7 @@
         <Wins>4</Wins>
         <Loses>21</Loses>
         <Draws>13</Draws>
+        <Form>0</Form>
     </ROW>
 
 

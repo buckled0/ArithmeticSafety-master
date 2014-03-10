@@ -17,9 +17,11 @@ public class ResultsTable extends JTable{
     public ResultsTable() throws ParserConfigurationException, SAXException, IOException {
         model = new DefaultTableModel();
         XMLLeagueConnector xmlLeagueConnector = new XMLLeagueConnector("Premier League");
-        for(int i = 0; i < xmlLeagueConnector.getCurrentPremLeagueList().size(); i++){
-            model.setColumnIdentifiers(new String[]{xmlLeagueConnector.getCurrentPremLeagueList().get(i).teamName});
+        String[] columnHeaders = new String[21];
+        for(int i = 1; i < xmlLeagueConnector.getCurrentPremLeagueList().size(); i++){
+            columnHeaders[i] = xmlLeagueConnector.getCurrentPremLeagueList().get(i).teamName;
         }
+        model.setColumnIdentifiers(columnHeaders);
         table = new JTable(model){
             @Override
             public boolean isCellEditable(int row, int column) {

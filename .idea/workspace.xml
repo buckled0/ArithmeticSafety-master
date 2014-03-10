@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ab8f434-be48-415a-a650-30d6942658db" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ui/results_ui/ResultsTable.java" afterPath="$PROJECT_DIR$/src/ui/results_ui/ResultsTable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ui/results_ui/ResultsWindow.java" afterPath="$PROJECT_DIR$/src/ui/results_ui/ResultsWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/domain/Team.java" afterPath="$PROJECT_DIR$/src/domain/Team.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ArithmeticSafety.iws" />
@@ -66,64 +69,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LeagueWindow.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ui/main_ui/LeagueWindow.java">
+      <file leaf-file-name="ResultsWindow.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ui/results_ui/ResultsWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1610" selection-end="1610" vertical-scroll-proportion="0.33223686" vertical-offset="428" max-vertical-offset="2052">
-              <folding>
-                <element signature="e#1302#2741#0" expanded="true" />
-                <element signature="e#2730#2731#0" expanded="true" />
-                <element signature="e#2778#3517#0" expanded="true" />
-                <element signature="e#2945#3491#0" expanded="true" />
-                <element signature="e#3472#3473#0" expanded="true" />
-                <element signature="e#3506#3507#0" expanded="true" />
-                <element signature="e#3679#4506#0" expanded="true" />
-                <element signature="e#4013#4187#0" expanded="true" />
-                <element signature="e#4164#4165#0" expanded="true" />
-                <element signature="e#4290#4462#0" expanded="true" />
-                <element signature="e#4439#4440#0" expanded="true" />
-                <element signature="e#4495#4496#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Team.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/domain/Team.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="41" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2466">
+            <state line="12" column="67" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeamStatusMap.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/domain/TeamStatusMap.java">
+      <file leaf-file-name="ResultsTable.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ui/results_ui/ResultsTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="27" selection-start="2273" selection-end="2273" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="900">
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#261#281#0" expanded="false" />
-                <element signature="e#2376#2377#0" expanded="false" />
-                <element signature="e#2422#2423#0" expanded="false" />
-                <element signature="e#2459#2460#0" expanded="false" />
-                <element signature="e#2493#2494#0" expanded="false" />
-              </folding>
+            <state line="50" column="20" selection-start="1892" selection-end="1892" vertical-scroll-proportion="1.2664474" vertical-offset="4" max-vertical-offset="1170">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TableMap.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/domain/TableMap.java">
+      <file leaf-file-name="Premier League.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/xmlfiles/Premier League.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="73" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="864">
+            <state line="222" column="0" selection-start="5769" selection-end="5769" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="4590">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeagueTable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ui/main_ui/LeagueTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="48" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1332">
               <folding>
                 <element signature="imports" expanded="false" />
-                <element signature="e#231#247#0" expanded="false" />
-                <element signature="e#1993#1994#0" expanded="false" />
-                <element signature="e#2035#2036#0" expanded="false" />
-                <element signature="e#2070#2071#0" expanded="false" />
-                <element signature="e#2102#2103#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -142,8 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/database/BettingSQLConnector.java" />
-        <option value="$PROJECT_DIR$/src/test/BettingTest.java" />
         <option value="$PROJECT_DIR$/src/ui/main_ui/EastPanel.java" />
         <option value="$PROJECT_DIR$/src/ui/betting_ui/errorMessage.java" />
         <option value="$PROJECT_DIR$/src/domain/TeamStatus.java" />
@@ -168,7 +144,6 @@
         <option value="$PROJECT_DIR$/src/xmlfiles/Premier League 23 Feb 2014.xml" />
         <option value="$PROJECT_DIR$/src/domain/BettingVerdict.java" />
         <option value="$PROJECT_DIR$/src/domain/Betting.java" />
-        <option value="$PROJECT_DIR$/src/domain/Team.java" />
         <option value="$PROJECT_DIR$/src/ui/custom_ui/CustomLeagueTable.java" />
         <option value="$PROJECT_DIR$/src/domain/TeamStatusMap.java" />
         <option value="$PROJECT_DIR$/src/ui/main_ui/LeagueTable.java" />
@@ -193,6 +168,9 @@
         <option value="$PROJECT_DIR$/src/ui/test/TopPanelTest.java" />
         <option value="$PROJECT_DIR$/src/domain/TableMap.java" />
         <option value="$PROJECT_DIR$/src/ui/main_ui/LeagueWindow.java" />
+        <option value="$PROJECT_DIR$/src/domain/Team.java" />
+        <option value="$PROJECT_DIR$/src/ui/results_ui/ResultsWindow.java" />
+        <option value="$PROJECT_DIR$/src/ui/results_ui/ResultsTable.java" />
       </list>
     </option>
   </component>
@@ -227,16 +205,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -286,6 +254,10 @@
               <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="results_ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -304,14 +276,20 @@
               <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main_ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -363,6 +341,29 @@
             <option name="mySupportsDeletion" value="false" />
             <option name="myCanBeAbsent" value="false" />
             <option name="myId" value="UPDATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/domain/Team.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/TeamTest.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/definitiveSafetyVerdictCheckTest.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ui/results_ui/ResultsTable.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlconnector/XMLLeagueConnector.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlfiles/Premier League April 11 2012.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlfiles/Premier League April 21 2013.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlfiles/Premier League April 28 2012.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlfiles/Premier League April 28 2013.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlfiles/Premier League April 7 2012.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlfiles/Premier League Feb 12 2014.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlfiles/Premier League Feb 23 2014.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlfiles/Premier League Feb 9 2014.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlfiles/Premier League Half Way.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlfiles/Premier League March 2 2014.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlfiles/Premier League May 12 2013.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlfiles/Premier League May 13 2012.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlfiles/Premier League May 19 2013.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlfiles/Premier League May 5 2012.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlfiles/Premier League May 5 2013.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlfiles/Premier League May 7 2012.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlfiles/Premier League May 8 2012.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlfiles/Premier League.xml</PATH>
           </FILE-GROUP>
           <FILE-GROUP>
             <option name="myUpdateName" value="Created" />
@@ -370,7 +371,6 @@
             <option name="mySupportsDeletion" value="false" />
             <option name="myCanBeAbsent" value="false" />
             <option name="myId" value="CREATED" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/xmlfiles/Premier League March 2 2014.xml</PATH>
           </FILE-GROUP>
           <FILE-GROUP>
             <option name="myUpdateName" value="Deleted" />
@@ -378,6 +378,8 @@
             <option name="mySupportsDeletion" value="false" />
             <option name="myCanBeAbsent" value="true" />
             <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/domain/PremierLeague.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/PremierLeagueTest.java</PATH>
           </FILE-GROUP>
           <FILE-GROUP>
             <option name="myUpdateName" value="Restored" />
@@ -802,12 +804,16 @@
       <created>1394119737940</created>
       <updated>1394119737940</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Initial commit&#10;Changed the initial location so more central for the user&#10;More changes to the UI prior to the Demo&#10;">
+      <created>1394119747677</created>
+      <updated>1394119747677</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1150" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -815,7 +821,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39488637" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3944867" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24798061" sideWeight="0.45273632" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298479" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -825,7 +831,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24791232" sideWeight="0.54477614" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24791232" sideWeight="0.54477614" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39638785" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -860,14 +866,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/domain/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="150" selection-start="2540" selection-end="2540" vertical-scroll-proportion="0.0" vertical-offset="1638" max-vertical-offset="3024">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/TeamStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="26" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/test/LeagueWindowTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="367" selection-end="367" vertical-scroll-proportion="0.33074936" vertical-offset="7" max-vertical-offset="1020" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/VerdictDictionary.java">
@@ -880,39 +888,9 @@
         <state line="8" column="4" selection-start="164" selection-end="503" vertical-scroll-proportion="0.23796791" vertical-offset="1" max-vertical-offset="375" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/main_ui/EastPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="38" selection-start="479" selection-end="479" vertical-scroll-proportion="0.15151516" vertical-offset="90" max-vertical-offset="750" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.17736487" vertical-offset="0" max-vertical-offset="592" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/custom_ui/CustomLeagueWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="76" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.04040404" vertical-offset="381" max-vertical-offset="975" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/custom_ui/CustomBottomPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="62" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.6212121" vertical-offset="321" max-vertical-offset="915" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/test/LeagueTableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="12" selection-start="55" selection-end="55" vertical-scroll-proportion="0.04373178" vertical-offset="0" max-vertical-offset="1029" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/test/TestHelpers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.14577259" vertical-offset="0" max-vertical-offset="1029" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/LeagueSQLConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="64" selection-start="907" selection-end="907" vertical-scroll-proportion="0.72036475" vertical-offset="51" max-vertical-offset="1080" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/xmlfiles/Premier League Half Way.xml">
@@ -920,19 +898,9 @@
         <state line="195" column="46" selection-start="4167" selection-end="4167" vertical-scroll-proportion="0.7492401" vertical-offset="2432" max-vertical-offset="3120" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TeamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="5" selection-start="2794" selection-end="2794" vertical-scroll-proportion="1.5045593" vertical-offset="0" max-vertical-offset="1290" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/xmlfiles/Premier League May 8 2012.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="195" column="46" selection-start="4204" selection-end="4204" vertical-scroll-proportion="0.7720365" vertical-offset="2417" max-vertical-offset="3120" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/BettingSQLConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="83" selection-start="1261" selection-end="1275" vertical-scroll-proportion="0.5626822" vertical-offset="81" max-vertical-offset="1110" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/BettingTest.java">
@@ -965,11 +933,6 @@
         <state line="198" column="17" selection-start="4969" selection-end="4969" vertical-scroll-proportion="0.0" vertical-offset="2091" max-vertical-offset="3120" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/definitiveSafetyVerdictCheckTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1574" selection-end="1574" vertical-scroll-proportion="-0.22796352" vertical-offset="720" max-vertical-offset="2145" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/xmlfiles/Premier League Feb 12 2014.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="24" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="3420" />
@@ -978,11 +941,6 @@
     <entry file="file://$PROJECT_DIR$/src/xmlfiles/Premier League Feb 9 2014.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="24" selection-start="192" selection-end="192" vertical-scroll-proportion="0.15645371" vertical-offset="0" max-vertical-offset="3420" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/custom_ui/CustomLeagueTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="53" selection-start="2470" selection-end="2470" vertical-scroll-proportion="0.36636245" vertical-offset="763" max-vertical-offset="1530" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/xmlfiles/Premier League April 11 2012.xml">
@@ -1020,13 +978,6 @@
         <state line="198" column="17" selection-start="4983" selection-end="4983" vertical-scroll-proportion="0.0" vertical-offset="2769" max-vertical-offset="3798" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/main_ui/LeagueTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="84" selection-start="2386" selection-end="2386" vertical-scroll-proportion="1.0130378" vertical-offset="303" max-vertical-offset="1332">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/TeamVerdict.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="54" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1800" />
@@ -1052,119 +1003,113 @@
         <state line="31" column="56" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.50163937" vertical-offset="162" max-vertical-offset="918" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xmlfiles/Premier League.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="222" column="0" selection-start="5814" selection-end="5814" vertical-scroll-proportion="6.55082" vertical-offset="0" max-vertical-offset="4104" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/betting_ui/BettingSouthPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="19" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
+        <state line="19" column="19" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/betting_ui/BettingTeamSelection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0" vertical-offset="1026" max-vertical-offset="2430">
-          <folding />
-        </state>
+        <state line="30" column="0" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0" vertical-offset="1026" max-vertical-offset="2430" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/betting_ui/BettingNorthPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="72" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/test/TopPanelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="5" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="684">
-          <folding />
-        </state>
+        <state line="8" column="72" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/main_ui/NorthPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="105" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="972">
-          <folding />
-        </state>
+        <state line="29" column="105" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="972" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/betting_ui/BettingWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="57" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152">
+        <state line="13" column="57" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/TableMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="73" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="864" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/main_ui/LeagueWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="32" selection-start="2372" selection-end="2372" vertical-scroll-proportion="1.2730263" vertical-offset="0" max-vertical-offset="2052" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/TeamStatusMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="27" selection-start="2273" selection-end="2273" vertical-scroll-proportion="0.84539473" vertical-offset="98" max-vertical-offset="900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/definitiveSafetyVerdictCheckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1574" selection-end="1574" vertical-scroll-proportion="-0.2706767" vertical-offset="864" max-vertical-offset="2574">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TeamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="5" selection-start="2793" selection-end="2793" vertical-scroll-proportion="0.46902654" vertical-offset="870" max-vertical-offset="1548">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/Team.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="41" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2466">
+        <state line="23" column="25" selection-start="631" selection-end="631" vertical-scroll-proportion="0.059210528" vertical-offset="378" max-vertical-offset="1728">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/TeamStatusMap.java">
+    <entry file="jar:///usr/java/jdk1.7.0_21/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="27" selection-start="2273" selection-end="2273" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="900">
+        <state line="469" column="0" selection-start="17804" selection-end="17804" vertical-scroll-proportion="0.5986842" vertical-offset="7664" max-vertical-offset="21510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.7.0_21/src.zip!/javax/swing/table/DefaultTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="664" column="0" selection-start="23650" selection-end="23650" vertical-scroll-proportion="0.33223686" vertical-offset="11246" max-vertical-offset="12348">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/main_ui/LeagueTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="48" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0" vertical-offset="141" max-vertical-offset="1332">
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#261#281#0" expanded="false" />
-            <element signature="e#2376#2377#0" expanded="false" />
-            <element signature="e#2422#2423#0" expanded="false" />
-            <element signature="e#2459#2460#0" expanded="false" />
-            <element signature="e#2493#2494#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/TableMap.java">
+    <entry file="file://$PROJECT_DIR$/src/xmlfiles/Premier League.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="73" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="864">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#231#247#0" expanded="false" />
-            <element signature="e#1993#1994#0" expanded="false" />
-            <element signature="e#2035#2036#0" expanded="false" />
-            <element signature="e#2070#2071#0" expanded="false" />
-            <element signature="e#2102#2103#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/#.gitignore#">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
+        <state line="222" column="0" selection-start="5769" selection-end="5769" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4590">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/ui/results_ui/ResultsWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
+        <state line="12" column="67" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/main_ui/LeagueWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/ui/results_ui/ResultsTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1610" selection-end="1610" vertical-scroll-proportion="0.33223686" vertical-offset="428" max-vertical-offset="2052">
-          <folding>
-            <element signature="e#1302#2741#0" expanded="true" />
-            <element signature="e#2730#2731#0" expanded="true" />
-            <element signature="e#2778#3517#0" expanded="true" />
-            <element signature="e#2945#3491#0" expanded="true" />
-            <element signature="e#3472#3473#0" expanded="true" />
-            <element signature="e#3506#3507#0" expanded="true" />
-            <element signature="e#3679#4506#0" expanded="true" />
-            <element signature="e#4013#4187#0" expanded="true" />
-            <element signature="e#4164#4165#0" expanded="true" />
-            <element signature="e#4290#4462#0" expanded="true" />
-            <element signature="e#4439#4440#0" expanded="true" />
-            <element signature="e#4495#4496#0" expanded="true" />
-          </folding>
+        <state line="50" column="20" selection-start="1892" selection-end="1892" vertical-scroll-proportion="1.2664474" vertical-offset="4" max-vertical-offset="1170">
+          <folding />
         </state>
       </provider>
     </entry>

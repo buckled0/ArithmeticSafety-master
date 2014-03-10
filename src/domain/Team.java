@@ -11,6 +11,7 @@ public class Team {
     public int loses;
     public int draws;
     public int gamesPlayed;
+    public int form;
 
     public Team(String name, int points, int goalDifference, int wins, int loses, int draws, int gamesPlayed, int form) {
         this.name = name;
@@ -20,6 +21,7 @@ public class Team {
         this.loses = loses;
         this.draws = draws;
         this.gamesPlayed = gamesPlayed;
+        this.form = form;
     }
 
     public TeamStatus getTeamStatus(Team team2){

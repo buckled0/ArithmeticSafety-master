@@ -20,7 +20,7 @@ public class XMLBettingConnector {
 
     public XMLBettingConnector() throws ParserConfigurationException, IOException, SAXException {
         try {
-            File file = new File("/home/mbax9db8/ArithmeticSafety-master/src/xmlfiles/Premier League.xml");
+            File file = new File("./src/xmlfiles/Premier League.xml");
 
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();

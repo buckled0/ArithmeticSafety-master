@@ -12,6 +12,7 @@ public class ResultsWindow extends JFrame{
     public static final String TITLE = "Premier League Results";
     public static final Dimension INITIAL_SIZE = new Dimension(1550, 600);
     public static final Point INITIAL_LOCATION = new Point(300, 262);
+    private ResultsTable resultsTable;
 
     public ResultsWindow() throws IOException, SAXException, ParserConfigurationException {
         setTitle(TITLE);
@@ -20,7 +21,7 @@ public class ResultsWindow extends JFrame{
         setLocation(INITIAL_LOCATION);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
-        getContentPane().add(BorderLayout.CENTER, new ResultsTable());
+        getContentPane().add(BorderLayout.CENTER, resultsTable = new ResultsTable());
         getContentPane().add(BorderLayout.NORTH, setUpNorthPanel());
 
         setVisible(true);
@@ -28,6 +29,7 @@ public class ResultsWindow extends JFrame{
 
     private ResultsNorth setUpNorthPanel(){
         ResultsNorth resultsNorth = new ResultsNorth();
+
         return resultsNorth;
     }
 

@@ -5,6 +5,8 @@ import org.xml.sax.SAXException;
 import javax.swing.*;
 import javax.xml.parsers.ParserConfigurationException;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.IOException;
 
 public class ResultsWindow extends JFrame{
@@ -29,7 +31,12 @@ public class ResultsWindow extends JFrame{
 
     private ResultsNorth setUpNorthPanel(){
         ResultsNorth resultsNorth = new ResultsNorth();
-
+        resultsNorth.onClose(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                setVisible(false);
+            }
+        });
         return resultsNorth;
     }
 

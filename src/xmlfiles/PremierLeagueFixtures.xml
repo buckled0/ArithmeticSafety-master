@@ -12,7 +12,7 @@
         <homeTeam>Arsenal</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Cardiff City</awayTeam>
+        <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
         <date>Mon Dec 23 20:00:00 GMT 2013</date>
@@ -47,7 +47,7 @@
         <homeTeam>Arsenal</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Hull City</awayTeam>
+        <awayTeam>Hull</awayTeam>
     </match>
     <match>
         <date>Sat Nov 02 17:30:00 GMT 2013</date>
@@ -59,26 +59,26 @@
     <match>
         <date>Sat Mar 29 17:30:00 GMT 2014</date>
         <homeTeam>Arsenal</homeTeam>
-        <awayTeam>Manchester City</awayTeam>
+        <awayTeam>Man City</awayTeam>
     </match>
     <match>
         <date>Wed Feb 12 19:45:00 GMT 2014</date>
         <homeTeam>Arsenal</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Manchester United</awayTeam>
+        <awayTeam>Man Utd</awayTeam>
     </match>
     <match>
         <date>Mon Apr 28 20:00:00 BST 2014</date>
         <homeTeam>Arsenal</homeTeam>
-        <awayTeam>Newcastle United</awayTeam>
+        <awayTeam>Newcastle</awayTeam>
     </match>
     <match>
         <date>Sat Oct 19 15:00:00 BST 2013</date>
         <homeTeam>Arsenal</homeTeam>
         <homeTeamScore>4</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Norwich City</awayTeam>
+        <awayTeam>Norwich</awayTeam>
     </match>
     <match>
         <date>Sat Nov 23 15:00:00 GMT 2013</date>
@@ -92,7 +92,7 @@
         <homeTeam>Arsenal</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Stoke City</awayTeam>
+        <awayTeam>Stoke</awayTeam>
     </match>
     <match>
         <date>Sat Feb 22 15:00:00 GMT 2014</date>
@@ -104,19 +104,19 @@
     <match>
         <date>Tue Mar 25 19:45:00 GMT 2014</date>
         <homeTeam>Arsenal</homeTeam>
-        <awayTeam>Swansea City</awayTeam>
+        <awayTeam>Swansea</awayTeam>
     </match>
     <match>
         <date>Sun Sep 01 16:00:00 BST 2013</date>
         <homeTeam>Arsenal</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Tottenham Hotspur</awayTeam>
+        <awayTeam>Tottenham</awayTeam>
     </match>
     <match>
         <date>Sat May 03 15:00:00 BST 2014</date>
         <homeTeam>Arsenal</homeTeam>
-        <awayTeam>West Bromwich Albion</awayTeam>
+        <awayTeam>West Brom</awayTeam>
     </match>
     <match>
         <date>Mon Jan 13 20:00:00 GMT 2014</date>
@@ -130,7 +130,7 @@
         <homeTeam>Aston Villa</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Cardiff City</awayTeam>
+        <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
         <date>Sat Mar 15 17:30:00 GMT 2014</date>
@@ -159,7 +159,7 @@
     <match>
         <date>Sat May 03 15:00:00 BST 2014</date>
         <homeTeam>Aston Villa</homeTeam>
-        <awayTeam>Hull City</awayTeam>
+        <awayTeam>Hull</awayTeam>
     </match>
     <match>
         <date>Sat Aug 24 17:30:00 BST 2013</date>
@@ -173,28 +173,28 @@
         <homeTeam>Aston Villa</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Manchester City</awayTeam>
+        <awayTeam>Man City</awayTeam>
     </match>
     <match>
         <date>Sun Dec 15 13:30:00 GMT 2013</date>
         <homeTeam>Aston Villa</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
-        <awayTeam>Manchester United</awayTeam>
+        <awayTeam>Man Utd</awayTeam>
     </match>
     <match>
         <date>Sat Sep 14 15:00:00 BST 2013</date>
         <homeTeam>Aston Villa</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Newcastle United</awayTeam>
+        <awayTeam>Newcastle</awayTeam>
     </match>
     <match>
         <date>Sun Mar 02 16:30:00 GMT 2014</date>
         <homeTeam>Aston Villa</homeTeam>
         <homeTeamScore>4</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Norwich City</awayTeam>
+        <awayTeam>Norwich</awayTeam>
     </match>
     <match>
         <date>Sat Apr 19 15:00:00 BST 2014</date>
@@ -204,7 +204,7 @@
     <match>
         <date>Sun Mar 23 16:00:00 GMT 2014</date>
         <homeTeam>Aston Villa</homeTeam>
-        <awayTeam>Stoke City</awayTeam>
+        <awayTeam>Stoke</awayTeam>
     </match>
     <match>
         <date>Sat Nov 30 15:00:00 GMT 2013</date>
@@ -218,153 +218,153 @@
         <homeTeam>Aston Villa</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Swansea City</awayTeam>
+        <awayTeam>Swansea</awayTeam>
     </match>
     <match>
         <date>Sun Oct 20 16:00:00 BST 2013</date>
         <homeTeam>Aston Villa</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Tottenham Hotspur</awayTeam>
+        <awayTeam>Tottenham</awayTeam>
     </match>
     <match>
         <date>Wed Jan 29 19:45:00 GMT 2014</date>
         <homeTeam>Aston Villa</homeTeam>
         <homeTeamScore>4</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
-        <awayTeam>West Bromwich Albion</awayTeam>
+        <awayTeam>West Brom</awayTeam>
     </match>
     <match>
         <date>Sat Feb 08 15:00:00 GMT 2014</date>
         <homeTeam>Aston Villa</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>West Ham United</awayTeam>
+        <awayTeam>West Ham</awayTeam>
     </match>
     <match>
         <date>Sat Nov 30 15:00:00 GMT 2013</date>
-        <homeTeam>Cardiff City</homeTeam>
+        <homeTeam>Cardiff</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
         <awayTeam>Arsenal</awayTeam>
     </match>
     <match>
         <date>Tue Feb 11 19:45:00 GMT 2014</date>
-        <homeTeam>Cardiff City</homeTeam>
+        <homeTeam>Cardiff</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Aston Villa</awayTeam>
     </match>
     <match>
         <date>Sun May 11 15:00:00 BST 2014</date>
-        <homeTeam>Cardiff City</homeTeam>
+        <homeTeam>Cardiff</homeTeam>
         <awayTeam>Chelsea</awayTeam>
     </match>
     <match>
         <date>Sat Apr 05 15:00:00 BST 2014</date>
-        <homeTeam>Cardiff City</homeTeam>
+        <homeTeam>Cardiff</homeTeam>
         <awayTeam>Crystal Palace</awayTeam>
     </match>
     <match>
         <date>Sat Aug 31 15:00:00 BST 2013</date>
-        <homeTeam>Cardiff City</homeTeam>
+        <homeTeam>Cardiff</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Everton</awayTeam>
     </match>
     <match>
         <date>Sat Mar 08 15:00:00 GMT 2014</date>
-        <homeTeam>Cardiff City</homeTeam>
+        <homeTeam>Cardiff</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Fulham</awayTeam>
     </match>
     <match>
         <date>Sat Feb 22 15:00:00 GMT 2014</date>
-        <homeTeam>Cardiff City</homeTeam>
+        <homeTeam>Cardiff</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>4</awayTeamScore>
-        <awayTeam>Hull City</awayTeam>
+        <awayTeam>Hull</awayTeam>
     </match>
     <match>
         <date>Sat Mar 22 15:00:00 GMT 2014</date>
-        <homeTeam>Cardiff City</homeTeam>
+        <homeTeam>Cardiff</homeTeam>
         <awayTeam>Liverpool</awayTeam>
     </match>
     <match>
         <date>Sun Aug 25 16:00:00 BST 2013</date>
-        <homeTeam>Cardiff City</homeTeam>
+        <homeTeam>Cardiff</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Manchester City</awayTeam>
+        <awayTeam>Man City</awayTeam>
     </match>
     <match>
         <date>Sun Nov 24 16:00:00 GMT 2013</date>
-        <homeTeam>Cardiff City</homeTeam>
+        <homeTeam>Cardiff</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Manchester United</awayTeam>
+        <awayTeam>Man Utd</awayTeam>
     </match>
     <match>
         <date>Sat Oct 05 15:00:00 BST 2013</date>
-        <homeTeam>Cardiff City</homeTeam>
+        <homeTeam>Cardiff</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Newcastle United</awayTeam>
+        <awayTeam>Newcastle</awayTeam>
     </match>
     <match>
         <date>Sat Feb 01 15:00:00 GMT 2014</date>
-        <homeTeam>Cardiff City</homeTeam>
+        <homeTeam>Cardiff</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Norwich City</awayTeam>
+        <awayTeam>Norwich</awayTeam>
     </match>
     <match>
         <date>Thu Dec 26 15:00:00 GMT 2013</date>
-        <homeTeam>Cardiff City</homeTeam>
+        <homeTeam>Cardiff</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
         <awayTeam>Southampton</awayTeam>
     </match>
     <match>
         <date>Sat Apr 19 15:00:00 BST 2014</date>
-        <homeTeam>Cardiff City</homeTeam>
-        <awayTeam>Stoke City</awayTeam>
+        <homeTeam>Cardiff</homeTeam>
+        <awayTeam>Stoke</awayTeam>
     </match>
     <match>
         <date>Sat Dec 28 17:30:00 GMT 2013</date>
-        <homeTeam>Cardiff City</homeTeam>
+        <homeTeam>Cardiff</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
         <awayTeam>Sunderland</awayTeam>
     </match>
     <match>
         <date>Sun Nov 03 16:00:00 GMT 2013</date>
-        <homeTeam>Cardiff City</homeTeam>
+        <homeTeam>Cardiff</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Swansea City</awayTeam>
+        <awayTeam>Swansea</awayTeam>
     </match>
     <match>
         <date>Sun Sep 22 16:00:00 BST 2013</date>
-        <homeTeam>Cardiff City</homeTeam>
+        <homeTeam>Cardiff</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Tottenham Hotspur</awayTeam>
+        <awayTeam>Tottenham</awayTeam>
     </match>
     <match>
         <date>Sat Dec 14 15:00:00 GMT 2013</date>
-        <homeTeam>Cardiff City</homeTeam>
+        <homeTeam>Cardiff</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>West Bromwich Albion</awayTeam>
+        <awayTeam>West Brom</awayTeam>
     </match>
     <match>
         <date>Sat Jan 11 15:00:00 GMT 2014</date>
-        <homeTeam>Cardiff City</homeTeam>
+        <homeTeam>Cardiff</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>West Ham United</awayTeam>
+        <awayTeam>West Ham</awayTeam>
     </match>
     <match>
         <date>Sat Mar 22 12:45:00 GMT 2014</date>
@@ -383,7 +383,7 @@
         <homeTeam>Chelsea</homeTeam>
         <homeTeamScore>4</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Cardiff City</awayTeam>
+        <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
         <date>Sat Dec 14 15:00:00 GMT 2013</date>
@@ -411,7 +411,7 @@
         <homeTeam>Chelsea</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Hull City</awayTeam>
+        <awayTeam>Hull</awayTeam>
     </match>
     <match>
         <date>Sun Dec 29 16:00:00 GMT 2013</date>
@@ -425,26 +425,26 @@
         <homeTeam>Chelsea</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Manchester City</awayTeam>
+        <awayTeam>Man City</awayTeam>
     </match>
     <match>
         <date>Sun Jan 19 16:00:00 GMT 2014</date>
         <homeTeam>Chelsea</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Manchester United</awayTeam>
+        <awayTeam>Man Utd</awayTeam>
     </match>
     <match>
         <date>Sat Feb 08 15:00:00 GMT 2014</date>
         <homeTeam>Chelsea</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Newcastle United</awayTeam>
+        <awayTeam>Newcastle</awayTeam>
     </match>
     <match>
         <date>Sat May 03 15:00:00 BST 2014</date>
         <homeTeam>Chelsea</homeTeam>
-        <awayTeam>Norwich City</awayTeam>
+        <awayTeam>Norwich</awayTeam>
     </match>
     <match>
         <date>Sun Dec 01 16:10:00 GMT 2013</date>
@@ -456,7 +456,7 @@
     <match>
         <date>Sat Apr 05 17:30:00 BST 2014</date>
         <homeTeam>Chelsea</homeTeam>
-        <awayTeam>Stoke City</awayTeam>
+        <awayTeam>Stoke</awayTeam>
     </match>
     <match>
         <date>Sun Apr 20 14:05:00 BST 2014</date>
@@ -468,28 +468,28 @@
         <homeTeam>Chelsea</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Swansea City</awayTeam>
+        <awayTeam>Swansea</awayTeam>
     </match>
     <match>
         <date>Sat Mar 08 17:30:00 GMT 2014</date>
         <homeTeam>Chelsea</homeTeam>
         <homeTeamScore>4</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Tottenham Hotspur</awayTeam>
+        <awayTeam>Tottenham</awayTeam>
     </match>
     <match>
         <date>Sat Nov 09 15:00:00 GMT 2013</date>
         <homeTeam>Chelsea</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>West Bromwich Albion</awayTeam>
+        <awayTeam>West Brom</awayTeam>
     </match>
     <match>
         <date>Wed Jan 29 19:45:00 GMT 2014</date>
         <homeTeam>Chelsea</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>West Ham United</awayTeam>
+        <awayTeam>West Ham</awayTeam>
     </match>
     <match>
         <date>Sat Oct 26 12:45:00 BST 2013</date>
@@ -508,7 +508,7 @@
         <homeTeam>Crystal Palace</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Cardiff City</awayTeam>
+        <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
         <date>Sat Mar 29 15:00:00 GMT 2014</date>
@@ -534,7 +534,7 @@
         <homeTeam>Crystal Palace</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Hull City</awayTeam>
+        <awayTeam>Hull</awayTeam>
     </match>
     <match>
         <date>Sat May 03 15:00:00 BST 2014</date>
@@ -544,28 +544,28 @@
     <match>
         <date>Sun Apr 27 16:10:00 BST 2014</date>
         <homeTeam>Crystal Palace</homeTeam>
-        <awayTeam>Manchester City</awayTeam>
+        <awayTeam>Man City</awayTeam>
     </match>
     <match>
         <date>Sat Feb 22 17:30:00 GMT 2014</date>
         <homeTeam>Crystal Palace</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Manchester United</awayTeam>
+        <awayTeam>Man Utd</awayTeam>
     </match>
     <match>
         <date>Sat Dec 21 15:00:00 GMT 2013</date>
         <homeTeam>Crystal Palace</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
-        <awayTeam>Newcastle United</awayTeam>
+        <awayTeam>Newcastle</awayTeam>
     </match>
     <match>
         <date>Wed Jan 01 15:00:00 GMT 2014</date>
         <homeTeam>Crystal Palace</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Norwich City</awayTeam>
+        <awayTeam>Norwich</awayTeam>
     </match>
     <match>
         <date>Sat Mar 08 15:00:00 GMT 2014</date>
@@ -579,7 +579,7 @@
         <homeTeam>Crystal Palace</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Stoke City</awayTeam>
+        <awayTeam>Stoke</awayTeam>
     </match>
     <match>
         <date>Sat Aug 31 17:30:00 BST 2013</date>
@@ -593,28 +593,28 @@
         <homeTeam>Crystal Palace</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Swansea City</awayTeam>
+        <awayTeam>Swansea</awayTeam>
     </match>
     <match>
         <date>Sun Aug 18 13:30:00 BST 2013</date>
         <homeTeam>Crystal Palace</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Tottenham Hotspur</awayTeam>
+        <awayTeam>Tottenham</awayTeam>
     </match>
     <match>
         <date>Sat Feb 08 15:00:00 GMT 2014</date>
         <homeTeam>Crystal Palace</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>West Bromwich Albion</awayTeam>
+        <awayTeam>West Brom</awayTeam>
     </match>
     <match>
         <date>Tue Dec 03 20:00:00 GMT 2013</date>
         <homeTeam>Crystal Palace</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>West Ham United</awayTeam>
+        <awayTeam>West Ham</awayTeam>
     </match>
     <match>
         <date>Sun Apr 06 13:30:00 BST 2014</date>
@@ -631,7 +631,7 @@
     <match>
         <date>Sat Mar 15 15:00:00 GMT 2014</date>
         <homeTeam>Everton</homeTeam>
-        <awayTeam>Cardiff City</awayTeam>
+        <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
         <date>Sat Sep 14 17:30:00 BST 2013</date>
@@ -652,7 +652,7 @@
         <homeTeam>Everton</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Hull City</awayTeam>
+        <awayTeam>Hull</awayTeam>
     </match>
     <match>
         <date>Sat Nov 23 12:45:00 GMT 2013</date>
@@ -664,26 +664,26 @@
     <match>
         <date>Sat May 03 15:00:00 BST 2014</date>
         <homeTeam>Everton</homeTeam>
-        <awayTeam>Manchester City</awayTeam>
+        <awayTeam>Man City</awayTeam>
     </match>
     <match>
         <date>Sun Apr 20 16:10:00 BST 2014</date>
         <homeTeam>Everton</homeTeam>
-        <awayTeam>Manchester United</awayTeam>
+        <awayTeam>Man Utd</awayTeam>
     </match>
     <match>
         <date>Mon Sep 30 20:00:00 BST 2013</date>
         <homeTeam>Everton</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Newcastle United</awayTeam>
+        <awayTeam>Newcastle</awayTeam>
     </match>
     <match>
         <date>Sat Jan 11 15:00:00 GMT 2014</date>
         <homeTeam>Everton</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Norwich City</awayTeam>
+        <awayTeam>Norwich</awayTeam>
     </match>
     <match>
         <date>Sun Dec 29 13:30:00 GMT 2013</date>
@@ -697,7 +697,7 @@
         <homeTeam>Everton</homeTeam>
         <homeTeamScore>4</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Stoke City</awayTeam>
+        <awayTeam>Stoke</awayTeam>
     </match>
     <match>
         <date>Thu Dec 26 15:00:00 GMT 2013</date>
@@ -709,28 +709,28 @@
     <match>
         <date>Sat Mar 22 15:00:00 GMT 2014</date>
         <homeTeam>Everton</homeTeam>
-        <awayTeam>Swansea City</awayTeam>
+        <awayTeam>Swansea</awayTeam>
     </match>
     <match>
         <date>Sun Nov 03 13:30:00 GMT 2013</date>
         <homeTeam>Everton</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Tottenham Hotspur</awayTeam>
+        <awayTeam>Tottenham</awayTeam>
     </match>
     <match>
         <date>Sat Aug 24 15:00:00 BST 2013</date>
         <homeTeam>Everton</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>West Bromwich Albion</awayTeam>
+        <awayTeam>West Brom</awayTeam>
     </match>
     <match>
         <date>Sat Mar 01 15:00:00 GMT 2014</date>
         <homeTeam>Everton</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>West Ham United</awayTeam>
+        <awayTeam>West Ham</awayTeam>
     </match>
     <match>
         <date>Sat Aug 24 12:45:00 BST 2013</date>
@@ -751,7 +751,7 @@
         <homeTeam>Fulham</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Cardiff City</awayTeam>
+        <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
         <date>Sat Mar 01 15:00:00 GMT 2014</date>
@@ -773,7 +773,7 @@
     <match>
         <date>Sat Apr 26 15:00:00 BST 2014</date>
         <homeTeam>Fulham</homeTeam>
-        <awayTeam>Hull City</awayTeam>
+        <awayTeam>Hull</awayTeam>
     </match>
     <match>
         <date>Wed Feb 12 20:00:00 GMT 2014</date>
@@ -787,24 +787,24 @@
         <homeTeam>Fulham</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>4</awayTeamScore>
-        <awayTeam>Manchester City</awayTeam>
+        <awayTeam>Man City</awayTeam>
     </match>
     <match>
         <date>Sat Nov 02 15:00:00 GMT 2013</date>
         <homeTeam>Fulham</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
-        <awayTeam>Manchester United</awayTeam>
+        <awayTeam>Man Utd</awayTeam>
     </match>
     <match>
         <date>Sat Mar 15 15:00:00 GMT 2014</date>
         <homeTeam>Fulham</homeTeam>
-        <awayTeam>Newcastle United</awayTeam>
+        <awayTeam>Newcastle</awayTeam>
     </match>
     <match>
         <date>Sat Apr 12 15:00:00 BST 2014</date>
         <homeTeam>Fulham</homeTeam>
-        <awayTeam>Norwich City</awayTeam>
+        <awayTeam>Norwich</awayTeam>
     </match>
     <match>
         <date>Sat Feb 01 15:00:00 GMT 2014</date>
@@ -818,7 +818,7 @@
         <homeTeam>Fulham</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Stoke City</awayTeam>
+        <awayTeam>Stoke</awayTeam>
     </match>
     <match>
         <date>Sat Jan 11 15:00:00 GMT 2014</date>
@@ -832,151 +832,151 @@
         <homeTeam>Fulham</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Swansea City</awayTeam>
+        <awayTeam>Swansea</awayTeam>
     </match>
     <match>
         <date>Wed Dec 04 20:00:00 GMT 2013</date>
         <homeTeam>Fulham</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Tottenham Hotspur</awayTeam>
+        <awayTeam>Tottenham</awayTeam>
     </match>
     <match>
         <date>Sat Sep 14 15:00:00 BST 2013</date>
         <homeTeam>Fulham</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>West Bromwich Albion</awayTeam>
+        <awayTeam>West Brom</awayTeam>
     </match>
     <match>
         <date>Wed Jan 01 15:00:00 GMT 2014</date>
         <homeTeam>Fulham</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>West Ham United</awayTeam>
+        <awayTeam>West Ham</awayTeam>
     </match>
     <match>
         <date>Sat Apr 19 17:30:00 BST 2014</date>
-        <homeTeam>Hull City</homeTeam>
+        <homeTeam>Hull</homeTeam>
         <awayTeam>Arsenal</awayTeam>
     </match>
     <match>
         <date>Sat Oct 05 15:00:00 BST 2013</date>
-        <homeTeam>Hull City</homeTeam>
+        <homeTeam>Hull</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Aston Villa</awayTeam>
     </match>
     <match>
         <date>Sat Sep 14 15:00:00 BST 2013</date>
-        <homeTeam>Hull City</homeTeam>
+        <homeTeam>Hull</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Cardiff City</awayTeam>
+        <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
         <date>Sat Jan 11 12:45:00 GMT 2014</date>
-        <homeTeam>Hull City</homeTeam>
+        <homeTeam>Hull</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
         <awayTeam>Chelsea</awayTeam>
     </match>
     <match>
         <date>Sat Nov 23 15:00:00 GMT 2013</date>
-        <homeTeam>Hull City</homeTeam>
+        <homeTeam>Hull</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Crystal Palace</awayTeam>
     </match>
     <match>
         <date>Sun May 11 15:00:00 BST 2014</date>
-        <homeTeam>Hull City</homeTeam>
+        <homeTeam>Hull</homeTeam>
         <awayTeam>Everton</awayTeam>
     </match>
     <match>
         <date>Sat Dec 28 15:00:00 GMT 2013</date>
-        <homeTeam>Hull City</homeTeam>
+        <homeTeam>Hull</homeTeam>
         <homeTeamScore>6</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Fulham</awayTeam>
     </match>
     <match>
         <date>Sun Dec 01 14:05:00 GMT 2013</date>
-        <homeTeam>Hull City</homeTeam>
+        <homeTeam>Hull</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Liverpool</awayTeam>
     </match>
     <match>
         <date>Sat Mar 15 12:45:00 GMT 2014</date>
-        <homeTeam>Hull City</homeTeam>
-        <awayTeam>Manchester City</awayTeam>
+        <homeTeam>Hull</homeTeam>
+        <awayTeam>Man City</awayTeam>
     </match>
     <match>
         <date>Thu Dec 26 12:45:00 GMT 2013</date>
-        <homeTeam>Hull City</homeTeam>
+        <homeTeam>Hull</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
-        <awayTeam>Manchester United</awayTeam>
+        <awayTeam>Man Utd</awayTeam>
     </match>
     <match>
         <date>Sat Mar 01 15:00:00 GMT 2014</date>
-        <homeTeam>Hull City</homeTeam>
+        <homeTeam>Hull</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>4</awayTeamScore>
-        <awayTeam>Newcastle United</awayTeam>
+        <awayTeam>Newcastle</awayTeam>
     </match>
     <match>
         <date>Sat Aug 24 15:00:00 BST 2013</date>
-        <homeTeam>Hull City</homeTeam>
+        <homeTeam>Hull</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Norwich City</awayTeam>
+        <awayTeam>Norwich</awayTeam>
     </match>
     <match>
         <date>Tue Feb 11 19:45:00 GMT 2014</date>
-        <homeTeam>Hull City</homeTeam>
+        <homeTeam>Hull</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Southampton</awayTeam>
     </match>
     <match>
         <date>Sat Dec 14 17:30:00 GMT 2013</date>
-        <homeTeam>Hull City</homeTeam>
+        <homeTeam>Hull</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Stoke City</awayTeam>
+        <awayTeam>Stoke</awayTeam>
     </match>
     <match>
         <date>Sat Nov 02 15:00:00 GMT 2013</date>
-        <homeTeam>Hull City</homeTeam>
+        <homeTeam>Hull</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Sunderland</awayTeam>
     </match>
     <match>
         <date>Sat Apr 05 15:00:00 BST 2014</date>
-        <homeTeam>Hull City</homeTeam>
-        <awayTeam>Swansea City</awayTeam>
+        <homeTeam>Hull</homeTeam>
+        <awayTeam>Swansea</awayTeam>
     </match>
     <match>
         <date>Sat Feb 01 15:00:00 GMT 2014</date>
-        <homeTeam>Hull City</homeTeam>
+        <homeTeam>Hull</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Tottenham Hotspur</awayTeam>
+        <awayTeam>Tottenham</awayTeam>
     </match>
     <match>
         <date>Sat Mar 22 15:00:00 GMT 2014</date>
-        <homeTeam>Hull City</homeTeam>
-        <awayTeam>West Bromwich Albion</awayTeam>
+        <homeTeam>Hull</homeTeam>
+        <awayTeam>West Brom</awayTeam>
     </match>
     <match>
         <date>Sat Sep 28 15:00:00 BST 2013</date>
-        <homeTeam>Hull City</homeTeam>
+        <homeTeam>Hull</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>West Ham United</awayTeam>
+        <awayTeam>West Ham</awayTeam>
     </match>
     <match>
         <date>Sat Feb 08 12:45:00 GMT 2014</date>
@@ -997,7 +997,7 @@
         <homeTeam>Liverpool</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Cardiff City</awayTeam>
+        <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
         <date>Sun Apr 27 14:05:00 BST 2014</date>
@@ -1030,31 +1030,31 @@
         <homeTeam>Liverpool</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Hull City</awayTeam>
+        <awayTeam>Hull</awayTeam>
     </match>
     <match>
         <date>Sun Apr 13 14:05:00 BST 2014</date>
         <homeTeam>Liverpool</homeTeam>
-        <awayTeam>Manchester City</awayTeam>
+        <awayTeam>Man City</awayTeam>
     </match>
     <match>
         <date>Sun Sep 01 13:30:00 BST 2013</date>
         <homeTeam>Liverpool</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Manchester United</awayTeam>
+        <awayTeam>Man Utd</awayTeam>
     </match>
     <match>
         <date>Sun May 11 15:00:00 BST 2014</date>
         <homeTeam>Liverpool</homeTeam>
-        <awayTeam>Newcastle United</awayTeam>
+        <awayTeam>Newcastle</awayTeam>
     </match>
     <match>
         <date>Wed Dec 04 19:45:00 GMT 2013</date>
         <homeTeam>Liverpool</homeTeam>
         <homeTeamScore>5</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Norwich City</awayTeam>
+        <awayTeam>Norwich</awayTeam>
     </match>
     <match>
         <date>Sat Sep 21 15:00:00 BST 2013</date>
@@ -1068,7 +1068,7 @@
         <homeTeam>Liverpool</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Stoke City</awayTeam>
+        <awayTeam>Stoke</awayTeam>
     </match>
     <match>
         <date>Wed Mar 26 20:00:00 GMT 2014</date>
@@ -1080,496 +1080,496 @@
         <homeTeam>Liverpool</homeTeam>
         <homeTeamScore>4</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
-        <awayTeam>Swansea City</awayTeam>
+        <awayTeam>Swansea</awayTeam>
     </match>
     <match>
         <date>Sun Mar 30 16:00:00 BST 2014</date>
         <homeTeam>Liverpool</homeTeam>
-        <awayTeam>Tottenham Hotspur</awayTeam>
+        <awayTeam>Tottenham</awayTeam>
     </match>
     <match>
         <date>Sat Oct 26 15:00:00 BST 2013</date>
         <homeTeam>Liverpool</homeTeam>
         <homeTeamScore>4</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>West Bromwich Albion</awayTeam>
+        <awayTeam>West Brom</awayTeam>
     </match>
     <match>
         <date>Sat Dec 07 15:00:00 GMT 2013</date>
         <homeTeam>Liverpool</homeTeam>
         <homeTeamScore>4</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>West Ham United</awayTeam>
+        <awayTeam>West Ham</awayTeam>
     </match>
     <match>
         <date>Sat Dec 14 12:45:00 GMT 2013</date>
-        <homeTeam>Manchester City</homeTeam>
+        <homeTeam>Man City</homeTeam>
         <homeTeamScore>6</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
         <awayTeam>Arsenal</awayTeam>
     </match>
     <match>
         <date>Sat Jan 18 15:00:00 GMT 2014</date>
-        <homeTeam>Manchester City</homeTeam>
+        <homeTeam>Man City</homeTeam>
         <homeTeamScore>4</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Cardiff City</awayTeam>
+        <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
         <date>Mon Feb 03 20:00:00 GMT 2014</date>
-        <homeTeam>Manchester City</homeTeam>
+        <homeTeam>Man City</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Chelsea</awayTeam>
     </match>
     <match>
         <date>Sat Dec 28 15:00:00 GMT 2013</date>
-        <homeTeam>Manchester City</homeTeam>
+        <homeTeam>Man City</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Crystal Palace</awayTeam>
     </match>
     <match>
         <date>Sat Oct 05 12:45:00 BST 2013</date>
-        <homeTeam>Manchester City</homeTeam>
+        <homeTeam>Man City</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Everton</awayTeam>
     </match>
     <match>
         <date>Sat Mar 22 15:00:00 GMT 2014</date>
-        <homeTeam>Manchester City</homeTeam>
+        <homeTeam>Man City</homeTeam>
         <awayTeam>Fulham</awayTeam>
     </match>
     <match>
         <date>Sat Aug 31 12:45:00 BST 2013</date>
-        <homeTeam>Manchester City</homeTeam>
+        <homeTeam>Man City</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Hull City</awayTeam>
+        <awayTeam>Hull</awayTeam>
     </match>
     <match>
         <date>Thu Dec 26 17:30:00 GMT 2013</date>
-        <homeTeam>Manchester City</homeTeam>
+        <homeTeam>Man City</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Liverpool</awayTeam>
     </match>
     <match>
         <date>Sun Sep 22 16:00:00 BST 2013</date>
-        <homeTeam>Manchester City</homeTeam>
+        <homeTeam>Man City</homeTeam>
         <homeTeamScore>4</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Manchester United</awayTeam>
+        <awayTeam>Man Utd</awayTeam>
     </match>
     <match>
         <date>Mon Aug 19 20:00:00 BST 2013</date>
-        <homeTeam>Manchester City</homeTeam>
+        <homeTeam>Man City</homeTeam>
         <homeTeamScore>4</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Newcastle United</awayTeam>
+        <awayTeam>Newcastle</awayTeam>
     </match>
     <match>
         <date>Sat Nov 02 15:00:00 GMT 2013</date>
-        <homeTeam>Manchester City</homeTeam>
+        <homeTeam>Man City</homeTeam>
         <homeTeamScore>7</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Norwich City</awayTeam>
+        <awayTeam>Norwich</awayTeam>
     </match>
     <match>
         <date>Sat Apr 05 12:45:00 BST 2014</date>
-        <homeTeam>Manchester City</homeTeam>
+        <homeTeam>Man City</homeTeam>
         <awayTeam>Southampton</awayTeam>
     </match>
     <match>
         <date>Sat Feb 22 15:00:00 GMT 2014</date>
-        <homeTeam>Manchester City</homeTeam>
+        <homeTeam>Man City</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Stoke City</awayTeam>
+        <awayTeam>Stoke</awayTeam>
     </match>
     <match>
         <date>Sun Dec 01 16:10:00 GMT 2013</date>
-        <homeTeam>Manchester City</homeTeam>
+        <homeTeam>Man City</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Swansea City</awayTeam>
+        <awayTeam>Swansea</awayTeam>
     </match>
     <match>
         <date>Sun Nov 24 13:30:00 GMT 2013</date>
-        <homeTeam>Manchester City</homeTeam>
+        <homeTeam>Man City</homeTeam>
         <homeTeamScore>6</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Tottenham Hotspur</awayTeam>
+        <awayTeam>Tottenham</awayTeam>
     </match>
     <match>
         <date>Mon Apr 21 20:00:00 BST 2014</date>
-        <homeTeam>Manchester City</homeTeam>
-        <awayTeam>West Bromwich Albion</awayTeam>
+        <homeTeam>Man City</homeTeam>
+        <awayTeam>West Brom</awayTeam>
     </match>
     <match>
         <date>Sun May 11 15:00:00 BST 2014</date>
-        <homeTeam>Manchester City</homeTeam>
-        <awayTeam>West Ham United</awayTeam>
+        <homeTeam>Man City</homeTeam>
+        <awayTeam>West Ham</awayTeam>
     </match>
     <match>
         <date>Sun Nov 10 16:10:00 GMT 2013</date>
-        <homeTeam>Manchester United</homeTeam>
+        <homeTeam>Man Utd</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Arsenal</awayTeam>
     </match>
     <match>
         <date>Sat Mar 29 12:45:00 GMT 2014</date>
-        <homeTeam>Manchester United</homeTeam>
+        <homeTeam>Man Utd</homeTeam>
         <awayTeam>Aston Villa</awayTeam>
     </match>
     <match>
         <date>Tue Jan 28 19:45:00 GMT 2014</date>
-        <homeTeam>Manchester United</homeTeam>
+        <homeTeam>Man Utd</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Cardiff City</awayTeam>
+        <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
         <date>Mon Aug 26 20:00:00 BST 2013</date>
-        <homeTeam>Manchester United</homeTeam>
+        <homeTeam>Man Utd</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Chelsea</awayTeam>
     </match>
     <match>
         <date>Sat Sep 14 12:45:00 BST 2013</date>
-        <homeTeam>Manchester United</homeTeam>
+        <homeTeam>Man Utd</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Crystal Palace</awayTeam>
     </match>
     <match>
         <date>Wed Dec 04 19:45:00 GMT 2013</date>
-        <homeTeam>Manchester United</homeTeam>
+        <homeTeam>Man Utd</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Everton</awayTeam>
     </match>
     <match>
         <date>Sun Feb 09 16:00:00 GMT 2014</date>
-        <homeTeam>Manchester United</homeTeam>
+        <homeTeam>Man Utd</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
         <awayTeam>Fulham</awayTeam>
     </match>
     <match>
         <date>Sun Mar 16 13:30:00 GMT 2014</date>
-        <homeTeam>Manchester United</homeTeam>
+        <homeTeam>Man Utd</homeTeam>
         <awayTeam>Liverpool</awayTeam>
     </match>
     <match>
         <date>Sat Dec 07 12:45:00 GMT 2013</date>
-        <homeTeam>Manchester United</homeTeam>
+        <homeTeam>Man Utd</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Newcastle United</awayTeam>
+        <awayTeam>Newcastle</awayTeam>
     </match>
     <match>
         <date>Sat Apr 26 17:30:00 BST 2014</date>
-        <homeTeam>Manchester United</homeTeam>
-        <awayTeam>Norwich City</awayTeam>
+        <homeTeam>Man Utd</homeTeam>
+        <awayTeam>Norwich</awayTeam>
     </match>
     <match>
         <date>Sat Oct 19 15:00:00 BST 2013</date>
-        <homeTeam>Manchester United</homeTeam>
+        <homeTeam>Man Utd</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Southampton</awayTeam>
     </match>
     <match>
         <date>Sat Oct 26 15:00:00 BST 2013</date>
-        <homeTeam>Manchester United</homeTeam>
+        <homeTeam>Man Utd</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Stoke City</awayTeam>
+        <awayTeam>Stoke</awayTeam>
     </match>
     <match>
         <date>Sat May 03 15:00:00 BST 2014</date>
-        <homeTeam>Manchester United</homeTeam>
+        <homeTeam>Man Utd</homeTeam>
         <awayTeam>Sunderland</awayTeam>
     </match>
     <match>
         <date>Sat Jan 11 17:30:00 GMT 2014</date>
-        <homeTeam>Manchester United</homeTeam>
+        <homeTeam>Man Utd</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Swansea City</awayTeam>
+        <awayTeam>Swansea</awayTeam>
     </match>
     <match>
         <date>Wed Jan 01 17:30:00 GMT 2014</date>
-        <homeTeam>Manchester United</homeTeam>
+        <homeTeam>Man Utd</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Tottenham Hotspur</awayTeam>
+        <awayTeam>Tottenham</awayTeam>
     </match>
     <match>
         <date>Sat Sep 28 15:00:00 BST 2013</date>
-        <homeTeam>Manchester United</homeTeam>
+        <homeTeam>Man Utd</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>West Bromwich Albion</awayTeam>
+        <awayTeam>West Brom</awayTeam>
     </match>
     <match>
         <date>Sat Dec 21 15:00:00 GMT 2013</date>
-        <homeTeam>Manchester United</homeTeam>
+        <homeTeam>Man Utd</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>West Ham United</awayTeam>
+        <awayTeam>West Ham</awayTeam>
     </match>
     <match>
         <date>Sun Dec 29 13:30:00 GMT 2013</date>
-        <homeTeam>Newcastle United</homeTeam>
+        <homeTeam>Newcastle</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Arsenal</awayTeam>
     </match>
     <match>
         <date>Sun Feb 23 13:30:00 GMT 2014</date>
-        <homeTeam>Newcastle United</homeTeam>
+        <homeTeam>Newcastle</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Aston Villa</awayTeam>
     </match>
     <match>
         <date>Sat May 03 15:00:00 BST 2014</date>
-        <homeTeam>Newcastle United</homeTeam>
-        <awayTeam>Cardiff City</awayTeam>
+        <homeTeam>Newcastle</homeTeam>
+        <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
         <date>Sat Nov 02 12:45:00 GMT 2013</date>
-        <homeTeam>Newcastle United</homeTeam>
+        <homeTeam>Newcastle</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Chelsea</awayTeam>
     </match>
     <match>
         <date>Sat Mar 22 15:00:00 GMT 2014</date>
-        <homeTeam>Newcastle United</homeTeam>
+        <homeTeam>Newcastle</homeTeam>
         <awayTeam>Crystal Palace</awayTeam>
     </match>
     <match>
         <date>Tue Mar 25 19:45:00 GMT 2014</date>
-        <homeTeam>Newcastle United</homeTeam>
+        <homeTeam>Newcastle</homeTeam>
         <awayTeam>Everton</awayTeam>
     </match>
     <match>
         <date>Sat Aug 31 15:00:00 BST 2013</date>
-        <homeTeam>Newcastle United</homeTeam>
+        <homeTeam>Newcastle</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Fulham</awayTeam>
     </match>
     <match>
         <date>Sat Sep 21 15:00:00 BST 2013</date>
-        <homeTeam>Newcastle United</homeTeam>
+        <homeTeam>Newcastle</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
-        <awayTeam>Hull City</awayTeam>
+        <awayTeam>Hull</awayTeam>
     </match>
     <match>
         <date>Sat Oct 19 12:45:00 BST 2013</date>
-        <homeTeam>Newcastle United</homeTeam>
+        <homeTeam>Newcastle</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
         <awayTeam>Liverpool</awayTeam>
     </match>
     <match>
         <date>Sun Jan 12 14:05:00 GMT 2014</date>
-        <homeTeam>Newcastle United</homeTeam>
+        <homeTeam>Newcastle</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Manchester City</awayTeam>
+        <awayTeam>Man City</awayTeam>
     </match>
     <match>
         <date>Sat Apr 05 15:00:00 BST 2014</date>
-        <homeTeam>Newcastle United</homeTeam>
-        <awayTeam>Manchester United</awayTeam>
+        <homeTeam>Newcastle</homeTeam>
+        <awayTeam>Man Utd</awayTeam>
     </match>
     <match>
         <date>Sat Nov 23 15:00:00 GMT 2013</date>
-        <homeTeam>Newcastle United</homeTeam>
+        <homeTeam>Newcastle</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Norwich City</awayTeam>
+        <awayTeam>Norwich</awayTeam>
     </match>
     <match>
         <date>Sat Dec 14 15:00:00 GMT 2013</date>
-        <homeTeam>Newcastle United</homeTeam>
+        <homeTeam>Newcastle</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Southampton</awayTeam>
     </match>
     <match>
         <date>Thu Dec 26 15:00:00 GMT 2013</date>
-        <homeTeam>Newcastle United</homeTeam>
+        <homeTeam>Newcastle</homeTeam>
         <homeTeamScore>5</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Stoke City</awayTeam>
+        <awayTeam>Stoke</awayTeam>
     </match>
     <match>
         <date>Sat Feb 01 12:45:00 GMT 2014</date>
-        <homeTeam>Newcastle United</homeTeam>
+        <homeTeam>Newcastle</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
         <awayTeam>Sunderland</awayTeam>
     </match>
     <match>
         <date>Sat Apr 19 15:00:00 BST 2014</date>
-        <homeTeam>Newcastle United</homeTeam>
-        <awayTeam>Swansea City</awayTeam>
+        <homeTeam>Newcastle</homeTeam>
+        <awayTeam>Swansea</awayTeam>
     </match>
     <match>
         <date>Wed Feb 12 19:45:00 GMT 2014</date>
-        <homeTeam>Newcastle United</homeTeam>
+        <homeTeam>Newcastle</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>4</awayTeamScore>
-        <awayTeam>Tottenham Hotspur</awayTeam>
+        <awayTeam>Tottenham</awayTeam>
     </match>
     <match>
         <date>Sat Nov 30 17:30:00 GMT 2013</date>
-        <homeTeam>Newcastle United</homeTeam>
+        <homeTeam>Newcastle</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>West Bromwich Albion</awayTeam>
+        <awayTeam>West Brom</awayTeam>
     </match>
     <match>
         <date>Sat Aug 24 15:00:00 BST 2013</date>
-        <homeTeam>Newcastle United</homeTeam>
+        <homeTeam>Newcastle</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>West Ham United</awayTeam>
+        <awayTeam>West Ham</awayTeam>
     </match>
     <match>
         <date>Sun May 11 15:00:00 BST 2014</date>
-        <homeTeam>Norwich City</homeTeam>
+        <homeTeam>Norwich</homeTeam>
         <awayTeam>Arsenal</awayTeam>
     </match>
     <match>
         <date>Sat Sep 21 12:45:00 BST 2013</date>
-        <homeTeam>Norwich City</homeTeam>
+        <homeTeam>Norwich</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Aston Villa</awayTeam>
     </match>
     <match>
         <date>Sat Oct 26 15:00:00 BST 2013</date>
-        <homeTeam>Norwich City</homeTeam>
+        <homeTeam>Norwich</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Cardiff City</awayTeam>
+        <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
         <date>Sun Oct 06 13:30:00 BST 2013</date>
-        <homeTeam>Norwich City</homeTeam>
+        <homeTeam>Norwich</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
         <awayTeam>Chelsea</awayTeam>
     </match>
     <match>
         <date>Sat Nov 30 15:00:00 GMT 2013</date>
-        <homeTeam>Norwich City</homeTeam>
+        <homeTeam>Norwich</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Crystal Palace</awayTeam>
     </match>
     <match>
         <date>Sat Aug 17 15:00:00 BST 2013</date>
-        <homeTeam>Norwich City</homeTeam>
+        <homeTeam>Norwich</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
         <awayTeam>Everton</awayTeam>
     </match>
     <match>
         <date>Thu Dec 26 15:00:00 GMT 2013</date>
-        <homeTeam>Norwich City</homeTeam>
+        <homeTeam>Norwich</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
         <awayTeam>Fulham</awayTeam>
     </match>
     <match>
         <date>Sat Jan 18 15:00:00 GMT 2014</date>
-        <homeTeam>Norwich City</homeTeam>
+        <homeTeam>Norwich</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Hull City</awayTeam>
+        <awayTeam>Hull</awayTeam>
     </match>
     <match>
         <date>Sun Apr 20 12:00:00 BST 2014</date>
-        <homeTeam>Norwich City</homeTeam>
+        <homeTeam>Norwich</homeTeam>
         <awayTeam>Liverpool</awayTeam>
     </match>
     <match>
         <date>Sat Feb 08 15:00:00 GMT 2014</date>
-        <homeTeam>Norwich City</homeTeam>
+        <homeTeam>Norwich</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Manchester City</awayTeam>
+        <awayTeam>Man City</awayTeam>
     </match>
     <match>
         <date>Sat Dec 28 15:00:00 GMT 2013</date>
-        <homeTeam>Norwich City</homeTeam>
+        <homeTeam>Norwich</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Manchester United</awayTeam>
+        <awayTeam>Man Utd</awayTeam>
     </match>
     <match>
         <date>Tue Jan 28 19:45:00 GMT 2014</date>
-        <homeTeam>Norwich City</homeTeam>
+        <homeTeam>Norwich</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Newcastle United</awayTeam>
+        <awayTeam>Newcastle</awayTeam>
     </match>
     <match>
         <date>Sat Aug 31 15:00:00 BST 2013</date>
-        <homeTeam>Norwich City</homeTeam>
+        <homeTeam>Norwich</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Southampton</awayTeam>
     </match>
     <match>
         <date>Sat Mar 08 15:00:00 GMT 2014</date>
-        <homeTeam>Norwich City</homeTeam>
+        <homeTeam>Norwich</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Stoke City</awayTeam>
+        <awayTeam>Stoke</awayTeam>
     </match>
     <match>
         <date>Sat Mar 22 15:00:00 GMT 2014</date>
-        <homeTeam>Norwich City</homeTeam>
+        <homeTeam>Norwich</homeTeam>
         <awayTeam>Sunderland</awayTeam>
     </match>
     <match>
         <date>Sun Dec 15 13:30:00 GMT 2013</date>
-        <homeTeam>Norwich City</homeTeam>
+        <homeTeam>Norwich</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Swansea City</awayTeam>
+        <awayTeam>Swansea</awayTeam>
     </match>
     <match>
         <date>Sun Feb 23 16:00:00 GMT 2014</date>
-        <homeTeam>Norwich City</homeTeam>
+        <homeTeam>Norwich</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Tottenham Hotspur</awayTeam>
+        <awayTeam>Tottenham</awayTeam>
     </match>
     <match>
         <date>Sat Apr 05 15:00:00 BST 2014</date>
-        <homeTeam>Norwich City</homeTeam>
-        <awayTeam>West Bromwich Albion</awayTeam>
+        <homeTeam>Norwich</homeTeam>
+        <awayTeam>West Brom</awayTeam>
     </match>
     <match>
         <date>Sat Nov 09 17:30:00 GMT 2013</date>
-        <homeTeam>Norwich City</homeTeam>
+        <homeTeam>Norwich</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>West Ham United</awayTeam>
+        <awayTeam>West Ham</awayTeam>
     </match>
     <match>
         <date>Tue Jan 28 19:45:00 GMT 2014</date>
@@ -1588,7 +1588,7 @@
     <match>
         <date>Sat Apr 12 15:00:00 BST 2014</date>
         <homeTeam>Southampton</homeTeam>
-        <awayTeam>Cardiff City</awayTeam>
+        <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
         <date>Wed Jan 01 15:00:00 GMT 2014</date>
@@ -1621,7 +1621,7 @@
         <homeTeam>Southampton</homeTeam>
         <homeTeamScore>4</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Hull City</awayTeam>
+        <awayTeam>Hull</awayTeam>
     </match>
     <match>
         <date>Sat Mar 01 17:30:00 GMT 2014</date>
@@ -1635,29 +1635,29 @@
         <homeTeam>Southampton</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Manchester City</awayTeam>
+        <awayTeam>Man City</awayTeam>
     </match>
     <match>
         <date>Sun May 11 15:00:00 BST 2014</date>
         <homeTeam>Southampton</homeTeam>
-        <awayTeam>Manchester United</awayTeam>
+        <awayTeam>Man Utd</awayTeam>
     </match>
     <match>
         <date>Sat Mar 29 15:00:00 GMT 2014</date>
         <homeTeam>Southampton</homeTeam>
-        <awayTeam>Newcastle United</awayTeam>
+        <awayTeam>Newcastle</awayTeam>
     </match>
     <match>
         <date>Sat Mar 15 15:00:00 GMT 2014</date>
         <homeTeam>Southampton</homeTeam>
-        <awayTeam>Norwich City</awayTeam>
+        <awayTeam>Norwich</awayTeam>
     </match>
     <match>
         <date>Sat Feb 08 15:00:00 GMT 2014</date>
         <homeTeam>Southampton</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Stoke City</awayTeam>
+        <awayTeam>Stoke</awayTeam>
     </match>
     <match>
         <date>Sat Aug 24 15:00:00 BST 2013</date>
@@ -1671,151 +1671,151 @@
         <homeTeam>Southampton</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Swansea City</awayTeam>
+        <awayTeam>Swansea</awayTeam>
     </match>
     <match>
         <date>Sun Dec 22 13:30:00 GMT 2013</date>
         <homeTeam>Southampton</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
-        <awayTeam>Tottenham Hotspur</awayTeam>
+        <awayTeam>Tottenham</awayTeam>
     </match>
     <match>
         <date>Sat Jan 11 15:00:00 GMT 2014</date>
         <homeTeam>Southampton</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>West Bromwich Albion</awayTeam>
+        <awayTeam>West Brom</awayTeam>
     </match>
     <match>
         <date>Sun Sep 15 16:00:00 BST 2013</date>
         <homeTeam>Southampton</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>West Ham United</awayTeam>
+        <awayTeam>West Ham</awayTeam>
     </match>
     <match>
         <date>Sat Mar 01 15:00:00 GMT 2014</date>
-        <homeTeam>Stoke City</homeTeam>
+        <homeTeam>Stoke</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Arsenal</awayTeam>
     </match>
     <match>
         <date>Sat Dec 21 15:00:00 GMT 2013</date>
-        <homeTeam>Stoke City</homeTeam>
+        <homeTeam>Stoke</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Aston Villa</awayTeam>
     </match>
     <match>
         <date>Wed Dec 04 19:45:00 GMT 2013</date>
-        <homeTeam>Stoke City</homeTeam>
+        <homeTeam>Stoke</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Cardiff City</awayTeam>
+        <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
         <date>Sat Dec 07 15:00:00 GMT 2013</date>
-        <homeTeam>Stoke City</homeTeam>
+        <homeTeam>Stoke</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
         <awayTeam>Chelsea</awayTeam>
     </match>
     <match>
         <date>Sat Aug 24 15:00:00 BST 2013</date>
-        <homeTeam>Stoke City</homeTeam>
+        <homeTeam>Stoke</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Crystal Palace</awayTeam>
     </match>
     <match>
         <date>Wed Jan 01 15:00:00 GMT 2014</date>
-        <homeTeam>Stoke City</homeTeam>
+        <homeTeam>Stoke</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Everton</awayTeam>
     </match>
     <match>
         <date>Sat May 03 15:00:00 BST 2014</date>
-        <homeTeam>Stoke City</homeTeam>
+        <homeTeam>Stoke</homeTeam>
         <awayTeam>Fulham</awayTeam>
     </match>
     <match>
         <date>Sat Mar 29 15:00:00 GMT 2014</date>
-        <homeTeam>Stoke City</homeTeam>
-        <awayTeam>Hull City</awayTeam>
+        <homeTeam>Stoke</homeTeam>
+        <awayTeam>Hull</awayTeam>
     </match>
     <match>
         <date>Sun Jan 12 16:10:00 GMT 2014</date>
-        <homeTeam>Stoke City</homeTeam>
+        <homeTeam>Stoke</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>5</awayTeamScore>
         <awayTeam>Liverpool</awayTeam>
     </match>
     <match>
         <date>Sat Sep 14 15:00:00 BST 2013</date>
-        <homeTeam>Stoke City</homeTeam>
+        <homeTeam>Stoke</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Manchester City</awayTeam>
+        <awayTeam>Man City</awayTeam>
     </match>
     <match>
         <date>Sat Feb 01 15:00:00 GMT 2014</date>
-        <homeTeam>Stoke City</homeTeam>
+        <homeTeam>Stoke</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Manchester United</awayTeam>
+        <awayTeam>Man Utd</awayTeam>
     </match>
     <match>
         <date>Sat Apr 12 15:00:00 BST 2014</date>
-        <homeTeam>Stoke City</homeTeam>
-        <awayTeam>Newcastle United</awayTeam>
+        <homeTeam>Stoke</homeTeam>
+        <awayTeam>Newcastle</awayTeam>
     </match>
     <match>
         <date>Sun Sep 29 13:30:00 BST 2013</date>
-        <homeTeam>Stoke City</homeTeam>
+        <homeTeam>Stoke</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Norwich City</awayTeam>
+        <awayTeam>Norwich</awayTeam>
     </match>
     <match>
         <date>Sat Nov 02 15:00:00 GMT 2013</date>
-        <homeTeam>Stoke City</homeTeam>
+        <homeTeam>Stoke</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Southampton</awayTeam>
     </match>
     <match>
         <date>Sat Nov 23 15:00:00 GMT 2013</date>
-        <homeTeam>Stoke City</homeTeam>
+        <homeTeam>Stoke</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Sunderland</awayTeam>
     </match>
     <match>
         <date>Wed Feb 12 20:00:00 GMT 2014</date>
-        <homeTeam>Stoke City</homeTeam>
+        <homeTeam>Stoke</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Swansea City</awayTeam>
+        <awayTeam>Swansea</awayTeam>
     </match>
     <match>
         <date>Sat Apr 26 15:00:00 BST 2014</date>
-        <homeTeam>Stoke City</homeTeam>
-        <awayTeam>Tottenham Hotspur</awayTeam>
+        <homeTeam>Stoke</homeTeam>
+        <awayTeam>Tottenham</awayTeam>
     </match>
     <match>
         <date>Sat Oct 19 15:00:00 BST 2013</date>
-        <homeTeam>Stoke City</homeTeam>
+        <homeTeam>Stoke</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>West Bromwich Albion</awayTeam>
+        <awayTeam>West Brom</awayTeam>
     </match>
     <match>
         <date>Sat Mar 15 15:00:00 GMT 2014</date>
-        <homeTeam>Stoke City</homeTeam>
-        <awayTeam>West Ham United</awayTeam>
+        <homeTeam>Stoke</homeTeam>
+        <awayTeam>West Ham</awayTeam>
     </match>
     <match>
         <date>Sat Sep 14 15:00:00 BST 2013</date>
@@ -1834,7 +1834,7 @@
     <match>
         <date>Sun Apr 27 12:00:00 BST 2014</date>
         <homeTeam>Sunderland</homeTeam>
-        <awayTeam>Cardiff City</awayTeam>
+        <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
         <date>Wed Dec 04 19:45:00 GMT 2013</date>
@@ -1865,7 +1865,7 @@
         <homeTeam>Sunderland</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Hull City</awayTeam>
+        <awayTeam>Hull</awayTeam>
     </match>
     <match>
         <date>Sun Sep 29 16:00:00 BST 2013</date>
@@ -1879,28 +1879,28 @@
         <homeTeam>Sunderland</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Manchester City</awayTeam>
+        <awayTeam>Man City</awayTeam>
     </match>
     <match>
         <date>Sat Oct 05 17:30:00 BST 2013</date>
         <homeTeam>Sunderland</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Manchester United</awayTeam>
+        <awayTeam>Man Utd</awayTeam>
     </match>
     <match>
         <date>Sun Oct 27 13:30:00 GMT 2013</date>
         <homeTeam>Sunderland</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Newcastle United</awayTeam>
+        <awayTeam>Newcastle</awayTeam>
     </match>
     <match>
         <date>Sat Dec 21 15:00:00 GMT 2013</date>
         <homeTeam>Sunderland</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Norwich City</awayTeam>
+        <awayTeam>Norwich</awayTeam>
     </match>
     <match>
         <date>Sat Jan 18 12:45:00 GMT 2014</date>
@@ -1914,517 +1914,517 @@
         <homeTeam>Sunderland</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Stoke City</awayTeam>
+        <awayTeam>Stoke</awayTeam>
     </match>
     <match>
         <date>Sun May 11 15:00:00 BST 2014</date>
         <homeTeam>Sunderland</homeTeam>
-        <awayTeam>Swansea City</awayTeam>
+        <awayTeam>Swansea</awayTeam>
     </match>
     <match>
         <date>Sat Dec 07 17:30:00 GMT 2013</date>
         <homeTeam>Sunderland</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Tottenham Hotspur</awayTeam>
+        <awayTeam>Tottenham</awayTeam>
     </match>
     <match>
         <date>Mon Mar 31 20:00:00 BST 2014</date>
         <homeTeam>Sunderland</homeTeam>
-        <awayTeam>West Ham United</awayTeam>
+        <awayTeam>West Ham</awayTeam>
     </match>
     <match>
         <date>Sat Sep 28 17:30:00 BST 2013</date>
-        <homeTeam>Swansea City</homeTeam>
+        <homeTeam>Swansea</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
         <awayTeam>Arsenal</awayTeam>
     </match>
     <match>
         <date>Sat Apr 26 15:00:00 BST 2014</date>
-        <homeTeam>Swansea City</homeTeam>
+        <homeTeam>Swansea</homeTeam>
         <awayTeam>Aston Villa</awayTeam>
     </match>
     <match>
         <date>Sat Feb 08 17:30:00 GMT 2014</date>
-        <homeTeam>Swansea City</homeTeam>
+        <homeTeam>Swansea</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Cardiff City</awayTeam>
+        <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
         <date>Sun Apr 13 16:10:00 BST 2014</date>
-        <homeTeam>Swansea City</homeTeam>
+        <homeTeam>Swansea</homeTeam>
         <awayTeam>Chelsea</awayTeam>
     </match>
     <match>
         <date>Sun Mar 02 16:30:00 GMT 2014</date>
-        <homeTeam>Swansea City</homeTeam>
+        <homeTeam>Swansea</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Crystal Palace</awayTeam>
     </match>
     <match>
         <date>Sun Dec 22 16:00:00 GMT 2013</date>
-        <homeTeam>Swansea City</homeTeam>
+        <homeTeam>Swansea</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
         <awayTeam>Everton</awayTeam>
     </match>
     <match>
         <date>Tue Jan 28 19:45:00 GMT 2014</date>
-        <homeTeam>Swansea City</homeTeam>
+        <homeTeam>Swansea</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Fulham</awayTeam>
     </match>
     <match>
         <date>Mon Dec 09 20:00:00 GMT 2013</date>
-        <homeTeam>Swansea City</homeTeam>
+        <homeTeam>Swansea</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Hull City</awayTeam>
+        <awayTeam>Hull</awayTeam>
     </match>
     <match>
         <date>Mon Sep 16 20:00:00 BST 2013</date>
-        <homeTeam>Swansea City</homeTeam>
+        <homeTeam>Swansea</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
         <awayTeam>Liverpool</awayTeam>
     </match>
     <match>
         <date>Wed Jan 01 12:45:00 GMT 2014</date>
-        <homeTeam>Swansea City</homeTeam>
+        <homeTeam>Swansea</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
-        <awayTeam>Manchester City</awayTeam>
+        <awayTeam>Man City</awayTeam>
     </match>
     <match>
         <date>Sat Aug 17 17:30:00 BST 2013</date>
-        <homeTeam>Swansea City</homeTeam>
+        <homeTeam>Swansea</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>4</awayTeamScore>
-        <awayTeam>Manchester United</awayTeam>
+        <awayTeam>Man Utd</awayTeam>
     </match>
     <match>
         <date>Wed Dec 04 19:45:00 GMT 2013</date>
-        <homeTeam>Swansea City</homeTeam>
+        <homeTeam>Swansea</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Newcastle United</awayTeam>
+        <awayTeam>Newcastle</awayTeam>
     </match>
     <match>
         <date>Sat Mar 29 15:00:00 GMT 2014</date>
-        <homeTeam>Swansea City</homeTeam>
-        <awayTeam>Norwich City</awayTeam>
+        <homeTeam>Swansea</homeTeam>
+        <awayTeam>Norwich</awayTeam>
     </match>
     <match>
         <date>Sat May 03 15:00:00 BST 2014</date>
-        <homeTeam>Swansea City</homeTeam>
+        <homeTeam>Swansea</homeTeam>
         <awayTeam>Southampton</awayTeam>
     </match>
     <match>
         <date>Sun Nov 10 16:10:00 GMT 2013</date>
-        <homeTeam>Swansea City</homeTeam>
+        <homeTeam>Swansea</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
-        <awayTeam>Stoke City</awayTeam>
+        <awayTeam>Stoke</awayTeam>
     </match>
     <match>
         <date>Sat Oct 19 15:00:00 BST 2013</date>
-        <homeTeam>Swansea City</homeTeam>
+        <homeTeam>Swansea</homeTeam>
         <homeTeamScore>4</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Sunderland</awayTeam>
     </match>
     <match>
         <date>Sun Jan 19 13:30:00 GMT 2014</date>
-        <homeTeam>Swansea City</homeTeam>
+        <homeTeam>Swansea</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
-        <awayTeam>Tottenham Hotspur</awayTeam>
+        <awayTeam>Tottenham</awayTeam>
     </match>
     <match>
         <date>Sat Mar 15 15:00:00 GMT 2014</date>
-        <homeTeam>Swansea City</homeTeam>
-        <awayTeam>West Bromwich Albion</awayTeam>
+        <homeTeam>Swansea</homeTeam>
+        <awayTeam>West Brom</awayTeam>
     </match>
     <match>
         <date>Sun Oct 27 16:00:00 GMT 2013</date>
-        <homeTeam>Swansea City</homeTeam>
+        <homeTeam>Swansea</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>West Ham United</awayTeam>
+        <awayTeam>West Ham</awayTeam>
     </match>
     <match>
         <date>Sun Mar 16 16:00:00 GMT 2014</date>
-        <homeTeam>Tottenham Hotspur</homeTeam>
+        <homeTeam>Tottenham</homeTeam>
         <awayTeam>Arsenal</awayTeam>
     </match>
     <match>
         <date>Sun May 11 15:00:00 BST 2014</date>
-        <homeTeam>Tottenham Hotspur</homeTeam>
+        <homeTeam>Tottenham</homeTeam>
         <awayTeam>Aston Villa</awayTeam>
     </match>
     <match>
         <date>Sun Mar 02 16:30:00 GMT 2014</date>
-        <homeTeam>Tottenham Hotspur</homeTeam>
+        <homeTeam>Tottenham</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Cardiff City</awayTeam>
+        <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
         <date>Sat Sep 28 12:45:00 BST 2013</date>
-        <homeTeam>Tottenham Hotspur</homeTeam>
+        <homeTeam>Tottenham</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Chelsea</awayTeam>
     </match>
     <match>
         <date>Sat Jan 11 15:00:00 GMT 2014</date>
-        <homeTeam>Tottenham Hotspur</homeTeam>
+        <homeTeam>Tottenham</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Crystal Palace</awayTeam>
     </match>
     <match>
         <date>Sun Feb 09 13:30:00 GMT 2014</date>
-        <homeTeam>Tottenham Hotspur</homeTeam>
+        <homeTeam>Tottenham</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Everton</awayTeam>
     </match>
     <match>
         <date>Sat Apr 19 12:45:00 BST 2014</date>
-        <homeTeam>Tottenham Hotspur</homeTeam>
+        <homeTeam>Tottenham</homeTeam>
         <awayTeam>Fulham</awayTeam>
     </match>
     <match>
         <date>Sun Oct 27 16:00:00 GMT 2013</date>
-        <homeTeam>Tottenham Hotspur</homeTeam>
+        <homeTeam>Tottenham</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Hull City</awayTeam>
+        <awayTeam>Hull</awayTeam>
     </match>
     <match>
         <date>Sun Dec 15 16:00:00 GMT 2013</date>
-        <homeTeam>Tottenham Hotspur</homeTeam>
+        <homeTeam>Tottenham</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>5</awayTeamScore>
         <awayTeam>Liverpool</awayTeam>
     </match>
     <match>
         <date>Wed Jan 29 19:45:00 GMT 2014</date>
-        <homeTeam>Tottenham Hotspur</homeTeam>
+        <homeTeam>Tottenham</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>5</awayTeamScore>
-        <awayTeam>Manchester City</awayTeam>
+        <awayTeam>Man City</awayTeam>
     </match>
     <match>
         <date>Sun Dec 01 12:00:00 GMT 2013</date>
-        <homeTeam>Tottenham Hotspur</homeTeam>
+        <homeTeam>Tottenham</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Manchester United</awayTeam>
+        <awayTeam>Man Utd</awayTeam>
     </match>
     <match>
         <date>Sun Nov 10 12:00:00 GMT 2013</date>
-        <homeTeam>Tottenham Hotspur</homeTeam>
+        <homeTeam>Tottenham</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Newcastle United</awayTeam>
+        <awayTeam>Newcastle</awayTeam>
     </match>
     <match>
         <date>Sat Sep 14 15:00:00 BST 2013</date>
-        <homeTeam>Tottenham Hotspur</homeTeam>
+        <homeTeam>Tottenham</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Norwich City</awayTeam>
+        <awayTeam>Norwich</awayTeam>
     </match>
     <match>
         <date>Sun Mar 23 13:30:00 GMT 2014</date>
-        <homeTeam>Tottenham Hotspur</homeTeam>
+        <homeTeam>Tottenham</homeTeam>
         <awayTeam>Southampton</awayTeam>
     </match>
     <match>
         <date>Sun Dec 29 16:00:00 GMT 2013</date>
-        <homeTeam>Tottenham Hotspur</homeTeam>
+        <homeTeam>Tottenham</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Stoke City</awayTeam>
+        <awayTeam>Stoke</awayTeam>
     </match>
     <match>
         <date>Mon Apr 07 20:00:00 BST 2014</date>
-        <homeTeam>Tottenham Hotspur</homeTeam>
+        <homeTeam>Tottenham</homeTeam>
         <awayTeam>Sunderland</awayTeam>
     </match>
     <match>
         <date>Sun Aug 25 16:00:00 BST 2013</date>
-        <homeTeam>Tottenham Hotspur</homeTeam>
+        <homeTeam>Tottenham</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Swansea City</awayTeam>
+        <awayTeam>Swansea</awayTeam>
     </match>
     <match>
         <date>Thu Dec 26 15:00:00 GMT 2013</date>
-        <homeTeam>Tottenham Hotspur</homeTeam>
+        <homeTeam>Tottenham</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>West Bromwich Albion</awayTeam>
+        <awayTeam>West Brom</awayTeam>
     </match>
     <match>
         <date>Sun Oct 06 16:00:00 BST 2013</date>
-        <homeTeam>Tottenham Hotspur</homeTeam>
+        <homeTeam>Tottenham</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
-        <awayTeam>West Ham United</awayTeam>
+        <awayTeam>West Ham</awayTeam>
     </match>
     <match>
         <date>Sun Oct 06 16:00:00 BST 2013</date>
-        <homeTeam>West Bromwich Albion</homeTeam>
+        <homeTeam>West Brom</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Arsenal</awayTeam>
     </match>
     <match>
         <date>Mon Nov 25 20:00:00 GMT 2013</date>
-        <homeTeam>West Bromwich Albion</homeTeam>
+        <homeTeam>West Brom</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
         <awayTeam>Aston Villa</awayTeam>
     </match>
     <match>
         <date>Sat Mar 29 15:00:00 GMT 2014</date>
-        <homeTeam>West Bromwich Albion</homeTeam>
-        <awayTeam>Cardiff City</awayTeam>
+        <homeTeam>West Brom</homeTeam>
+        <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
         <date>Tue Feb 11 20:00:00 GMT 2014</date>
-        <homeTeam>West Bromwich Albion</homeTeam>
+        <homeTeam>West Brom</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Chelsea</awayTeam>
     </match>
     <match>
         <date>Sat Nov 02 15:00:00 GMT 2013</date>
-        <homeTeam>West Bromwich Albion</homeTeam>
+        <homeTeam>West Brom</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Crystal Palace</awayTeam>
     </match>
     <match>
         <date>Mon Jan 20 20:00:00 GMT 2014</date>
-        <homeTeam>West Bromwich Albion</homeTeam>
+        <homeTeam>West Brom</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Everton</awayTeam>
     </match>
     <match>
         <date>Sat Feb 22 15:00:00 GMT 2014</date>
-        <homeTeam>West Bromwich Albion</homeTeam>
+        <homeTeam>West Brom</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Fulham</awayTeam>
     </match>
     <match>
         <date>Sat Dec 21 15:00:00 GMT 2013</date>
-        <homeTeam>West Bromwich Albion</homeTeam>
+        <homeTeam>West Brom</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Hull City</awayTeam>
+        <awayTeam>Hull</awayTeam>
     </match>
     <match>
         <date>Sun Feb 02 13:30:00 GMT 2014</date>
-        <homeTeam>West Bromwich Albion</homeTeam>
+        <homeTeam>West Brom</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Liverpool</awayTeam>
     </match>
     <match>
         <date>Wed Dec 04 20:00:00 GMT 2013</date>
-        <homeTeam>West Bromwich Albion</homeTeam>
+        <homeTeam>West Brom</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
-        <awayTeam>Manchester City</awayTeam>
+        <awayTeam>Man City</awayTeam>
     </match>
     <match>
         <date>Sat Mar 08 12:45:00 GMT 2014</date>
-        <homeTeam>West Bromwich Albion</homeTeam>
+        <homeTeam>West Brom</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
-        <awayTeam>Manchester United</awayTeam>
+        <awayTeam>Man Utd</awayTeam>
     </match>
     <match>
         <date>Wed Jan 01 15:00:00 GMT 2014</date>
-        <homeTeam>West Bromwich Albion</homeTeam>
+        <homeTeam>West Brom</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Newcastle United</awayTeam>
+        <awayTeam>Newcastle</awayTeam>
     </match>
     <match>
         <date>Sat Dec 07 15:00:00 GMT 2013</date>
-        <homeTeam>West Bromwich Albion</homeTeam>
+        <homeTeam>West Brom</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Norwich City</awayTeam>
+        <awayTeam>Norwich</awayTeam>
     </match>
     <match>
         <date>Sat Aug 17 15:00:00 BST 2013</date>
-        <homeTeam>West Bromwich Albion</homeTeam>
+        <homeTeam>West Brom</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Southampton</awayTeam>
     </match>
     <match>
         <date>Sun May 11 15:00:00 BST 2014</date>
-        <homeTeam>West Bromwich Albion</homeTeam>
-        <awayTeam>Stoke City</awayTeam>
+        <homeTeam>West Brom</homeTeam>
+        <awayTeam>Stoke</awayTeam>
     </match>
     <match>
         <date>Sat Sep 21 15:00:00 BST 2013</date>
-        <homeTeam>West Bromwich Albion</homeTeam>
+        <homeTeam>West Brom</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Sunderland</awayTeam>
     </match>
     <match>
         <date>Sun Sep 01 13:30:00 BST 2013</date>
-        <homeTeam>West Bromwich Albion</homeTeam>
+        <homeTeam>West Brom</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>2</awayTeamScore>
-        <awayTeam>Swansea City</awayTeam>
+        <awayTeam>Swansea</awayTeam>
     </match>
     <match>
         <date>Sat Apr 12 15:00:00 BST 2014</date>
-        <homeTeam>West Bromwich Albion</homeTeam>
-        <awayTeam>Tottenham Hotspur</awayTeam>
+        <homeTeam>West Brom</homeTeam>
+        <awayTeam>Tottenham</awayTeam>
     </match>
     <match>
         <date>Sat Apr 26 15:00:00 BST 2014</date>
-        <homeTeam>West Bromwich Albion</homeTeam>
-        <awayTeam>West Ham United</awayTeam>
+        <homeTeam>West Brom</homeTeam>
+        <awayTeam>West Ham</awayTeam>
     </match>
     <match>
         <date>Thu Dec 26 15:00:00 GMT 2013</date>
-        <homeTeam>West Ham United</homeTeam>
+        <homeTeam>West Ham</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
         <awayTeam>Arsenal</awayTeam>
     </match>
     <match>
         <date>Sat Nov 02 15:00:00 GMT 2013</date>
-        <homeTeam>West Ham United</homeTeam>
+        <homeTeam>West Ham</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Aston Villa</awayTeam>
     </match>
     <match>
         <date>Sat Aug 17 15:00:00 BST 2013</date>
-        <homeTeam>West Ham United</homeTeam>
+        <homeTeam>West Ham</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Cardiff City</awayTeam>
+        <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
         <date>Sat Nov 23 17:30:00 GMT 2013</date>
-        <homeTeam>West Ham United</homeTeam>
+        <homeTeam>West Ham</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
         <awayTeam>Chelsea</awayTeam>
     </match>
     <match>
         <date>Sat Apr 19 15:00:00 BST 2014</date>
-        <homeTeam>West Ham United</homeTeam>
+        <homeTeam>West Ham</homeTeam>
         <awayTeam>Crystal Palace</awayTeam>
     </match>
     <match>
         <date>Sat Sep 21 15:00:00 BST 2013</date>
-        <homeTeam>West Ham United</homeTeam>
+        <homeTeam>West Ham</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
         <awayTeam>Everton</awayTeam>
     </match>
     <match>
         <date>Sat Nov 30 15:00:00 GMT 2013</date>
-        <homeTeam>West Ham United</homeTeam>
+        <homeTeam>West Ham</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Fulham</awayTeam>
     </match>
     <match>
         <date>Wed Mar 26 19:45:00 GMT 2014</date>
-        <homeTeam>West Ham United</homeTeam>
-        <awayTeam>Hull City</awayTeam>
+        <homeTeam>West Ham</homeTeam>
+        <awayTeam>Hull</awayTeam>
     </match>
     <match>
         <date>Sun Apr 06 16:00:00 BST 2014</date>
-        <homeTeam>West Ham United</homeTeam>
+        <homeTeam>West Ham</homeTeam>
         <awayTeam>Liverpool</awayTeam>
     </match>
     <match>
         <date>Sat Oct 19 17:30:00 BST 2013</date>
-        <homeTeam>West Ham United</homeTeam>
+        <homeTeam>West Ham</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
-        <awayTeam>Manchester City</awayTeam>
+        <awayTeam>Man City</awayTeam>
     </match>
     <match>
         <date>Sat Mar 22 17:30:00 GMT 2014</date>
-        <homeTeam>West Ham United</homeTeam>
-        <awayTeam>Manchester United</awayTeam>
+        <homeTeam>West Ham</homeTeam>
+        <awayTeam>Man Utd</awayTeam>
     </match>
     <match>
         <date>Sat Jan 18 15:00:00 GMT 2014</date>
-        <homeTeam>West Ham United</homeTeam>
+        <homeTeam>West Ham</homeTeam>
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
-        <awayTeam>Newcastle United</awayTeam>
+        <awayTeam>Newcastle</awayTeam>
     </match>
     <match>
         <date>Tue Feb 11 19:45:00 GMT 2014</date>
-        <homeTeam>West Ham United</homeTeam>
+        <homeTeam>West Ham</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Norwich City</awayTeam>
+        <awayTeam>Norwich</awayTeam>
     </match>
     <match>
         <date>Sat Feb 22 15:00:00 GMT 2014</date>
-        <homeTeam>West Ham United</homeTeam>
+        <homeTeam>West Ham</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
         <awayTeam>Southampton</awayTeam>
     </match>
     <match>
         <date>Sat Aug 31 15:00:00 BST 2013</date>
-        <homeTeam>West Ham United</homeTeam>
+        <homeTeam>West Ham</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>1</awayTeamScore>
-        <awayTeam>Stoke City</awayTeam>
+        <awayTeam>Stoke</awayTeam>
     </match>
     <match>
         <date>Sat Dec 14 15:00:00 GMT 2013</date>
-        <homeTeam>West Ham United</homeTeam>
+        <homeTeam>West Ham</homeTeam>
         <homeTeamScore>0</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Sunderland</awayTeam>
     </match>
     <match>
         <date>Sat Feb 01 12:45:00 GMT 2014</date>
-        <homeTeam>West Ham United</homeTeam>
+        <homeTeam>West Ham</homeTeam>
         <homeTeamScore>2</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
-        <awayTeam>Swansea City</awayTeam>
+        <awayTeam>Swansea</awayTeam>
     </match>
     <match>
         <date>Sat May 03 15:00:00 BST 2014</date>
-        <homeTeam>West Ham United</homeTeam>
-        <awayTeam>Tottenham Hotspur</awayTeam>
+        <homeTeam>West Ham</homeTeam>
+        <awayTeam>Tottenham</awayTeam>
     </match>
     <match>
         <date>Sat Dec 28 12:45:00 GMT 2013</date>
-        <homeTeam>West Ham United</homeTeam>
+        <homeTeam>West Ham</homeTeam>
         <homeTeamScore>3</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
-        <awayTeam>West Bromwich Albion</awayTeam>
+        <awayTeam>West Brom</awayTeam>
     </match>
 </matchGrid>

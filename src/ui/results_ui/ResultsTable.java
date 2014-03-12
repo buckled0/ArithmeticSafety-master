@@ -1,5 +1,7 @@
 package ui.results_ui;
 
+import domain.PremierLeaguePredictions;
+import domain.Team;
 import org.xml.sax.SAXException;
 import xmlconnector.XMLFixtureConnector;
 import xmlconnector.XMLLeagueConnector;
@@ -15,49 +17,59 @@ public class ResultsTable extends JTable implements TableModelListener{
     public static final Dimension INITIAL_SIZE = new Dimension(1500, 342);
     DefaultTableModel model;
     JTable table;
-
+    String[] homeTeamName;
+    String[] awayTeamName;
+    Team[] homeTeam;
+    Team[] awayTeam;
 
     public ResultsTable() throws ParserConfigurationException, SAXException, IOException {
         XMLLeagueConnector xmlLeagueConnector = new XMLLeagueConnector("Premier League");
         XMLFixtureConnector xmlFixtureConnector = new XMLFixtureConnector();
         String[] columnHeaders = new String[21];
-        String[] shortenedColumns = new String[21];
         columnHeaders[0] = " ";
-        String smallName;
-        for(int i = 1; i < xmlLeagueConnector.getListOfTeams().size() + 1; i++){
-            String teamName = xmlLeagueConnector.getListOfTeams().get(i-1).name;
-            columnHeaders[i] = teamName;
-            if(columnHeaders[i] == "Man Utd")
-                smallName = "Man U";
-            else if (columnHeaders[i] == "Man City")
-                smallName = "Man C";
-            else if(columnHeaders[i] == "West Ham")
-                smallName = "WHam";
-            else if(columnHeaders[i] == "West Brom")
-                smallName = "WBrom";
-            else
-                smallName = columnHeaders[i].substring(0, 3);
-            shortenedColumns[i] = smallName;
+        homeTeam = new Team[20];
+        awayTeam = new Team[20];
+        homeTeamName = new String[20];
+        awayTeamName = new String[20];
+
+        for (int i = 1; i < xmlLeagueConnector.getListOfTeams().size() + 1; i++) {
+            Team team = xmlLeagueConnector.getListOfTeams().get(i - 1);
+            columnHeaders[i] = team.name;
         }
 
-        final int numRows = 20;
+        int numRows = 20;
         model = new DefaultTableModel(numRows, columnHeaders.length);
 
         model.setColumnIdentifiers(columnHeaders);
         final int numColumn = model.getColumnCount();
-        table = new JTable(model){
+        table = new JTable(model) {
             @Override
             public boolean isCellEditable(int row, int column) {
-                if(column == 0)
+                if (column == 0)
                     return false;
                 else
                     return true;
-            }};
+            }
+        };
 
-        for(int i = 0; i < columnHeaders.length - 1; i++){
+        for (int i = 0; i < columnHeaders.length - 1; i++) {
             model.setValueAt(columnHeaders[i + 1], i, 0);
         }
 
+        populateTable(xmlFixtureConnector, columnHeaders, numRows, numColumn);
+        findPostponedGames(numRows, numColumn);
+        populateRemainingGames(numRows, numColumn);
+
+        JScrollPane pane = new JScrollPane(table, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,
+                JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+        pane.setPreferredSize(INITIAL_SIZE);
+        setVisible(true);
+        setLayout(new FlowLayout());
+
+        add(pane);
+    }
+
+    private void populateTable(XMLFixtureConnector xmlFixtureConnector, String[] columnHeaders, int numRows, int numColumn) {
         for(int i = 0; i < numRows; i++){
             for(int j = 1; j < numColumn; j++){
                 if(table.getColumnModel().getColumn(j).getHeaderValue().equals(model.getValueAt(i, 0)))
@@ -71,17 +83,30 @@ public class ResultsTable extends JTable implements TableModelListener{
                     }
             }
         }
+    }
 
-        JScrollPane pane = new JScrollPane(table, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,
-                JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
-        pane.setPreferredSize(INITIAL_SIZE);
-        setVisible(true);
-        setLayout(new FlowLayout());
+    private void populateRemainingGames(int numRows, int numColumn) {
+        for (int i = 0; i < numRows; i++) {
+            for (int j = 1; j < numColumn; j++) {
+                if (model.getValueAt(i, j).equals("GNP")) {
+                    homeTeamName[i] = String.valueOf(table.getColumnModel().getColumn(j).getHeaderValue());
+                    awayTeamName[i] = String.valueOf(model.getValueAt(i, 0));
+                    PremierLeaguePredictions premierLeaguePredictions = new PremierLeaguePredictions(String.valueOf(table.getColumnModel().getColumn(j).getHeaderValue()),
+                            String.valueOf(model.getValueAt(i, 0)));
+                    model.setValueAt("*"+premierLeaguePredictions.getFinalScore()+"*", i, j);
+                }
+            }
+        }
+    }
 
-        add(pane);
-
-        table.getModel().addTableModelListener(this);
-
+    private void findPostponedGames(int numRows, int numColumn) {
+        for(int i = 0; i < numRows; i++){
+            for(int j = 1; j <  numColumn; j++){
+                String value = (String) model.getValueAt(i, j);
+                if(value == null)
+                    model.setValueAt("GNP", i, j);
+            }
+        }
     }
 
 }

@@ -39,8 +39,8 @@ public class XMLFixtureConnector {
                     Element element = (Element) fixtureNode;
                     homeTeam = element.getElementsByTagName("homeTeam").item(0).getTextContent();
                     awayTeam = element.getElementsByTagName("awayTeam").item(0).getTextContent();
-                    if(fixtureList.getLength() == 3)
-                        score = "Game not played";
+                    if(fixtureNode.getChildNodes().getLength() == 7)
+                        score = "GNP";
                     else
                         score = (element.getElementsByTagName("homeTeamScore").item(0).getTextContent()) + "-" +
                                 (element.getElementsByTagName("awayTeamScore").item(0).getTextContent());

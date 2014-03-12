@@ -4,13 +4,13 @@ import javax.swing.*;
 import java.awt.event.ActionListener;
 
 public class ResultsNorth extends JPanel {
-    public JButton save;
+    public JButton close;
     public ResultsNorth(){
-        save = new JButton("Save");
-        add(save);
+        close = new JButton("Close");
+        add(close);
     }
 
-    public void onSave(ActionListener listener){
-        save.addActionListener(listener);
+    public void onClose(ActionListener listener){
+        close.addActionListener(listener);
     }
 }

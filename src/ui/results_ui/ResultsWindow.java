@@ -12,7 +12,7 @@ import java.io.IOException;
 public class ResultsWindow extends JFrame{
 
     public static final String TITLE = "Premier League Results";
-    public static final Dimension INITIAL_SIZE = new Dimension(1550, 600);
+    public static final Dimension INITIAL_SIZE = new Dimension(1550, 410);
     public static final Point INITIAL_LOCATION = new Point(300, 262);
     private ResultsTable resultsTable;
 
@@ -24,20 +24,20 @@ public class ResultsWindow extends JFrame{
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         getContentPane().add(BorderLayout.CENTER, resultsTable = new ResultsTable());
-        getContentPane().add(BorderLayout.NORTH, setUpNorthPanel());
+        getContentPane().add(BorderLayout.SOUTH, setUpSouthPanel());
 
         setVisible(true);
     }
 
-    private ResultsNorth setUpNorthPanel(){
-        ResultsNorth resultsNorth = new ResultsNorth();
-        resultsNorth.onClose(new ActionListener() {
+    private ResultsSouth setUpSouthPanel(){
+        ResultsSouth resultsSouth = new ResultsSouth();
+        resultsSouth.onClose(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 setVisible(false);
             }
         });
-        return resultsNorth;
+        return resultsSouth;
     }
 
 }

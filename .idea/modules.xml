@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ArithmeticSafety.iml" filepath="$PROJECT_DIR$/ArithmeticSafety.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArithmeticSafety-master.iml" filepath="$PROJECT_DIR$/ArithmeticSafety-master.iml" />
     </modules>
   </component>
 </project>

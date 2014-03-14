@@ -1,6 +1,6 @@
 package xmlconnector;
 
-import domain.fixture;
+import domain.Fixture;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class XMLFixtureConnector {
-    public ArrayList<fixture> listOfFixtures = new ArrayList<fixture>();
+    public ArrayList<Fixture> listOfFixtures = new ArrayList<Fixture>();
     String homeTeam;
     String awayTeam;
     String score;
@@ -44,7 +44,7 @@ public class XMLFixtureConnector {
                     else
                         score = (element.getElementsByTagName("homeTeamScore").item(0).getTextContent()) + "-" +
                                 (element.getElementsByTagName("awayTeamScore").item(0).getTextContent());
-                    listOfFixtures.add(new fixture(homeTeam, awayTeam, score));
+                    listOfFixtures.add(new Fixture(homeTeam, awayTeam, score));
                 }
 
             }
@@ -53,7 +53,7 @@ public class XMLFixtureConnector {
             e.printStackTrace();
         }
     }
-    public ArrayList<fixture> getListOfFixtures(){
+    public ArrayList<Fixture> getListOfFixtures(){
         return listOfFixtures;
     }
 }

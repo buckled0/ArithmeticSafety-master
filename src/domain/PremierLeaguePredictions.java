@@ -4,10 +4,12 @@ import java.util.Random;
 
 public class PremierLeaguePredictions {
 
-    private int homeScore;
-    private int awayScore;
-    private int homePoints;
-    private int awayPoints;
+    public int homeScore;
+    public int awayScore;
+    public int homePoints;
+    public int awayPoints;
+    public int homeGD;
+    public int awayGD;
 
     public PremierLeaguePredictions(String awayTeamName, String homeTeamName) {
         int minGoals = 0;
@@ -43,30 +45,30 @@ public class PremierLeaguePredictions {
         this.awayScore = awayScore;
     }
 
-    public int getHomeScore(){
-        return homeScore;
-    }
-
-    public int getAwayScore(){
-        return awayScore;
-    }
-
     public void calculatePointsEarned() {
-        int home = getHomeScore();
-        int away = getAwayScore();
+        int home = homeScore;
+        int away = awayScore;
         int homePoints = 0;
         int awayPoints = 0;
+        int homeGD = 0;
+        int awayGD = 0;
 
         if (home > away) {
             homePoints += 3;
+            homeGD = home - away;
+            awayGD = away - home;
         } else if (away > home) {
             awayPoints += 3;
+            homeGD = away - home;
+            awayGD = home - away;
         } else {
             homePoints += 1;
             awayPoints += 1;
         }
         setHomePoints(homePoints);
         setAwayPoints(awayPoints);
+        setHomeGD(homeGD);
+        setAwayGD(awayGD);
     }
 
     public void setHomePoints(int homePoints) {
@@ -77,11 +79,12 @@ public class PremierLeaguePredictions {
         this.awayPoints = awayPoints;
     }
 
-    public int getHomePoints(){
-        return homePoints;
+    public void setHomeGD(int homeGD) {
+        this.homeGD = homeGD;
     }
 
-    public int getAwayPoints(){
-        return awayPoints;
+    public void setAwayGD(int awayGD) {
+        this.awayGD = awayGD;
     }
+
 }

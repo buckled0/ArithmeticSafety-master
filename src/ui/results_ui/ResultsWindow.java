@@ -21,8 +21,6 @@ public class ResultsWindow extends JFrame{
         setSize(INITIAL_SIZE);
         setResizable(false);
         setLocation(INITIAL_LOCATION);
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-
         getContentPane().add(BorderLayout.CENTER, resultsTable = new ResultsTable());
         getContentPane().add(BorderLayout.SOUTH, setUpSouthPanel());
 
@@ -31,6 +29,18 @@ public class ResultsWindow extends JFrame{
 
     private ResultsSouth setUpSouthPanel(){
         ResultsSouth resultsSouth = new ResultsSouth();
+
+        resultsSouth.onPredictedTable(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                javax.swing.SwingUtilities.invokeLater(new Runnable() {
+                    public void run() {
+                        new PredictedTableWindow(resultsTable.getSetTeams());
+                    }
+                });
+            }
+        });
+
         resultsSouth.onClose(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {

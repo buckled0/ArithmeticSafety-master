@@ -13,6 +13,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.awt.*;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class ResultsTable extends JTable implements TableModelListener{
     public static final Dimension INITIAL_SIZE = new Dimension(1500, 342);
@@ -20,21 +21,20 @@ public class ResultsTable extends JTable implements TableModelListener{
     JTable table;
     String[] homeTeamName;
     String[] awayTeamName;
-    Team[] homeTeam;
-    Team[] awayTeam;
+    Team[] setTeams;
 
     public ResultsTable() throws ParserConfigurationException, SAXException, IOException {
         XMLLeagueConnector xmlLeagueConnector = new XMLLeagueConnector("Premier League");
         XMLFixtureConnector xmlFixtureConnector = new XMLFixtureConnector();
         String[] columnHeaders = new String[21];
         columnHeaders[0] = " ";
-        awayTeam = new Team[20];
-        homeTeam = new Team[20];
+        setTeams = new Team[20];
         awayTeamName = new String[20];
         homeTeamName = new String[20];
 
         for (int i = 1; i < xmlLeagueConnector.getListOfTeams().size() + 1; i++) {
             Team team = xmlLeagueConnector.getListOfTeams().get(i - 1);
+            setTeams[i-1] = team;
             columnHeaders[i] = team.name;
         }
 
@@ -88,7 +88,6 @@ public class ResultsTable extends JTable implements TableModelListener{
         }
     }
 
-
     private void findPostponedGames(int numRows, int numColumn) {
         for(int i = 0; i < numRows; i++){
             for(int j = 1; j <  numColumn; j++){
@@ -99,20 +98,39 @@ public class ResultsTable extends JTable implements TableModelListener{
         }
     }
 
-    private void populateRemainingGames(int numRows, int numColumn) {
+    public void populateRemainingGames(int numRows, int numColumn) {
         for (int i = 0; i < numRows; i++) {
             for (int j = 1; j < numColumn; j++) {
-                homeTeamName[i] = String.valueOf(table.getColumnModel().getColumn(j).getHeaderValue());
-                awayTeamName[i] = String.valueOf(model.getValueAt(i, 0));
                 if (model.getValueAt(i, j).equals("GNP")) {
                     PremierLeaguePredictions premierLeaguePredictions = new PremierLeaguePredictions(String.valueOf(table.getColumnModel().getColumn(j).getHeaderValue()),
                             String.valueOf(model.getValueAt(i, 0)));
-                    model.setValueAt("*" + premierLeaguePredictions.getHomeScore() + "-" + premierLeaguePredictions.getAwayScore() + "*", i, j);
-                    int homePoints = premierLeaguePredictions.getHomePoints();
-                    int awayPoints = premierLeaguePredictions.getAwayPoints();
-                    System.out.println(homeTeamName[i] + " " +homePoints + " - " + awayTeamName[i] + " " + awayPoints);
+                    int homePoints = premierLeaguePredictions.homePoints;
+                    int awayPoints = premierLeaguePredictions.awayPoints;
+                    int homeGD = premierLeaguePredictions.homeGD;
+                    int awayGD = premierLeaguePredictions.awayGD;
+                    for(int k = 0; k < setTeams.length; k++){
+                        if(setTeams[k].name.equals(String.valueOf(model.getValueAt(i, 0)))){
+                            setTeams[k].points += homePoints;
+                            setTeams[k].goalDifference += homeGD;
+                        }
+                        if(setTeams[k].name.equals(table.getColumnModel().getColumn(j).getHeaderValue())){
+                            setTeams[k].points += awayPoints;
+                            setTeams[k].goalDifference += awayGD;
+                        }
+                    }
+                    model.setValueAt("*" + premierLeaguePredictions.homeScore + "-" + premierLeaguePredictions.awayScore + "*", i, j);
                 }
             }
         }
+        Arrays.sort(setTeams, new Comparator<Team>() {
+            @Override
+            public int compare(Team team, Team team2) {
+                return team2.points - team.points;
+            }
+        });
+    }
+
+    public Team[] getSetTeams(){
+        return setTeams;
     }
 }

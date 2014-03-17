@@ -82,7 +82,7 @@ public class Team {
                                                    String leagueName, int numberOfGames, int relegationZoneAmount) {
         if (leagueName.equals("Premier League")) {
             PremierLeagueRules premierLeagueRules = new PremierLeagueRules(numberOfGames, relegationZoneAmount);
-            return premierLeagueRules.setDefinitiveSafety(this, teamList, i);
+            return premierLeagueRules.premierLeagueDefinitiveSafety(this, teamList, i);
         }
         return TeamStatus.safe;
     }

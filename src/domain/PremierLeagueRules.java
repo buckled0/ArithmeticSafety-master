@@ -25,7 +25,7 @@ public class PremierLeagueRules implements TopLeagueRules{
         this.relegationZoneAmount = relegationZoneAmount;
     }
 
-    public TeamStatus setDefinitiveSafety(Team team, ArrayList<Team> teamList, int i) {
+    public TeamStatus premierLeagueDefinitiveSafety(Team team, ArrayList<Team> teamList, int i) {
         final boolean firstTeamInLeague = i == 0;
         final boolean inChampionsLeagueQualificationPosition = i > 0 && i < 4;
         final boolean inEuropaLeagueQualificationPlace = i == 4;

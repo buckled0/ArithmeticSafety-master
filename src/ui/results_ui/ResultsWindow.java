@@ -30,12 +30,23 @@ public class ResultsWindow extends JFrame{
     private ResultsSouth setUpSouthPanel(){
         ResultsSouth resultsSouth = new ResultsSouth();
 
+        resultsSouth.onGamesRemaining(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                javax.swing.SwingUtilities.invokeLater(new Runnable() {
+                    public void run() {
+                        new PredictedGamesWindow(resultsTable.gamesLeft);
+                    }
+                });
+            }
+        });
+
         resultsSouth.onPredictedTable(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 javax.swing.SwingUtilities.invokeLater(new Runnable() {
                     public void run() {
-                        new PredictedTableWindow(resultsTable.getSetTeams());
+                        new PredictedTableWindow(resultsTable.setTeams);
                     }
                 });
             }

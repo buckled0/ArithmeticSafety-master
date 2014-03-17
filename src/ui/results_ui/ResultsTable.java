@@ -1,5 +1,6 @@
 package ui.results_ui;
 
+import domain.Game;
 import domain.PremierLeaguePredictions;
 import domain.Team;
 import org.xml.sax.SAXException;
@@ -12,8 +13,7 @@ import javax.swing.table.DefaultTableModel;
 import javax.xml.parsers.ParserConfigurationException;
 import java.awt.*;
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.Comparator;
+import java.util.*;
 
 public class ResultsTable extends JTable implements TableModelListener{
     public static final Dimension INITIAL_SIZE = new Dimension(1500, 342);
@@ -22,6 +22,7 @@ public class ResultsTable extends JTable implements TableModelListener{
     String[] homeTeamName;
     String[] awayTeamName;
     Team[] setTeams;
+    ArrayList<Game> gamesLeft = new ArrayList<Game>();
 
     public ResultsTable() throws ParserConfigurationException, SAXException, IOException {
         XMLLeagueConnector xmlLeagueConnector = new XMLLeagueConnector("Premier League");
@@ -108,6 +109,9 @@ public class ResultsTable extends JTable implements TableModelListener{
                     int awayPoints = premierLeaguePredictions.awayPoints;
                     int homeGD = premierLeaguePredictions.homeGD;
                     int awayGD = premierLeaguePredictions.awayGD;
+                    String score = premierLeaguePredictions.homeScore + "-" + premierLeaguePredictions.awayScore;
+                    gamesLeft.add(i, new Game(String.valueOf(model.getValueAt(i, 0)),
+                            String.valueOf(table.getColumnModel().getColumn(j).getHeaderValue()), score));
                     for(int k = 0; k < setTeams.length; k++){
                         if(setTeams[k].name.equals(String.valueOf(model.getValueAt(i, 0)))){
                             setTeams[k].points += homePoints;
@@ -128,9 +132,12 @@ public class ResultsTable extends JTable implements TableModelListener{
                 return team2.points - team.points;
             }
         });
+        Collections.sort(gamesLeft, new Comparator<Game>() {
+            @Override
+            public int compare(Game game, Game game2) {
+                return game.homeTeam.compareTo(game2.homeTeam);
+            }
+        });
     }
 
-    public Team[] getSetTeams(){
-        return setTeams;
-    }
 }

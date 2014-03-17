@@ -14,8 +14,8 @@ import java.io.IOException;
 
 public class LeagueWindow extends JFrame {
     public static final String TITLE = "Arithmetic Safety";
-    public static final Dimension INITIAL_SIZE = new Dimension(1350, 450);
-    public static final Point INITIAL_LOCATION = new Point(300, 262);
+    public static final Dimension INITIAL_SIZE = new Dimension(1150, 450);
+    public static final Point INITIAL_LOCATION = new Point(50, 62);
     public LeagueTable leagueTable;
 
     public LeagueWindow(){

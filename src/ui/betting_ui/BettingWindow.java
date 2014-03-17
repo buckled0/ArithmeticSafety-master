@@ -21,7 +21,6 @@ public class BettingWindow extends JFrame {
         setSize(INITIAL_SIZE);
         setResizable(false);
         setLocation(INITIAL_LOCATION);
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         getContentPane().add(BorderLayout.CENTER, setupTeamSelection());
         getContentPane().add(BorderLayout.NORTH, new BettingNorthPanel());
@@ -43,9 +42,9 @@ public class BettingWindow extends JFrame {
                     JOptionPane.showMessageDialog(null, "You have selected the same Team, please select another");
                 } else {
                     bettingVerdict = new BettingVerdict(homeTeam, awayTeam);
-                    double homeTeamOdds = bettingVerdict.getHomeOdds();
-                    double awayTeamOdds = bettingVerdict.getAwayOdds();
-                    double drawingOdds = bettingVerdict.getDrawingOdds();
+                    double homeTeamOdds = bettingVerdict.homeOdds;
+                    double awayTeamOdds = bettingVerdict.awayOdds;
+                    double drawingOdds = bettingVerdict.drawingOdds;
 
                     bettingTeamSelection.setHomeOdds(homeTeamOdds);
                     bettingTeamSelection.setAwayOdds(awayTeamOdds);

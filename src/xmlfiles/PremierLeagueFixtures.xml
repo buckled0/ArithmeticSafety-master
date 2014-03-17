@@ -119,6 +119,11 @@
         <awayTeam>West Brom</awayTeam>
     </match>
     <match>
+        <date>Tue Apr 15 19:45:00 BST 2014</date>
+        <homeTeam>Arsenal</homeTeam>
+        <awayTeam>West Ham</awayTeam>
+    </match>
+    <match>
         <date>Mon Jan 13 20:00:00 GMT 2014</date>
         <homeTeam>Aston Villa</homeTeam>
         <homeTeamScore>1</homeTeamScore>
@@ -135,6 +140,8 @@
     <match>
         <date>Sat Mar 15 17:30:00 GMT 2014</date>
         <homeTeam>Aston Villa</homeTeam>
+        <homeTeamScore>1</homeTeamScore>
+        <awayTeamScore>0</awayTeamScore>
         <awayTeam>Chelsea</awayTeam>
     </match>
     <match>
@@ -631,6 +638,8 @@
     <match>
         <date>Sat Mar 15 15:00:00 GMT 2014</date>
         <homeTeam>Everton</homeTeam>
+        <homeTeamScore>2</homeTeamScore>
+        <awayTeamScore>1</awayTeamScore>
         <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
@@ -639,6 +648,11 @@
         <homeTeamScore>1</homeTeamScore>
         <awayTeamScore>0</awayTeamScore>
         <awayTeam>Chelsea</awayTeam>
+    </match>
+    <match>
+        <date>Wed Apr 16 19:45:00 BST 2014</date>
+        <homeTeam>Everton</homeTeam>
+        <awayTeam>Crystal Palace</awayTeam>
     </match>
     <match>
         <date>Sat Dec 14 15:00:00 GMT 2013</date>
@@ -799,6 +813,8 @@
     <match>
         <date>Sat Mar 15 15:00:00 GMT 2014</date>
         <homeTeam>Fulham</homeTeam>
+        <homeTeamScore>1</homeTeamScore>
+        <awayTeamScore>0</awayTeamScore>
         <awayTeam>Newcastle</awayTeam>
     </match>
     <match>
@@ -910,6 +926,8 @@
     <match>
         <date>Sat Mar 15 12:45:00 GMT 2014</date>
         <homeTeam>Hull</homeTeam>
+        <homeTeamScore>0</homeTeamScore>
+        <awayTeamScore>2</awayTeamScore>
         <awayTeam>Man City</awayTeam>
     </match>
     <match>
@@ -1033,7 +1051,7 @@
         <awayTeam>Hull</awayTeam>
     </match>
     <match>
-        <date>Sun Apr 13 14:05:00 BST 2014</date>
+        <date>Sun Apr 13 13:30:00 BST 2014</date>
         <homeTeam>Liverpool</homeTeam>
         <awayTeam>Man City</awayTeam>
     </match>
@@ -1107,6 +1125,11 @@
         <homeTeamScore>6</homeTeamScore>
         <awayTeamScore>3</awayTeamScore>
         <awayTeam>Arsenal</awayTeam>
+    </match>
+    <match>
+        <date>Wed May 07 19:45:00 BST 2014</date>
+        <homeTeam>Man City</homeTeam>
+        <awayTeam>Aston Villa</awayTeam>
     </match>
     <match>
         <date>Sat Jan 18 15:00:00 GMT 2014</date>
@@ -1189,6 +1212,11 @@
         <awayTeam>Stoke</awayTeam>
     </match>
     <match>
+        <date>Wed Apr 16 19:45:00 BST 2014</date>
+        <homeTeam>Man City</homeTeam>
+        <awayTeam>Sunderland</awayTeam>
+    </match>
+    <match>
         <date>Sun Dec 01 16:10:00 GMT 2013</date>
         <homeTeam>Man City</homeTeam>
         <homeTeamScore>3</homeTeamScore>
@@ -1260,8 +1288,15 @@
         <awayTeam>Fulham</awayTeam>
     </match>
     <match>
+        <date>Tue May 06 19:45:00 BST 2014</date>
+        <homeTeam>Man Utd</homeTeam>
+        <awayTeam>Hull</awayTeam>
+    </match>
+    <match>
         <date>Sun Mar 16 13:30:00 GMT 2014</date>
         <homeTeam>Man Utd</homeTeam>
+        <homeTeamScore>0</homeTeamScore>
+        <awayTeamScore>3</awayTeamScore>
         <awayTeam>Liverpool</awayTeam>
     </match>
     <match>
@@ -1650,6 +1685,8 @@
     <match>
         <date>Sat Mar 15 15:00:00 GMT 2014</date>
         <homeTeam>Southampton</homeTeam>
+        <homeTeamScore>4</homeTeamScore>
+        <awayTeamScore>2</awayTeamScore>
         <awayTeam>Norwich</awayTeam>
     </match>
     <match>
@@ -1815,6 +1852,8 @@
     <match>
         <date>Sat Mar 15 15:00:00 GMT 2014</date>
         <homeTeam>Stoke</homeTeam>
+        <homeTeamScore>3</homeTeamScore>
+        <awayTeamScore>1</awayTeamScore>
         <awayTeam>West Ham</awayTeam>
     </match>
     <match>
@@ -1846,6 +1885,8 @@
     <match>
         <date>Sat Mar 15 15:00:00 GMT 2014</date>
         <homeTeam>Sunderland</homeTeam>
+        <homeTeamScore>0</homeTeamScore>
+        <awayTeamScore>0</awayTeamScore>
         <awayTeam>Crystal Palace</awayTeam>
     </match>
     <match>
@@ -1929,6 +1970,11 @@
         <awayTeam>Tottenham</awayTeam>
     </match>
     <match>
+        <date>Wed May 07 19:45:00 BST 2014</date>
+        <homeTeam>Sunderland</homeTeam>
+        <awayTeam>West Brom</awayTeam>
+    </match>
+    <match>
         <date>Mon Mar 31 20:00:00 BST 2014</date>
         <homeTeam>Sunderland</homeTeam>
         <awayTeam>West Ham</awayTeam>
@@ -1953,7 +1999,7 @@
         <awayTeam>Cardiff</awayTeam>
     </match>
     <match>
-        <date>Sun Apr 13 16:10:00 BST 2014</date>
+        <date>Sun Apr 13 16:00:00 BST 2014</date>
         <homeTeam>Swansea</homeTeam>
         <awayTeam>Chelsea</awayTeam>
     </match>
@@ -2047,6 +2093,8 @@
     <match>
         <date>Sat Mar 15 15:00:00 GMT 2014</date>
         <homeTeam>Swansea</homeTeam>
+        <homeTeamScore>1</homeTeamScore>
+        <awayTeamScore>2</awayTeamScore>
         <awayTeam>West Brom</awayTeam>
     </match>
     <match>
@@ -2059,6 +2107,8 @@
     <match>
         <date>Sun Mar 16 16:00:00 GMT 2014</date>
         <homeTeam>Tottenham</homeTeam>
+        <homeTeamScore>0</homeTeamScore>
+        <awayTeamScore>1</awayTeamScore>
         <awayTeam>Arsenal</awayTeam>
     </match>
     <match>

@@ -80,7 +80,7 @@ public class Team {
 
     public TeamStatus definitiveSafetyVerdictCheck(ArrayList<Team> teamList, int i,
                                                    String leagueName, int numberOfGames, int relegationZoneAmount) {
-        if (leagueName.equals("Premier League")) {
+        if (leagueName.equals("Barclays Premier League")) {
             PremierLeagueRules premierLeagueRules = new PremierLeagueRules(numberOfGames, relegationZoneAmount);
             return premierLeagueRules.premierLeagueDefinitiveSafety(this, teamList, i);
         }

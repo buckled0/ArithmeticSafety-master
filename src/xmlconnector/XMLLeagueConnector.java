@@ -10,6 +10,10 @@ import org.xml.sax.SAXException;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
@@ -31,16 +35,22 @@ public class XMLLeagueConnector {
                 URL url = new URL("http://www.footballwebpages.co.uk/league.xml?comp=1");
                 URLConnection connection = url.openConnection();
 
+
                 DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
                 DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
                 Document document = documentBuilder.parse(connection.getInputStream());
+
+                TransformerFactory tfactory = TransformerFactory.newInstance();
+                Transformer xform = tfactory.newTransformer();
+
+                File xmlOutput = new File("./src/xmlfiles/CurrentPremierLeague.xml");
+                xform.transform(new DOMSource(document), new StreamResult(xmlOutput));
 
                 document.getDocumentElement().normalize();
 
                 NodeList teamList = document.getElementsByTagName("team");
 
                 NodeList leagueDetails = document.getElementsByTagName("leagueTable");
-
                 for(int i = 0; i < leagueDetails.getLength(); i++){
                     Node leagueNode = leagueDetails.item(i);
 
@@ -52,10 +62,8 @@ public class XMLLeagueConnector {
                     }
 
                 }
-
                 for(int i = 0; i < teamList.getLength(); i++){
                     Node teamNode = teamList.item(i);
-
                     if(teamNode.getNodeType() == Node.ELEMENT_NODE){
                         Element element = (Element) teamNode;
                         String teamName = element.getElementsByTagName("name").item(0).getTextContent();

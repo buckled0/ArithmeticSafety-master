@@ -9,7 +9,7 @@ import java.awt.*;
 
 public class PredictionTable extends JTable {
 
-    public static final Dimension INITIAL_SIZE = new Dimension(280, 380);
+    public static final Dimension INITIAL_SIZE = new Dimension(420, 380);
     DefaultTableModel model;
     JTable table;
 

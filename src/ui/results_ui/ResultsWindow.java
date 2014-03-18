@@ -12,8 +12,8 @@ import java.io.IOException;
 public class ResultsWindow extends JFrame{
 
     public static final String TITLE = "Premier League Results";
-    public static final Dimension INITIAL_SIZE = new Dimension(1550, 410);
-    public static final Point INITIAL_LOCATION = new Point(300, 262);
+    public static final Dimension INITIAL_SIZE = new Dimension(1900, 410);
+    public static final Point INITIAL_LOCATION = new Point(25, 62);
     private ResultsTable resultsTable;
 
     public ResultsWindow() throws IOException, SAXException, ParserConfigurationException {

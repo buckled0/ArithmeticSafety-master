@@ -58,8 +58,6 @@ public class LeagueTable extends JTable {
             for(int i = 0; i < 20; i++){
                 if(verdictArray.get(i) == TeamStatus.finalPlace)
                     model.setValueAt("Team finished " + (i + 1) + "th place!", i, 7);
-                else if(verdictArray.get(i) == TeamStatus.canGetOutOfRelegation)
-                    model.setValueAt("Team can get out of relegation if they win their next " + gamesRemaining + " games", i, 7);
                 else{
                     TeamStatus teamStatus = verdictArray.get(i);
                     TeamStatusMap teamStatusMap = new TeamStatusMap(teamStatus);

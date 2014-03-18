@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class PredictedGamesTable extends JTable{
 
-    public static final Dimension INITIAL_SIZE = new Dimension(280, 300);
+    public static final Dimension INITIAL_SIZE = new Dimension(420, 300);
     DefaultTableModel model;
     JTable table;
 

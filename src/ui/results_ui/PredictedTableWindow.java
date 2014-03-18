@@ -8,8 +8,8 @@ import java.awt.*;
 public class PredictedTableWindow extends JFrame {
 
     public static final String TITLE = "Premier League Predictions";
-    public static final Point INITIAL_LOCATION = new Point(300, 262);
-    public static final Dimension INITIAL_SIZE = new Dimension(280, 380);
+    public static final Point INITIAL_LOCATION = new Point(50, 62);
+    public static final Dimension INITIAL_SIZE = new Dimension(420, 380);
     private PredictionTable predictionTable;
 
     public PredictedTableWindow(Team[] teamList){

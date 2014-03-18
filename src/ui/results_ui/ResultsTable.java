@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.util.*;
 
 public class ResultsTable extends JTable implements TableModelListener{
-    public static final Dimension INITIAL_SIZE = new Dimension(1500, 342);
+    public static final Dimension INITIAL_SIZE = new Dimension(1895, 342);
     DefaultTableModel model;
     JTable table;
     String[] homeTeamName;

@@ -10,8 +10,9 @@ import org.xml.sax.SAXException;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import java.io.File;
 import java.io.IOException;
+import java.net.URL;
+import java.net.URLConnection;
 import java.util.ArrayList;
 
 public class XMLFixtureConnector {
@@ -22,11 +23,12 @@ public class XMLFixtureConnector {
 
     public XMLFixtureConnector() throws ParserConfigurationException, IOException, SAXException {
         try {
-            File file = new File("./src/xmlfiles/PremierLeagueFixtures.xml");
+            URL url = new URL("http://www.footballwebpages.co.uk/grid.xml?comp=1");
+            URLConnection connection = url.openConnection();
 
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
-            Document document = documentBuilder.parse(file);
+            Document document = documentBuilder.parse(connection.getInputStream());
 
             document.getDocumentElement().normalize();
 

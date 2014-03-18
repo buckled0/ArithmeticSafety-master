@@ -21,6 +21,7 @@ public class TeamStatusMap {
         teamStatusMap.put(TeamStatus.chanceOfChampionsLeague, "High chance of entering the Champions League");
         teamStatusMap.put(TeamStatus.chanceOfEuropaLeague, "High chance of entering the Europa League");
         teamStatusMap.put(TeamStatus.highChanceOfRelegation, "High chance of being relegated");
+        teamStatusMap.put(TeamStatus.canGetOutOfRelegation, "High chance of being relegated, but can get out");
         teamStatusMap.put(TeamStatus.championsLeague, "In the Champions League!");
         teamStatusMap.put(TeamStatus.europaLeague, "In the Europa League!");
         teamStatusMap.put(TeamStatus.definitelySafeOfRelegation, "Team is definitely safe of Relegation");

@@ -43,7 +43,7 @@
     </ROW>
 
     <ROW>
-        <Team_Name>Man City</Team_Name>
+        <Team_Name>Manchester City</Team_Name>
         <Points>60</Points>
         <Goal_Difference>44</Goal_Difference>
         <Games_Played>27</Games_Played>
@@ -55,7 +55,7 @@
     </ROW>
 
     <ROW>
-        <Team_Name>Tottenham</Team_Name>
+        <Team_Name>Tottenham Hotspur</Team_Name>
         <Points>53</Points>
         <Goal_Difference>-1</Goal_Difference>
         <Games_Played>29</Games_Played>
@@ -79,7 +79,7 @@
     </ROW>
 
     <ROW>
-        <Team_Name>Man Utd</Team_Name>
+        <Team_Name>Manchester United</Team_Name>
         <Points>48</Points>
         <Goal_Difference>12</Goal_Difference>
         <Games_Played>29</Games_Played>
@@ -103,7 +103,7 @@
     </ROW>
 
     <ROW>
-        <Team_Name>Newcastle</Team_Name>
+        <Team_Name>Newcastle United</Team_Name>
         <Points>43</Points>
         <Goal_Difference>-3</Goal_Difference>
         <Games_Played>29</Games_Played>
@@ -127,7 +127,7 @@
     </ROW>
 
     <ROW>
-        <Team_Name>Stoke</Team_Name>
+        <Team_Name>Stoke City</Team_Name>
         <Points>34</Points>
         <Goal_Difference>-12</Goal_Difference>
         <Games_Played>29</Games_Played>
@@ -139,7 +139,7 @@
     </ROW>
 
     <ROW>
-        <Team_Name>West Ham</Team_Name>
+        <Team_Name>West Ham United</Team_Name>
         <Points>31</Points>
         <Goal_Difference>-6</Goal_Difference>
         <Games_Played>29</Games_Played>
@@ -151,7 +151,7 @@
     </ROW>
 
     <ROW>
-        <Team_Name>Hull</Team_Name>
+        <Team_Name>Hull City</Team_Name>
         <Points>30</Points>
         <Goal_Difference>-7</Goal_Difference>
         <Games_Played>29</Games_Played>
@@ -163,7 +163,7 @@
     </ROW>
 
     <ROW>
-        <Team_Name>Swansea</Team_Name>
+        <Team_Name>Swansea City</Team_Name>
         <Points>29</Points>
         <Goal_Difference>-5</Goal_Difference>
         <Games_Played>29</Games_Played>
@@ -175,7 +175,7 @@
     </ROW>
 
     <ROW>
-        <Team_Name>Norwich</Team_Name>
+        <Team_Name>Norwich City</Team_Name>
         <Points>29</Points>
         <Goal_Difference>-24</Goal_Difference>
         <Games_Played>30</Games_Played>
@@ -187,7 +187,7 @@
     </ROW>
 
     <ROW>
-        <Team_Name>West Brom</Team_Name>
+        <Team_Name>West Bromwich Albion</Team_Name>
         <Points>28</Points>
         <Goal_Difference>-10</Goal_Difference>
         <Games_Played>29</Games_Played>
@@ -223,7 +223,7 @@
     </ROW>
 
     <ROW>
-        <Team_Name>Cardiff</Team_Name>
+        <Team_Name>Cardiff City</Team_Name>
         <Points>25</Points>
         <Goal_Difference>-29</Goal_Difference>
         <Games_Played>30</Games_Played>
